@@ -2,29 +2,25 @@
 
 **Systems Entrepreneur · Technologist · Philosopher**
 
-AI is giving individuals and small teams capabilities that recently belonged to entire institutions. Meanwhile, the compute, models, capital, and distribution behind those capabilities are concentrating in remarkably few hands. I think the struggle over who gets to build, own, and decide will shape far more than the technology industry.
+> I build companies, technologies, mental models, and new ways of organizing intelligence around power, society, and human agency.
 
-I'm building independent alternatives. My interest is human agency at every scale: people who control their knowledge and tools, organizations that can develop their own intelligence, and networks of ownership capable of challenging entrenched power.
+AI is changing who can create, coordinate, and exercise power. Individuals and small teams can do things that recently required entire organizations, while much of the infrastructure behind that capability remains concentrated. I see an opening to build independent alternatives with enough technical and economic substance to matter.
 
-I've spent two decades founding companies and leading product, engineering, and technology across startups and Fortune 500 enterprises. I studied philosophy and sociology, and questions about knowledge, ethics, and power remain central to what I build.
+I've spent twenty years across company building, product, engineering, and enterprise technology. I'm a four-time founder and have served as CTO, VP Engineering, Head of Product, and Managing Director. I studied philosophy and sociology, and remain interested in how institutions acquire power, how people contest it, and what makes genuine independence possible.
 
 ## What I'm building
 
-**[Cyber Agency](https://github.com/cyberagencyorg)** · Applied intelligence
+**[Cyber Agency](https://github.com/cyberagencyorg)** · Applied intelligence  
+A company I founded and am building around strategic intelligence, AI transformation, private systems, and the redesign of how organizations use knowledge and technology.
 
-I founded Cyber Agency as an applied-intelligence company, working across research, AI transformation, private systems, and product development.
+**Venture studio network** · In formation  
+An effort to build, acquire, and connect businesses across industries. The longer view is durable ownership, shared capabilities, and the freedom to pursue opportunities that don't fit a conventional startup or investment model.
 
-**Venture studio network** · In formation
+**[Open ASS](https://github.com/BradKhan/open-ASS)** · Open Agent Software System  
+An open-source framework for making AI-assisted software development more coherent, inspectable, and portable across tools and agents.
 
-Alongside Cyber Agency, I'm developing a network to build, acquire, and retain companies across different industries. The aim is to compound their knowledge, capital, and productive capacity over time.
-
-**[Open ASS](https://github.com/BradKhan/open-ASS)** · Open Agent Software System
-
-An open-source development framework that brings project context, engineering methods, specialist skills, and verification into a common way of working with AI agents.
-
-**Venture Method** · Private development
-
-My framework for venture architecture and cross-disciplinary professional work, bringing research, methods, evidence, and decisions into a reusable system.
+**Venture Method** · Private development  
+A framework for venture architecture and cross-disciplinary work, combining research, established methods, reusable skills, and a record of how decisions are made.
 
 ## Elsewhere
 
