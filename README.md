@@ -6,9 +6,9 @@ I'm establishing a venture studio and ownership network, assembling the founding
 
 I want people to have greater power over the circumstances of their lives. That means paying attention to who owns the technology, knowledge, and capital society depends on, and how those arrangements can be changed.
 
-I've spent two decades in product, engineering, and venture creation, from early-stage companies to Fortune 500 enterprises. I've been a founder, CTO, VP Engineering, Head of Product, and Managing Director. My academic background is in philosophy and sociology.
+Over two decades I've founded four companies and led product and technology in startups and Fortune 500 enterprises, including roles as CTO, VP Engineering, Head of Product, and Managing Director. I studied philosophy and sociology at the University of Evansville.
 
-I'm particularly interested in who owns the knowledge behind our tools, how much independence their users retain, and what changes when intelligence becomes part of the infrastructure of everyday life. That informs my work on private AI, agents, persistent memory, knowledge architecture, and systems that can outlast a particular model or vendor. It also informs my thinking about institutions, power, and society.
+My technology experience spans enterprise infrastructure, software, data, and AI. I'm particularly interested in private AI, interoperable agents, persistent memory, and keeping organizational knowledge under its owners' control.
 
 ## Selected projects
 
