@@ -10,19 +10,19 @@ Over two decades I've founded four companies and led product and technology in s
 
 My technology experience spans enterprise infrastructure, software, data, and AI. I'm particularly interested in private AI, interoperable agents, persistent memory, and keeping organizational knowledge under its owners' control.
 
-## Selected projects
+## Selected work
 
-**[Open ASS](https://github.com/BradKhan/open-ASS)** · Open Agent Software System
+**[Cyber Agency](https://github.com/cyberagencyorg)** · Applied intelligence
 
-An open-source development framework that gives AI agents shared context, engineering methods, specialist skills, and verification practices. Built to travel between models and development tools.
+A company I founded, focused on intelligence and AI transformation for organizations.
 
 **Venture Method** · In development
 
 My framework for venture architecture, product leadership, research, and cross-disciplinary professional work. It organizes methods, reusable skills, evidence, and decision history so a person or agent can enter an unfamiliar problem without starting from scratch. The repository remains private while the framework is developed and evaluated.
 
-**[Cyber Agency](https://github.com/cyberagencyorg)** · Applied intelligence
+**[Open ASS](https://github.com/BradKhan/open-ASS)** · Open Agent Software System
 
-A company I founded, focused on intelligence and AI transformation for organizations.
+An open-source development framework that gives AI agents shared context, engineering methods, specialist skills, and verification practices. Built to travel between models and development tools.
 
 ## Elsewhere
 
