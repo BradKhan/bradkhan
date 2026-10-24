@@ -12,11 +12,11 @@ I've spent two decades founding companies and leading product, engineering, and 
 
 **[Cyber Agency](https://github.com/cyberagencyorg)** · Applied intelligence
 
-My company for intelligence, AI transformation, and technology development. I work on how organizations acquire knowledge, make decisions, and put intelligent systems to useful work.
+I founded Cyber Agency as an applied-intelligence company, working across research, AI transformation, private systems, and product development.
 
 **Venture studio network** · In formation
 
-A connected network of ventures and productive assets across technology and other industries, built around long-term ownership, independent capability, and shared leverage.
+Alongside Cyber Agency, I'm developing a network to build, acquire, and retain companies across different industries. The aim is to compound their knowledge, capital, and productive capacity over time.
 
 **[Open ASS](https://github.com/BradKhan/open-ASS)** · Open Agent Software System
 
