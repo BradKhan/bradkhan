@@ -1,6 +1,6 @@
 # Brad Khan
 
-**Systems Entrepreneur · Intelligence Architect · Philosopher**
+**Systems Entrepreneur · Technologist · Philosopher**
 
 I build companies and intelligent systems. The interest running through them is human agency: people's capacity to understand their circumstances and act on them, individually and together.
 
