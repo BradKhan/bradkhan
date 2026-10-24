@@ -4,7 +4,7 @@
 
 I'm establishing a venture studio and ownership network, assembling the founding capital and operating partners to start and acquire businesses over the long term. A separate investment fund is also under evaluation.
 
-I build companies and intelligent systems. The interest running through them is human agency: people's capacity to understand their circumstances and act on them, individually and together.
+I want people to have greater power over the circumstances of their lives. That means paying attention to who owns the technology, knowledge, and capital society depends on, and how those arrangements can be changed.
 
 I've spent two decades in product, engineering, and venture creation, from early-stage companies to Fortune 500 enterprises. I've been a founder, CTO, VP Engineering, Head of Product, and Managing Director. My academic background is in philosophy and sociology.
 
