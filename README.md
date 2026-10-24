@@ -2,27 +2,29 @@
 
 **Systems Entrepreneur · Technologist · Philosopher**
 
-I'm establishing a venture studio and ownership network, assembling the founding capital and operating partners to start and acquire businesses over the long term. A separate investment fund is also under evaluation.
+AI is giving individuals and small teams capabilities that recently belonged to entire institutions. Meanwhile, the compute, models, capital, and distribution behind those capabilities are concentrating in remarkably few hands. I think the struggle over who gets to build, own, and decide will shape far more than the technology industry.
 
-I want people to have greater power over the circumstances of their lives. That means paying attention to who owns the technology, knowledge, and capital society depends on, and how those arrangements can be changed.
+I'm building independent alternatives. My interest is human agency at every scale: people who control their knowledge and tools, organizations that can develop their own intelligence, and networks of ownership capable of challenging entrenched power.
 
-Over two decades I've founded four companies and led product and technology in startups and Fortune 500 enterprises, including roles as CTO, VP Engineering, Head of Product, and Managing Director. I studied philosophy and sociology at the University of Evansville.
+I've spent two decades founding companies and leading product, engineering, and technology across startups and Fortune 500 enterprises. I studied philosophy and sociology, and questions about knowledge, ethics, and power remain central to what I build.
 
-My technology experience spans enterprise infrastructure, software, data, and AI. I'm particularly interested in private AI, interoperable agents, persistent memory, and keeping organizational knowledge under its owners' control.
-
-## Selected work
+## What I'm building
 
 **[Cyber Agency](https://github.com/cyberagencyorg)** · Applied intelligence
 
-A company I founded, focused on intelligence and AI transformation for organizations.
+My company for intelligence, AI transformation, and technology development. I work on how organizations acquire knowledge, make decisions, and put intelligent systems to useful work.
 
-**Venture Method** · In development
+**Venture studio network** · In formation
 
-My framework for venture architecture, product leadership, research, and cross-disciplinary professional work. It organizes methods, reusable skills, evidence, and decision history so a person or agent can enter an unfamiliar problem without starting from scratch. The repository remains private while the framework is developed and evaluated.
+A connected network of ventures and productive assets across technology and other industries, built around long-term ownership, independent capability, and shared leverage.
 
 **[Open ASS](https://github.com/BradKhan/open-ASS)** · Open Agent Software System
 
-An open-source development framework that gives AI agents shared context, engineering methods, specialist skills, and verification practices. Built to travel between models and development tools.
+An open-source development framework that brings project context, engineering methods, specialist skills, and verification into a common way of working with AI agents.
+
+**Venture Method** · Private development
+
+My framework for venture architecture and cross-disciplinary professional work, bringing research, methods, evidence, and decisions into a reusable system.
 
 ## Elsewhere
 
