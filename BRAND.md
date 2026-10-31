@@ -11,7 +11,7 @@ These are three complementary descriptions, not overlapping job titles.
 - **Technologist:** Has direct experience leading and building technology, engineering teams, software products, data systems, and AI applications.
 - **Philosopher:** Brings a sustained interest in epistemology, power, political economy, human agency, and the social consequences of technological systems.
 
-Do not change, compound, or invent professional titles based on uncertain voice transcription or assistant interpretation. In particular, do not use **Entrepreneurial Technologist** or **Intelligence Architect** as substitute profile identities without an explicit subsequent instruction.
+Do not change, compound, repeat, or invent professional titles based on uncertain voice transcription or assistant interpretation. All public surfaces must use the approved three-part identity unless the user explicitly changes it.
 
 ## Central ideas
 
