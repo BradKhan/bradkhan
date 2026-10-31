@@ -1,6 +1,6 @@
 <div align="left">
 
-![The future is not their property.](assets/profile-hero.svg)
+![Brad Khan | Tech × Society × Renaissance | Human agency, at every scale.](assets/tech-society-renaissance-20261101.svg)
 
 **Systems Entrepreneur · Technologist · Philosopher**
 
@@ -17,6 +17,14 @@ My interests meet at the intersection of **technology, entrepreneurship, and pow
 I'm a four-time founder with two decades in enterprise technology, product, engineering, and venture development. I've served as CTO, VP Engineering, and Head of Product. My background in philosophy and sociology shapes how I approach organizations, markets, incentives, and the structures behind technology.
 
 I am especially interested in portable AI and personal data, independent infrastructure, open-source software, and building businesses with the capacity to make meaningful alternatives available.
+
+## Featured: [STACK MUTINY](composable-internet/stack-mutiny/README.md)
+
+**Five agent-skill compositions for people who build, design, launch, communicate, and invest.** They bring useful methods and existing open-source tools into focused workflows, with clear deliverables and source attribution. The current edition is experimental, with integration and runtime testing still to be completed.
+
+[**Developers**](composable-internet/stack-mutiny/packs/ship-or-it-didnt-happen/SKILL.md) · [**Designers**](composable-internet/stack-mutiny/packs/stop-shipping-beige/SKILL.md) · [**Entrepreneurs**](composable-internet/stack-mutiny/packs/no-permission-required/SKILL.md) · [**Marketers**](composable-internet/stack-mutiny/packs/anti-guru/SKILL.md) · [**Investors**](composable-internet/stack-mutiny/packs/show-the-receipts/SKILL.md)
+
+[Browse the full collection and upstream sources](composable-internet/stack-mutiny/README.md)
 
 ## Selected public projects
 
