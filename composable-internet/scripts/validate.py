@@ -101,7 +101,7 @@ for n, item in enumerate(sources, 1):
         fail(f"source {n}: missing from SOURCES.md")
     if item.get("origin") in {"personal_account_reference_authorship_not_assumed", "first_party_project"} and "github.com/BradKhan/" not in url:
         fail(f"source {n}: account provenance does not match URL")
-    if item.get("origin") == "first_party_project" and "first-party project" not in source_md:
+    if item.get("origin") == "first_party_project" and "Original public project" not in source_md:
         fail(f"source {n}: first-party attribution missing from source guide")
 
 # The profile identity is canonical. Check all published user- and agent-facing
