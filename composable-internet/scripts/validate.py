@@ -99,8 +99,45 @@ for n, item in enumerate(sources, 1):
         fail(f"source {n}: unknown evidence level")
     if url not in source_md:
         fail(f"source {n}: missing from SOURCES.md")
-    if item.get("origin") == "personal_account_reference_authorship_not_assumed" and "github.com/BradKhan/" not in url:
+    if item.get("origin") in {"personal_account_reference_authorship_not_assumed", "first_party_project"} and "github.com/BradKhan/" not in url:
         fail(f"source {n}: account provenance does not match URL")
+    if item.get("origin") == "first_party_project" and "first-party project" not in source_md:
+        fail(f"source {n}: first-party attribution missing from source guide")
+
+# The profile identity is canonical. Check all published user- and agent-facing
+# surfaces whenever the atlas or profile changes.
+PROFILE = BASE.parent
+CANONICAL_IDENTITY = "Systems Entrepreneur · Technologist · Philosopher"
+try:
+    profile = json.loads((PROFILE / "data" / "profile.json").read_text(encoding="utf-8"))
+    identity_docs = {
+        name: (PROFILE / name).read_text(encoding="utf-8")
+        for name in ["README.md", "BRAND.md", "AGENTS.md", "llms.txt"]
+    }
+except (ValueError, OSError) as exc:
+    fail(f"profile metadata or document unreadable: {exc}")
+else:
+    if profile.get("identity") != ["Systems Entrepreneur", "Technologist", "Philosopher"]:
+        fail("profile.json identity must have three approved, distinct roles")
+    if profile.get("positioning") != CANONICAL_IDENTITY:
+        fail("profile.json positioning differs from approved identity")
+    for name, content in identity_docs.items():
+        if CANONICAL_IDENTITY not in content:
+            fail(f"{name} is missing approved identity")
+        if "Entrepreneurial Technologist" in content or "Intelligence Architect ·" in content:
+            fail(f"{name} contains a superseded title")
+    if "entrepreneurial technologist" in readme.lower():
+        fail("atlas README contains superseded title")
+
+known_first_party = {
+    "https://github.com/bradkhan/bradkhan",
+    "https://github.com/bradkhan/open-ass",
+    "https://github.com/bradkhan/khan-aios-venture-studio-mvp-framework",
+}
+for source_item in sources:
+    key = source_item.get("url", "").rstrip("/").lower()
+    if key in known_first_party and source_item.get("origin") != "first_party_project":
+        fail(f"original project incorrectly attributed: {key}")
 
 if comp.get("schema_version") != "1.0.0" or source.get("schema_version") != "1.0.0":
     fail("unexpected schema version")
