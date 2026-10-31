@@ -1,6 +1,6 @@
 <div align="left">
 
-![Brad Khan | Tech × Society × Renaissance | Human agency, at every scale.](assets/tech-society-renaissance-20261101.svg)
+![Brad Khan | Tech × Society × Renaissance | Human agency, at every scale.](assets/bradkhan-editorial-20261101-v2.svg)
 
 **Systems Entrepreneur · Technologist · Philosopher**
 
