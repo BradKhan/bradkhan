@@ -2,11 +2,11 @@
 
 **A working toolkit for people who would rather build than browse directories.**
 
-One collection, 15 selectable professional profiles, 43 individually inspected Agent Skills, 50 complementary tools and infrastructure resources, and 17 upstream collections. Skills come from their original GitHub maintainers. This project supplies the selection, composition, installation plan, and a common interface.
+One collection, 15 selectable professional profiles, 48 individually inspected Agent Skills (43 upstream and 5 original), 50 complementary tools and infrastructure resources, and 17 upstream collections. Skills come from their original GitHub maintainers. This project supplies the selection, composition, installation plan, and a common interface.
 
 **[Install](#one-line-install) · [Choose a profile](#profiles) · [Tool atlas](#tools-and-infrastructure) · [Use with any agent](AGENTS.md) · [Machine-readable catalog](catalog.json) · [Source collections](#where-the-skills-come-from)**
 
-> **Status: public beta.** The 43 skill entrypoints were inspected individually on GitHub on November 1, 2026. The Python installer and selection logic have offline tests. End-to-end compatibility across every agent runtime has **not** been demonstrated. No third-party skill scripts, credentials, model endpoints, or tools are automatically executed by the catalog.
+> **Status: public beta.** The 43 upstream skill entrypoints and 5 original role skills were inspected on November 1, 2026. The Python installer and selection logic have offline tests. End-to-end compatibility across every agent runtime has **not** been demonstrated. No third-party skill scripts, credentials, model endpoints, or tools are automatically executed by the catalog.
 
 ## One-line install
 
@@ -122,7 +122,7 @@ This is a compositional collection. Upstream maintainers own their code, and thi
 2. Selects the named profile(s) and `core` or `extended` tier.
 3. Rejects unknown skills and malformed identifiers; deduplicates overlapping recommendations.
 4. Shows the exact plan, or executes it only with the explicit `install ... --yes` action.
-5. Delegates each selected skill to the pinned `skills@1.7.4` CLI using an argument array (not a shell string).
+5. Groups selected skills by repository and delegates them to the pinned `skills@1.7.4` CLI using argument arrays, not shell strings. Agent-specific sources are skipped when incompatible.
 6. Reports failures individually, disables installer telemetry via environment flags, and does not claim success after a failed child process.
 
 **Limitations:** The skills CLI is a separate project; upstream commits are not yet pinned in this release, so exact source contents can change. Installation doesn't imply that the underlying task works, that it is safe for secrets, or that an agent has the required external tools. Current test coverage is installer behavior and catalog integrity, not an empirical claim of superior agent performance.
@@ -133,7 +133,7 @@ Read [AGENTS.md](AGENTS.md). Present the requested profile and command plan. Ask
 
 ## Legacy role-pack experiments
 
-The five original experiment packs remain in [packs/](packs/) and [packs.json](packs.json). They're retained as original orchestration studies, but they are **not** the basis for the expanded installable library. The live install system uses [catalog.json](catalog.json) and individually selected upstream Agent Skills. Upstream-specific workflows are often more capable than a generic wrapper, so the default is to preserve them.
+The five original role skills live in [packs/](packs/) and [packs.json](packs.json). They are included as experimental orchestration entrypoints alongside curated upstream capabilities. The live install system uses [catalog.json](catalog.json), including source-backed upstream skills and original role skills. Upstream-specific workflows are often more capable than a generic wrapper, so the default is to preserve them.
 
 ## License, governance, and contributions
 
