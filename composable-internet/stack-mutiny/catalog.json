@@ -13,7 +13,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/frontend-design/SKILL.md",
-      "source_url": "https://github.com/anthropics/skills/blob/HEAD/skills/frontend-design/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -24,7 +24,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/skill-creator/SKILL.md",
-      "source_url": "https://github.com/anthropics/skills/blob/HEAD/skills/skill-creator/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -35,7 +35,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/mcp-builder/SKILL.md",
-      "source_url": "https://github.com/anthropics/skills/blob/HEAD/skills/mcp-builder/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/blob/main/skills/mcp-builder/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -46,7 +46,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/webapp-testing/SKILL.md",
-      "source_url": "https://github.com/anthropics/skills/blob/HEAD/skills/webapp-testing/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/blob/main/skills/webapp-testing/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -57,7 +57,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/canvas-design/SKILL.md",
-      "source_url": "https://github.com/anthropics/skills/blob/HEAD/skills/canvas-design/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/blob/main/skills/canvas-design/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -68,7 +68,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/algorithmic-art/SKILL.md",
-      "source_url": "https://github.com/anthropics/skills/blob/HEAD/skills/algorithmic-art/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/blob/main/skills/algorithmic-art/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -79,7 +79,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/react-best-practices/SKILL.md",
-      "source_url": "https://github.com/vercel-labs/agent-skills/blob/HEAD/skills/react-best-practices/SKILL.md",
+      "source_url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/react-best-practices/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -90,7 +90,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/web-design-guidelines/SKILL.md",
-      "source_url": "https://github.com/vercel-labs/agent-skills/blob/HEAD/skills/web-design-guidelines/SKILL.md",
+      "source_url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/web-design-guidelines/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -101,7 +101,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/writing-guidelines/SKILL.md",
-      "source_url": "https://github.com/vercel-labs/agent-skills/blob/HEAD/skills/writing-guidelines/SKILL.md",
+      "source_url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/writing-guidelines/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -112,7 +112,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/vercel-optimize/SKILL.md",
-      "source_url": "https://github.com/vercel-labs/agent-skills/blob/HEAD/skills/vercel-optimize/SKILL.md",
+      "source_url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/vercel-optimize/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -123,7 +123,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/react-view-transitions/SKILL.md",
-      "source_url": "https://github.com/vercel-labs/agent-skills/blob/HEAD/skills/react-view-transitions/SKILL.md",
+      "source_url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/react-view-transitions/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -134,7 +134,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/engineering/grill-with-docs/SKILL.md",
-      "source_url": "https://github.com/mattpocock/skills/blob/HEAD/skills/engineering/grill-with-docs/SKILL.md",
+      "source_url": "https://github.com/mattpocock/skills/blob/main/skills/engineering/grill-with-docs/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -145,7 +145,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/productivity/grill-me/SKILL.md",
-      "source_url": "https://github.com/mattpocock/skills/blob/HEAD/skills/productivity/grill-me/SKILL.md",
+      "source_url": "https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -156,7 +156,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/copywriting/SKILL.md",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/HEAD/skills/copywriting/SKILL.md",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/copywriting/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -167,7 +167,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/content-strategy/SKILL.md",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/HEAD/skills/content-strategy/SKILL.md",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/content-strategy/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -178,7 +178,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/seo-audit/SKILL.md",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/HEAD/skills/seo-audit/SKILL.md",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/seo-audit/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -189,7 +189,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/marketing-ideas/SKILL.md",
-      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/HEAD/skills/marketing-ideas/SKILL.md",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/marketing-ideas/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -200,7 +200,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/baoyu-article-illustrator/SKILL.md",
-      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/HEAD/skills/baoyu-article-illustrator/SKILL.md",
+      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/main/skills/baoyu-article-illustrator/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -211,7 +211,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/baoyu-cover-image/SKILL.md",
-      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/HEAD/skills/baoyu-cover-image/SKILL.md",
+      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/main/skills/baoyu-cover-image/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -222,7 +222,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/baoyu-format-markdown/SKILL.md",
-      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/HEAD/skills/baoyu-format-markdown/SKILL.md",
+      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/main/skills/baoyu-format-markdown/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -233,7 +233,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/baoyu-image-gen/SKILL.md",
-      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/HEAD/skills/baoyu-image-gen/SKILL.md",
+      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/main/skills/baoyu-image-gen/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -244,7 +244,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/baoyu-slide-deck/SKILL.md",
-      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/HEAD/skills/baoyu-slide-deck/SKILL.md",
+      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/main/skills/baoyu-slide-deck/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -255,7 +255,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/baoyu-post-to-wechat/SKILL.md",
-      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/HEAD/skills/baoyu-post-to-wechat/SKILL.md",
+      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/main/skills/baoyu-post-to-wechat/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -266,7 +266,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/validate-idea/SKILL.md",
-      "source_url": "https://github.com/slavingia/skills/blob/HEAD/skills/validate-idea/SKILL.md",
+      "source_url": "https://github.com/slavingia/skills/blob/main/skills/validate-idea/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -277,7 +277,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/find-community/SKILL.md",
-      "source_url": "https://github.com/slavingia/skills/blob/HEAD/skills/find-community/SKILL.md",
+      "source_url": "https://github.com/slavingia/skills/blob/main/skills/find-community/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -288,7 +288,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/mvp/SKILL.md",
-      "source_url": "https://github.com/slavingia/skills/blob/HEAD/skills/mvp/SKILL.md",
+      "source_url": "https://github.com/slavingia/skills/blob/main/skills/mvp/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -299,7 +299,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/pricing/SKILL.md",
-      "source_url": "https://github.com/slavingia/skills/blob/HEAD/skills/pricing/SKILL.md",
+      "source_url": "https://github.com/slavingia/skills/blob/main/skills/pricing/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -310,7 +310,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/first-customers/SKILL.md",
-      "source_url": "https://github.com/slavingia/skills/blob/HEAD/skills/first-customers/SKILL.md",
+      "source_url": "https://github.com/slavingia/skills/blob/main/skills/first-customers/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -321,7 +321,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/marketing-plan/SKILL.md",
-      "source_url": "https://github.com/slavingia/skills/blob/HEAD/skills/marketing-plan/SKILL.md",
+      "source_url": "https://github.com/slavingia/skills/blob/main/skills/marketing-plan/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -332,7 +332,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/last30days/SKILL.md",
-      "source_url": "https://github.com/mvanhorn/last30days-skill/blob/HEAD/skills/last30days/SKILL.md",
+      "source_url": "https://github.com/mvanhorn/last30days-skill/blob/main/skills/last30days/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -343,7 +343,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": ".claude/skills/cio/SKILL.md",
-      "source_url": "https://github.com/acantrell0523/family-office/blob/HEAD/.claude/skills/cio/SKILL.md",
+      "source_url": "https://github.com/acantrell0523/family-office/blob/main/.claude/skills/cio/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -354,7 +354,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": ".claude/skills/equity-research/SKILL.md",
-      "source_url": "https://github.com/acantrell0523/family-office/blob/HEAD/.claude/skills/equity-research/SKILL.md",
+      "source_url": "https://github.com/acantrell0523/family-office/blob/main/.claude/skills/equity-research/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -365,7 +365,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": ".claude/skills/risk/SKILL.md",
-      "source_url": "https://github.com/acantrell0523/family-office/blob/HEAD/.claude/skills/risk/SKILL.md",
+      "source_url": "https://github.com/acantrell0523/family-office/blob/main/.claude/skills/risk/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -376,7 +376,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": ".claude/skills/ventures/SKILL.md",
-      "source_url": "https://github.com/acantrell0523/family-office/blob/HEAD/.claude/skills/ventures/SKILL.md",
+      "source_url": "https://github.com/acantrell0523/family-office/blob/main/.claude/skills/ventures/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -387,7 +387,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": ".claude/skills/macro/SKILL.md",
-      "source_url": "https://github.com/acantrell0523/family-office/blob/HEAD/.claude/skills/macro/SKILL.md",
+      "source_url": "https://github.com/acantrell0523/family-office/blob/main/.claude/skills/macro/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -398,7 +398,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/buffett-investment-framework/SKILL.md",
-      "source_url": "https://github.com/finterm-ai/investment-skills/blob/HEAD/skills/buffett-investment-framework/SKILL.md",
+      "source_url": "https://github.com/finterm-ai/investment-skills/blob/main/skills/buffett-investment-framework/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -409,7 +409,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "SKILL.md",
-      "source_url": "https://github.com/evilhill/equity-research-skill/blob/HEAD/SKILL.md",
+      "source_url": "https://github.com/evilhill/equity-research-skill/blob/main/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -420,7 +420,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/memory-systems/SKILL.md",
-      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/HEAD/skills/memory-systems/SKILL.md",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/memory-systems/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -431,7 +431,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/context-optimization/SKILL.md",
-      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/HEAD/skills/context-optimization/SKILL.md",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-optimization/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -442,7 +442,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/harness-engineering/SKILL.md",
-      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/HEAD/skills/harness-engineering/SKILL.md",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/harness-engineering/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -453,7 +453,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/tool-design/SKILL.md",
-      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/HEAD/skills/tool-design/SKILL.md",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/tool-design/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -464,7 +464,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/cloudflare/SKILL.md",
-      "source_url": "https://github.com/cloudflare/skills/blob/HEAD/skills/cloudflare/SKILL.md",
+      "source_url": "https://github.com/cloudflare/skills/blob/main/skills/cloudflare/SKILL.md",
       "last_reviewed": "2026-11-01"
     },
     {
@@ -475,7 +475,7 @@
       "verification": "SKILL.md inspected",
       "license_status": "check exact upstream license before reuse",
       "source_path": "skills/agent-memory/SKILL.md",
-      "source_url": "https://github.com/terminalskills/skills/blob/HEAD/skills/agent-memory/SKILL.md",
+      "source_url": "https://github.com/terminalskills/skills/blob/main/skills/agent-memory/SKILL.md",
       "last_reviewed": "2026-11-01"
     }
   ],
