@@ -5,7 +5,7 @@
 ## Positioning and design
 
 - [x] **G1 / Accurate positioning:** Primary identity is **Systems Entrepreneur · Technologist · Philosopher**; the three descriptors are distinct. The README, brand guide, metadata, and automated-reader descriptions agree.
-- [x] **G2 / Reduced visual noise:** A single two-line editorial slogan, *The future is not their property*, replaces the name-only banner. It uses no font download, third-party image, animated counter or gratuitous device graphics.
+- [x] **G2 / Editorial masthead:** The rejected slogan has been replaced by a versioned **Tech × Society × Renaissance** identity banner with name, personal URL, and human-agency line. It uses no external font files or third-party image dependencies. GitHub render acceptance remains separately tracked in G3.
 - [ ] **G3 / Visual acceptance:** Confirm GitHub's rendered desktop and mobile profile, accessibility, scaling, layout and typography against the *actual* client-approved reference. The specified reference URL was not accessible in this working session. This is not approved solely because a local SVG preview exists.
 
 ## Editorial and technical integrity
