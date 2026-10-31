@@ -4,13 +4,13 @@
 
 An open field guide to **recomposing existing software into capabilities people can actually use**. By [Brad Khan](https://github.com/BradKhan), systems entrepreneur, technologist, and philosopher.
 
-[**Source library**](SOURCES.md) · [**SKILL ISSUE**](skill-issue/README.md) · [**Compositions**](#compositions-by-outcome) · [**Build queue**](BUILD-QUEUE.md) · [**Quality gates**](QUALITY-GATES.md) · [**Methods**](METHOD.md) · [**Structured data**](data/compositions.json) · [**For agents**](AGENTS.md)
+[**Source library**](SOURCES.md) · [**STACK MUTINY**](stack-mutiny/README.md) · [**Compositions**](#compositions-by-outcome) · [**Build queue**](BUILD-QUEUE.md) · [**Quality gates**](QUALITY-GATES.md) · [**Methods**](METHOD.md) · [**Structured data**](data/compositions.json) · [**For agents**](AGENTS.md)
 
 > **Publication status:** This is an attributed research collection, not a gallery of completed products. All 24 compositions are conceptual. Ingredient links are starting points, not endorsements or proof of compatibility. The difference between an idea, proof of concept, and working release must remain visible.
 
-## A practical new branch: SKILL ISSUE
+## A practical new branch: STACK MUTINY
 
-**[SKILL ISSUE](skill-issue/README.md)** is five experimental, original skill-orchestration workflows for developers, designers, founders, marketers, and investors. The skills are published as actual `SKILL.md` source files, with attribution to complementary upstream collections. They are not yet tested in multiple agent harnesses, and the upstream sources are not bundled or installed automatically.
+**[STACK MUTINY](stack-mutiny/README.md)** is five experimental, original skill-orchestration workflows for developers, designers, founders, marketers, and investors. The skills are published as actual `SKILL.md` source files, with attribution to complementary upstream collections. They are not yet tested in multiple agent harnesses, and the upstream sources are not bundled or installed automatically.
 
 ## How to use this atlas
 
