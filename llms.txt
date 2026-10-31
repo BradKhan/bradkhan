@@ -20,7 +20,7 @@ https://github.com/BradKhan/Khan-AIOS-Venture-Studio-MVP-Framework
 The Composable Internet, existing components and proposed useful combinations:
 https://github.com/BradKhan/bradkhan/tree/main/composable-internet
 
-STACK MUTINY, 15 curated role profiles and a 43-skill installable source catalog:
+STACK MUTINY, 15 curated role profiles and a 48-skill installable catalog (43 inspected upstream entrypoints and 5 original role workflows):
 https://github.com/BradKhan/bradkhan/tree/main/composable-internet/stack-mutiny
 
 ## Structured research
