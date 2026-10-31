@@ -38,6 +38,14 @@
       "kind": "venture_template",
       "relationship": "creator",
       "status": "public_repository"
+    },
+    {
+      "name": "SKILL ISSUE",
+      "url": "https://github.com/BradKhan/bradkhan/tree/main/composable-internet/skill-issue",
+      "kind": "experimental_agent_skill_orchestrators",
+      "relationship": "creator_editor",
+      "status": "five_original_skills_not_harness_tested",
+      "pack_count": 5
     }
   ],
   "organizations": [
@@ -54,7 +62,7 @@
     "title": "The Composable Internet",
     "source_data": "https://github.com/BradKhan/bradkhan/blob/main/composable-internet/data/sources.json",
     "catalog": "https://github.com/BradKhan/bradkhan/blob/main/composable-internet/data/compositions.json",
-    "source_records": 118,
+    "source_records": 132,
     "composition_ideas": 24,
     "distinct_domains": 8,
     "evidence": "research, not 24 functioning applications"
