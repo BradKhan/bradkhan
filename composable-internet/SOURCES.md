@@ -8,17 +8,19 @@ Sources include user-saved research references, original first-party projects, e
 
 | Area | References |
 | --- | ---: |
-| [AI and agents](#ai-and-agents) | 73 |
+| [AI and agents](#ai-and-agents) | 75 |
 | [Personal autonomy](#personal-autonomy) | 34 |
 | [Independent infrastructure](#independent-infrastructure) | 17 |
-| [Creative technology](#creative-technology) | 32 |
-| [Venture and markets](#venture-and-markets) | 33 |
+| [Creative technology](#creative-technology) | 33 |
+| [Venture and markets](#venture-and-markets) | 35 |
 | [Independent publishing](#independent-publishing) | 6 |
 | [Public knowledge](#public-knowledge) | 9 |
 | [Collective infrastructure](#collective-infrastructure) | 2 |
 
 ## AI and agents
 
+- **[ship-or-it-didnt-happen](https://github.com/BradKhan/bradkhan/blob/main/composable-internet/stack-mutiny/packs/ship-or-it-didnt-happen/SKILL.md)** · Original agent-skill workflow: Software delivery with test evidence. *(Original public project)*
+- **[anti-guru](https://github.com/BradKhan/bradkhan/blob/main/composable-internet/stack-mutiny/packs/anti-guru/SKILL.md)** · Original agent-skill workflow: Evidence-driven growth strategy. *(Original public project)*
 - **[agency-swarm](https://github.com/BradKhan/agency-swarm)** · multi-agent orchestration *(Saved reference)*
 - **[agent-browser](https://github.com/vercel-labs/agent-browser)** · Browser automation CLI for agents *(Tool / service)*
 - **[agents.md](https://github.com/BradKhan/agents.md)** · agent instruction convention *(Saved reference)*
@@ -152,6 +154,7 @@ Sources include user-saved research references, original first-party projects, e
 
 ## Creative technology
 
+- **[stop-shipping-beige](https://github.com/BradKhan/bradkhan/blob/main/composable-internet/stack-mutiny/packs/stop-shipping-beige/SKILL.md)** · Original agent-skill workflow: Distinctive design with visual QA. *(Original public project)*
 - **[A2UI](https://github.com/BradKhan/A2UI)** · agent-generated UI protocol *(Saved reference)*
 - **[agent-skills](https://github.com/vercel-labs/agent-skills)** · Web development skills *(Source collection)*
 - **[AionUi](https://github.com/BradKhan/AionUi)** · AI application interface lead *(Saved reference)*
@@ -187,6 +190,8 @@ Sources include user-saved research references, original first-party projects, e
 
 ## Venture and markets
 
+- **[show-the-receipts](https://github.com/BradKhan/bradkhan/blob/main/composable-internet/stack-mutiny/packs/show-the-receipts/SKILL.md)** · Original agent-skill workflow: Investment diligence with sources and contradictions. *(Original public project)*
+- **[no-permission-required](https://github.com/BradKhan/bradkhan/blob/main/composable-internet/stack-mutiny/packs/no-permission-required/SKILL.md)** · Original agent-skill workflow: Venture validation and first offers. *(Original public project)*
 - **[awesome](https://github.com/sindresorhus/awesome)** · Referenced as a candidate ingredient; technical integration not independently verified. *(Research reference)*
 - **[buffett-investment-framework](https://github.com/finterm-ai/investment-skills/blob/main/skills/buffett-investment-framework/SKILL.md)** · Inspected Agent Skill · Structured investment thesis review. Original source: finterm-ai/investment-skills. *(Inspected SKILL.md)*
 - **[cio](https://github.com/acantrell0523/family-office/blob/main/.claude/skills/cio/SKILL.md)** · Inspected Agent Skill · Investment committee workflows. Original source: acantrell0523/family-office. *(Inspected SKILL.md)*
