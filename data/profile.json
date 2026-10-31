@@ -65,7 +65,7 @@
     "title": "The Composable Internet",
     "source_data": "https://github.com/BradKhan/bradkhan/blob/main/composable-internet/data/sources.json",
     "catalog": "https://github.com/BradKhan/bradkhan/blob/main/composable-internet/data/compositions.json",
-    "source_records": 206,
+    "source_records": 211,
     "composition_ideas": 24,
     "distinct_domains": 8,
     "evidence": "research, not 24 functioning applications"
