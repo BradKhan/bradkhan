@@ -4,7 +4,7 @@
 
 This is a research registry for [The Composable Internet](README.md), derived from public external projects, the initial composition ingredients, and references saved on Brad Khan's GitHub account.
 
-**Important provenance:** A repository saved, copied or forked under the personal account is **not** thereby authored or maintained by Brad. These links are pointers to investigate, not claims of ownership or endorsements. Current license, maintenance, security and compatibility have **not** been comprehensively audited.
+**Important provenance:** A repository saved, copied or forked under the personal account is **not** thereby authored or maintained by Brad. Most links are pointers to investigate, not claims of ownership or endorsements. Explicitly identified first-party projects are separated from saved third-party references. Current license, maintenance, security and compatibility have **not** been comprehensively audited.
 
 [Compositions](README.md) · [Structured source data](data/sources.json) · [Evaluation rules](METHOD.md)
 
@@ -79,7 +79,7 @@ This is a research registry for [The Composable Internet](README.md), derived fr
 - [**LlamaFactory**](https://github.com/BradKhan/LlamaFactory) · model fine-tuning references _(saved reference)_
 - [**llmfit**](https://github.com/khonello/llmfit) · Referenced as a candidate ingredient; technical integration not independently verified. _(external resource)_
 - [**n8n**](https://github.com/n8n-io/n8n) · Workflow automation engine _(external resource)_
-- [**open-ASS**](https://github.com/BradKhan/open-ASS) · first-party agent software system _(saved reference)_
+- [**open-ASS**](https://github.com/BradKhan/open-ASS) · original agent-development project _(first-party project)_
 - [**open-claude-cowork**](https://github.com/BradKhan/open-claude-cowork) · agent desktop UX _(saved reference)_
 - [**open-skills**](https://github.com/BradKhan/open-skills) · portable skill utilities _(saved reference)_
 - [**opencode**](https://github.com/BradKhan/opencode) · coding agent runtime _(saved reference)_
@@ -116,7 +116,7 @@ This is a research registry for [The Composable Internet](README.md), derived fr
 - [**awesome-creative-coding**](https://github.com/terkelg/awesome-creative-coding) · Creative coding libraries _(external resource)_
 - [**awesome-design-md**](https://github.com/BradKhan/awesome-design-md) · agent-readable design libraries _(saved reference)_
 - [**awesome-motion-graphics**](https://github.com/beast-ofcourse/awesome-motion-graphics) · Motion graphics tooling _(external resource)_
-- [**bradkhan**](https://github.com/BradKhan/bradkhan) · first-party public profile, atlas and guides _(saved reference)_
+- [**bradkhan**](https://github.com/BradKhan/bradkhan) · public profile and composition research _(first-party project)_
 - [**d3**](https://github.com/d3/d3) · Referenced as a candidate ingredient; technical integration not independently verified. _(external resource)_
 - [**dembrandt**](https://github.com/dembrandt/dembrandt) · Referenced as a candidate ingredient; technical integration not independently verified. _(external resource)_
 - [**FFmpeg**](https://github.com/FFmpeg/FFmpeg) · Referenced as a candidate ingredient; technical integration not independently verified. _(external resource)_
@@ -131,7 +131,7 @@ This is a research registry for [The Composable Internet](README.md), derived fr
 - [**awesome**](https://github.com/sindresorhus/awesome) · Referenced as a candidate ingredient; technical integration not independently verified. _(external resource)_
 - [**dexter**](https://github.com/BradKhan/dexter) · financial research agent reference _(saved reference)_
 - [**FinceptTerminal**](https://github.com/BradKhan/FinceptTerminal) · financial research terminal _(saved reference)_
-- [**Khan-AIOS-Venture-Studio-MVP-Framework**](https://github.com/BradKhan/Khan-AIOS-Venture-Studio-MVP-Framework) · first-party venture template _(saved reference)_
+- [**Khan-AIOS-Venture-Studio-MVP-Framework**](https://github.com/BradKhan/Khan-AIOS-Venture-Studio-MVP-Framework) · original public venture template _(first-party project)_
 - [**mojaloop**](https://github.com/mojaloop) · Referenced as a candidate ingredient; technical integration not independently verified. _(external resource)_
 - [**open-payments**](https://github.com/interledger/open-payments) · Referenced as a candidate ingredient; technical integration not independently verified. _(external resource)_
 - [**openpaygents**](https://github.com/cyberagencyorg/openpaygents) · Referenced as a candidate ingredient; technical integration not independently verified. _(external resource)_
@@ -167,6 +167,7 @@ This is a research registry for [The Composable Internet](README.md), derived fr
 
 ## Source audit levels
 
+- **first_party_project:** a public project created and maintained under this account, identified separately from source material saved for research.
 - **readme_inspected:** a short README excerpt was examined while auditing the user's account. This does not mean source code, license or release claims were verified.
 - **linked_in_composition:** cited in an initial concept. Not proof of runtime compatibility.
 - **inventory_only:** visible repository name recorded as a research lead.
