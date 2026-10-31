@@ -13,7 +13,7 @@ Help maintain a public research catalog of original product compositions assembl
 - `README.md`: human-facing index and project framing.
 - `data/compositions.json`: machine-readable records (source of truth for composition metadata).
 - `BUILD-QUEUE.md`: tentative implementation order and evidence gates.
-- `skill-issue/README.md` and `skill-issue/packs.json`: five original experimental orchestration skills; their recommended upstream skill repositories have not been bundled or tested together.
+- `stack-mutiny/README.md` and `stack-mutiny/packs.json`: five original experimental orchestration skills; their recommended upstream skill repositories have not been bundled or tested together.
 - `METHOD.md`: editorial method, status levels and verification criteria.
 
 ## Instructions for agents
