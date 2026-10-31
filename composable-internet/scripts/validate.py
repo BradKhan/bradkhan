@@ -95,7 +95,7 @@ for n, item in enumerate(sources, 1):
     urls.add(normalized)
     if item.get("domain") not in taxnames:
         fail(f"source {n}: unrecognized domain")
-    if item.get("review_level") not in {"readme_inspected", "linked_in_composition", "inventory_only", "editorial_lead"}:
+    if item.get("review_level") not in {"readme_inspected", "linked_in_composition", "inventory_only", "editorial_lead", "skill_file_inspected"}:
         fail(f"source {n}: unknown evidence level")
     if url not in source_md:
         fail(f"source {n}: missing from SOURCES.md")
