@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schema_version": "1.0.0",
+  "name": "Brad Khan",
+  "github": "https://github.com/BradKhan",
+  "website": "https://bradkhan.com",
+  "identity": [
+    "Systems Entrepreneur",
+    "Intelligence Architect",
+    "Philosopher"
+  ],
+  "focus": [
+    "human agency",
+    "privacy and anti-surveillance",
+    "user-controlled AI and data",
+    "open-source software composition",
+    "venture architecture",
+    "strategic intelligence"
+  ],
+  "public_projects": [
+    {
+      "name": "Open ASS",
+      "url": "https://github.com/BradKhan/open-ASS",
+      "kind": "software",
+      "relationship": "creator",
+      "status": "public_repository"
+    },
+    {
+      "name": "The Composable Internet",
+      "url": "https://github.com/BradKhan/bradkhan/tree/main/composable-internet",
+      "kind": "curated_composition_research",
+      "relationship": "editor",
+      "status": "published_concepts_not_implemented",
+      "composition_count": 24
+    },
+    {
+      "name": "Khan AI-OS Venture Studio MVP Framework",
+      "url": "https://github.com/BradKhan/Khan-AIOS-Venture-Studio-MVP-Framework",
+      "kind": "venture_template",
+      "relationship": "creator",
+      "status": "public_repository"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Cyber Agency",
+      "url": "https://github.com/cyberagencyorg",
+      "relationship": "founder"
+    }
+  ],
+  "agent_entry": "https://github.com/BradKhan/bradkhan/blob/main/AGENTS.md",
+  "updated": "2026-11-01",
+  "claim_policy": "Distinguish implemented software from concepts; verify upstream project docs before repeating capability claims."
+}
