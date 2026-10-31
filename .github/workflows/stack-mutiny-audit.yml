@@ -1,0 +1,29 @@
+name: Stack Mutiny source integrity
+
+on:
+  schedule:
+    - cron: '35 2 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  upstream:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify current upstream skill files
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python composable-internet/stack-mutiny/audit.py --online --output stack-mutiny-source-audit.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: stack-mutiny-source-audit
+          path: stack-mutiny-source-audit.json
+          if-no-files-found: warn
