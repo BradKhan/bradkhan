@@ -4,11 +4,13 @@
 
 ## Positioning and design
 
-- [x] **G1 / Accurate positioning:** Primary identity is Entrepreneurial Technologist; entrepreneurship, technical leadership and philosophy appear without invented affiliations or titles.
-- [x] **G2 / Reduced visual noise:** A single outlined-name SVG replaces the previous multi-message banner. It uses no font download, third-party image, animated counter or gratuitous device graphics.
+- [x] **G1 / Accurate positioning:** Primary identity is **Systems Entrepreneur · Technologist · Philosopher**; the three descriptors are distinct. The README, brand guide, metadata, and automated-reader descriptions agree.
+- [x] **G2 / Reduced visual noise:** A single vector wordmark replaces the previous multi-message banner. It uses no font download, third-party image, animated counter or gratuitous device graphics.
 - [ ] **G3 / Visual acceptance:** Confirm GitHub's rendered desktop and mobile profile, accessibility, scaling, layout and typography against the *actual* client-approved reference. The specified reference URL was not accessible in this working session. This is not approved solely because a local SVG preview exists.
 
 ## Editorial and technical integrity
+
+- [ ] **G0 / Editorial adversarial check:** No duplicate role titles, invented identity changes, or contradictory first-party versus saved-repository provenance. The documentation has been corrected; automated checking and visual review must confirm it.
 
 - [x] **G4 / Truthful evidence levels:** Clearly separate public software, templates, external source references and proposed compositions.
 - [x] **G5 / Source provenance:** Structured source registry includes origin and review level, and does not take credit for saved upstream repositories.
