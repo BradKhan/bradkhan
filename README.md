@@ -18,20 +18,26 @@ I'm a four-time founder with two decades in enterprise technology, product, engi
 
 I am especially interested in portable AI and personal data, independent infrastructure, open-source software, and building businesses with the capacity to make meaningful alternatives available.
 
-## Featured: [STACK MUTINY](composable-internet/stack-mutiny/README.md)
+## [STACK MUTINY](composable-internet/stack-mutiny/README.md) · Skills worth using
 
-**Five agent-skill compositions for people who build, design, launch, communicate, and invest.** They bring useful methods and existing open-source tools into focused workflows, with clear deliverables and source attribution. The current edition is experimental, with integration and runtime testing still to be completed.
+A curated installation system for open-source agent skills, tooling, and infrastructure. **15 role profiles. 43 individually inspected skills. 50 tools and resources.** Install a focused selection across supported coding agents rather than hunting through disconnected directories.
 
-[**Developers**](composable-internet/stack-mutiny/packs/ship-or-it-didnt-happen/SKILL.md) · [**Designers**](composable-internet/stack-mutiny/packs/stop-shipping-beige/SKILL.md) · [**Entrepreneurs**](composable-internet/stack-mutiny/packs/no-permission-required/SKILL.md) · [**Marketers**](composable-internet/stack-mutiny/packs/anti-guru/SKILL.md) · [**Investors**](composable-internet/stack-mutiny/packs/show-the-receipts/SKILL.md)
+**[Development](composable-internet/stack-mutiny/README.md#profiles)** · **[Design](composable-internet/stack-mutiny/README.md#profiles)** · **[Venture building](composable-internet/stack-mutiny/README.md#profiles)** · **[Marketing](composable-internet/stack-mutiny/README.md#profiles)** · **[Content creation](composable-internet/stack-mutiny/README.md#profiles)** · **[Investment and family offices](composable-internet/stack-mutiny/README.md#profiles)** · **[Memory and context](composable-internet/stack-mutiny/README.md#profiles)** · **[AI inference and compute](composable-internet/stack-mutiny/README.md#profiles)**
 
-[Browse the full collection and upstream sources](composable-internet/stack-mutiny/README.md)
+```bash
+curl -fsSL https://raw.githubusercontent.com/BradKhan/bradkhan/main/composable-internet/stack-mutiny/install.py | python3 - install developer --agent codex --yes
+```
+
+[**Installation and documentation**](composable-internet/stack-mutiny/README.md) · [**Browse the catalog**](composable-internet/stack-mutiny/catalog.json) · [**Agent instructions**](composable-internet/stack-mutiny/AGENTS.md) · [**Original source projects**](composable-internet/SOURCES.md)
+
+<sub>The installer delegates to the external open-source skills CLI. Preview commands before running unfamiliar software; tools and paid providers are not installed automatically. Real runtime compatibility still requires testing.</sub>
 
 ## Selected public projects
 
 | Project | What it does | What is public |
 | :--- | :--- | :--- |
 | **[Open ASS](https://github.com/BradKhan/open-ASS)** | A GitHub-native system for developing software with AI agents: reusable skills, context, workflow coordination, and verification. | Open-source software and documentation |
-| **[STACK MUTINY](composable-internet/stack-mutiny/README.md)** | Five specialist agent-skill workflows for development, design, venture building, marketing, and investment research. Curated from open-source approaches and organized around practical results. | Experimental original SKILL.md files; runtime compatibility not tested |
+| **[STACK MUTINY](composable-internet/stack-mutiny/README.md)** | Curated agent-skill installation profiles, backed by verified skill entrypoints and a companion atlas of tools, memory systems, and inference options. | Public beta: installer, catalog, and tests; multi-runtime integration not yet fully validated |
 | **[The Composable Internet](composable-internet/README.md)** | An atlas of existing tools and ways to combine them into useful products, from AI and creative technology to privacy and independent infrastructure. | Source library and **24 proposed** compositions; not 24 finished products |
 | **[Khan AI-OS Venture Studio Framework](https://github.com/BradKhan/Khan-AIOS-Venture-Studio-MVP-Framework)** | A Git-based framework for taking a venture from research through product definition and delivery. | Public, reusable venture template |
 
