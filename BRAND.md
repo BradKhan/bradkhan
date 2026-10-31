@@ -1,42 +1,67 @@
-# Editorial identity and principles
+# Identity and editorial standard
 
-**Brad Khan | Entrepreneurial Technologist · Systems Entrepreneur · Philosopher**
+## Canonical identity
 
-**Core proposition:** Technology should increase human agency.
+**Brad Khan**
+**Systems Entrepreneur · Technologist · Philosopher**
 
-**Public invitation:** Build the world you would rather live in.
+These are three complementary descriptions, not overlapping job titles.
 
-The intellectual position is not neutrality about the distribution of power. It is opposition to systems that turn human knowledge, relationships, identity, and participation into dependencies that people cannot freely leave.
+- **Systems Entrepreneur:** Builds ventures, networks, capabilities, and models of organization. The focus is not confined to one company or software category.
+- **Technologist:** Has direct experience leading and building technology, engineering teams, software products, data systems, and AI applications.
+- **Philosopher:** Brings a sustained interest in epistemology, power, political economy, human agency, and the social consequences of technological systems.
 
-The practical response is to build alternatives that people can understand, use, inspect and move between. Data portability matters. So does the ability to host independent software, choose AI models, publish on your own terms, communicate privately, and organize collectively.
+Do not change, compound, or invent professional titles based on uncertain voice transcription or assistant interpretation. In particular, do not use **Entrepreneurial Technologist** or **Intelligence Architect** as substitute profile identities without an explicit subsequent instruction.
 
-The desired tone is a **calm radical**: intellectually provocative, technically grounded, serious about consequences, capable of collaboration with founders, investors and partners who share an interest in independent capacity. Critique mechanisms of surveillance, capture and concentrated ownership; don't substitute personality attacks for analysis.
+## Central ideas
 
-## Voice
+**Build the world you would rather live in.**
+**Technology should increase human agency.**
 
-- Intellectual without academic mannerism; rebellious without costume.
-- Clear to founders, technologists, independent writers and nontechnical readers.
-- Specific about products, architecture, evidence, costs and the actual tradeoffs.
-- Commercially legible without diluting the commitments that distinguish the brand.
-- No theatrical hacker imagery, slogans layered on slogans, false mystique or borrowed achievements.
-- No obsessive credential defense; accomplishments should be factual and immediately inspectable.
+These express a direction, not a demand that every page repeat both phrases.
 
-## Visual guidance
+The larger argument is that human knowledge, identity, relationships, access to technology, and capacity for collective action should not be trapped inside systems people cannot influence or leave. Build credible alternatives in software, companies, independent infrastructure, and methods of organizing knowledge and resources.
 
-Typographic editorialism. High contrast. Strong negative space. One dominant visual idea per surface. Restrained color. Avoid symbolic stock motifs, stylized eyes, fabricated surveillance diagrams and decorative pseudo-terminal readouts.
+## Professional legibility
 
-The profile wordmark's glyphs are converted to SVG vector paths so its type does not depend on the reader's local fonts. The glyph path is original positioning of an installed font; the font itself is not embedded or distributed.
+A visitor evaluating a founder, partner, advisor, CTO, CPO, or venture-studio leader must quickly understand:
 
-Reference-driven visual refinement remains open until a design review has compared the actual GitHub render with an available, specific reference. A reference that could not be accessed is not a verified design source.
+1. Who Brad is and what he has actually done.
+2. Which projects contain original, public implementation.
+3. What he is interested in building and why.
+4. How to evaluate or work with him.
 
-## Product proof
+A clear political and philosophical orientation can coexist with professional credibility. Critique business models, surveillance incentives, concentrated control, and unfair dependencies. Do not default to personal attacks, theatrical ideology, or abstract manifestos in place of concrete evidence.
 
-The public portfolio distinguishes: created software, venture/product methods, research collections, and references saved for study. A proposed composition is never presented as a shipped application. Public technical claims should be traceable to code or published documentation.
+## Writing
 
-## Separate surfaces
+- Precise, human, thoughtful, direct.
+- Intellectual without unnecessary academic vocabulary.
+- Conviction without borrowed revolutionary branding.
+- Ambitious without claiming things are finished that are not.
+- Concrete technical detail and business judgment where relevant.
+- No repetitive self-justification, manufactured drama, or inflated impact metrics.
 
-- **GitHub profile:** Immediate identity and credible pathways to original software.
-- **BradKhan.com:** Essays, project archive, deeper biography and personal publishing.
-- **The Composable Internet:** Research, source provenance, integration opportunities and runnable products.
-- **Cyber Agency:** Client-facing strategic intelligence and technology services.
-- **Humetheus and HumanScaled:** Broader long-term projects, described publicly only when the state of their work justifies doing so.
+## Design
+
+Typographic, distinctive, restrained, editorial. Prioritize hierarchy and readability before effects.
+
+One idea in the hero. Avoid ornamental circuitry, fake dashboards, surveillance eyes, terminal costume, meaningless geometric flourishes, vanity badges, and generic AI website styling.
+
+The GitHub banner is an SVG wordmark, not a substitute for a complete design review. The wordmark does not display the professional identity; the README text directly beneath it does.
+
+Validate the actual GitHub rendering on desktop and mobile in both light and dark environments before marking the visual review complete.
+
+## Different public surfaces
+
+- **GitHub profile:** Identity, representative public software, and direct links.
+- **BradKhan.com:** Longer essays, biography, projects, and publishing.
+- **The Composable Internet:** Source registry, compositions, experiments, and eventually demonstrated tools.
+- **Cyber Agency:** Client-facing applied intelligence, technology, and advisory services.
+- **HumanScaled / Humetheus:** Broader ventures and technical directions, with public status matched to actual evidence.
+
+## Accuracy
+
+Do not infer personal authorship from copied, watched, forked, or saved repositories. Preserve attribution. Treat product compositions as proposals until working demonstrations and tests exist.
+
+Machine-readable profile metadata, README text, and agent-facing guidance must share the same identity labels.
