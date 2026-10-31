@@ -18,6 +18,19 @@ These are original coordination instructions, **not copied or repackaged version
 | **[ANTI-GURU](packs/anti-guru/SKILL.md)** | Marketers | Audience → promise → proof → channel → measurable experiment. | [Skill](packs/anti-guru/SKILL.md) |
 | **[SHOW THE RECEIPTS](packs/show-the-receipts/SKILL.md)** | Investors | Thesis → sources → contradictions → scenarios → decision. | [Skill](packs/show-the-receipts/SKILL.md) |
 
+### Offline compile, no automatic installation
+
+The collection includes a tiny Python compiler that turns any of the five original role skills into a single AGENTS-style Markdown guide or an unchanged SKILL.md. It does not fetch, copy, or execute external sources.
+
+```bash
+python3 composable-internet/skill-issue/scripts/compile.py --list
+python3 composable-internet/skill-issue/scripts/compile.py no-more-slop --output /tmp/DESIGN-AGENT.md
+python3 composable-internet/skill-issue/scripts/compile.py show-the-receipts --format skill --output /tmp/SKILL.md
+python3 -m unittest discover -s composable-internet/skill-issue/tests -p "test_*.py"
+```
+
+Run from the **profile repository root**. Only the original published orchestration instructions are included in the generated file. Actual agent-harness testing and upstream integrations remain unverified.
+
 ## Why these are different from another awesome list
 
 Each pack has a **bounded workflow, mandatory evidence, a failure rule, and explicit upstream references**. That is the original contribution to test. The first target is not thousands of skills; it is five combinations that consistently improve one defined outcome each.
