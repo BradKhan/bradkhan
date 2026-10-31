@@ -20,6 +20,9 @@ https://github.com/BradKhan/Khan-AIOS-Venture-Studio-MVP-Framework
 The Composable Internet, existing components and proposed useful combinations:
 https://github.com/BradKhan/bradkhan/tree/main/composable-internet
 
+SKILL ISSUE, five original experimental role-based agent skills:
+https://github.com/BradKhan/bradkhan/tree/main/composable-internet/skill-issue
+
 ## Structured research
 
 Source registry:
