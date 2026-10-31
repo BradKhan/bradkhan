@@ -49,7 +49,7 @@ Typographic, distinctive, restrained, editorial. Prioritize hierarchy and readab
 
 One idea in the hero. Avoid ornamental circuitry, fake dashboards, surveillance eyes, terminal costume, meaningless geometric flourishes, vanity badges, and generic AI website styling.
 
-The GitHub banner is an intentionally restrained typographic composition featuring **Brad Khan**, **Tech × Society × Renaissance**, **Human agency, at every scale**, and **bradkhan.com**. Display typography uses **Inter Display Black** with the human-agency line in **EB Garamond Italic**. No decorative rules, abstract technical ornaments, arbitrary lines, or inaccessible low-contrast type. Its source is `assets/bradkhan-editorial-20261101-v2.svg`. Professional roles stay directly beneath the image. The standalone SVG relies on client font availability; a raster preview was also reviewed before publication. Live cross-device GitHub acceptance remains a separate gate.
+The GitHub banner is an intentionally restrained typographic composition featuring **Brad Khan**, **Tech × Society × Renaissance**, **Human agency, at every scale**, and **bradkhan.com**. Display typography uses **Inter Display Black** with the human-agency line in **EB Garamond Italic**. No decorative rules, abstract technical ornaments, arbitrary lines, or inaccessible low-contrast type. Its source is `assets/bradkhan-editorial-20261101-v3.svg`. Professional roles stay directly beneath the image. The standalone SVG relies on client font availability; a raster preview was also reviewed before publication. Live cross-device GitHub acceptance remains a separate gate.
 
 Validate the actual GitHub rendering on desktop and mobile in both light and dark environments before marking the visual review complete.
 
