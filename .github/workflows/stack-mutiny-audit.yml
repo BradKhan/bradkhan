@@ -21,9 +21,15 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python composable-internet/stack-mutiny/audit.py --online --output stack-mutiny-source-audit.json
+      - name: Discover additional skill candidates
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python composable-internet/stack-mutiny/discover.py --online --limit 2000 --output stack-mutiny-discovery.json
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: stack-mutiny-source-audit
-          path: stack-mutiny-source-audit.json
+          path: |\n            stack-mutiny-source-audit.json\n            stack-mutiny-discovery.json
           if-no-files-found: warn
