@@ -4,8 +4,8 @@
   "github": "https://github.com/BradKhan",
   "website": "https://bradkhan.com",
   "identity": [
-    "Entrepreneurial Technologist",
     "Systems Entrepreneur",
+    "Technologist",
     "Philosopher"
   ],
   "focus": [
@@ -58,5 +58,7 @@
     "composition_ideas": 24,
     "distinct_domains": 8,
     "evidence": "research, not 24 functioning applications"
-  }
+  },
+  "primary_identity": "Systems Entrepreneur",
+  "positioning": "Systems Entrepreneur · Technologist · Philosopher"
 }
