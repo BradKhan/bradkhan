@@ -9,7 +9,7 @@ on:
       - 'AGENTS.md'
       - 'llms.txt'
       - 'data/profile.json'
-      - 'assets/profile-hero.svg'
+      - 'assets/**'
       - '.github/workflows/profile-catalog.yml'
   pull_request:
     paths:
@@ -19,7 +19,7 @@ on:
       - 'AGENTS.md'
       - 'llms.txt'
       - 'data/profile.json'
-      - 'assets/profile-hero.svg'
+      - 'assets/**'
       - '.github/workflows/profile-catalog.yml'
   workflow_dispatch:
 
@@ -37,5 +37,9 @@ jobs:
         run: python composable-internet/scripts/validate.py
       - name: Validate experimental skill packs
         run: python composable-internet/stack-mutiny/scripts/validate.py
-      - name: Test offline pack compiler
+      - name: Validate installable profile catalog
+        run: python composable-internet/stack-mutiny/install.py validate --manifest composable-internet/stack-mutiny/catalog.json
+      - name: Test profile plans are read-only
+        run: python composable-internet/stack-mutiny/install.py plan ai-memory,ai-compute --agent codex --manifest composable-internet/stack-mutiny/catalog.json
+      - name: Test role installer and legacy pack compiler
         run: python -m unittest discover -s composable-internet/stack-mutiny/tests -p 'test_*.py'
