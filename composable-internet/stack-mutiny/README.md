@@ -2,9 +2,9 @@
 
 **The problem isn't a shortage of AI skills. It's what happens between them.**
 
-Five experimental, independently authored **orchestration skills** assembled around outcomes for builders, designers, founders, marketers and investors. Developed as a collection within [The Composable Internet](../README.md).
+Five role-specific skill packs for software development, design, venture creation, marketing, and investment research. They draw on existing open-source approaches and are organized around a specific result. Part of [The Composable Internet](../README.md).
 
-These are original coordination instructions, **not copied or repackaged versions** of the upstream skill repositories. Each pack identifies its ingredients, what it asks the agent to do, what evidence to produce, and when not to claim success.
+The value is in the combination: **select useful methods, adapt them to a purpose, put them in the right sequence, and make the result usable.** Each pack contains its own orchestration, identifies upstream resources, and defines a concrete deliverable. The first edition references those resources; deeper integrations and testing are next.
 
 > **Status:** Experimental source files. Not tested across Claude Code, Codex, Cursor, OpenCode, or other agent runtimes. Recommended upstream skills are **not installed, bundled, security-audited, or license-cleared** here. No one-click install is promised.
 
@@ -31,9 +31,9 @@ python3 -m unittest discover -s composable-internet/stack-mutiny/tests -p "test_
 
 Run from the **profile repository root**. Only the original published orchestration instructions are included in the generated file. Actual agent-harness testing and upstream integrations remain unverified.
 
-## Why these are different from another awesome list
+## More than a directory
 
-Each pack has a **bounded workflow, mandatory evidence, a failure rule, and explicit upstream references**. That is the original contribution to test. The first target is not thousands of skills; it is five combinations that consistently improve one defined outcome each.
+Each pack has a defined workflow, deliverable, and upstream references. Rather than collecting hundreds of links, we are testing whether a small, deliberately composed set of methods can produce better results on a specific task.
 
 ### How to experiment safely
 
@@ -58,7 +58,7 @@ python3 composable-internet/stack-mutiny/scripts/validate.py
 
 **Investors:** [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) · [Ruinius/financial-analyst-skills](https://github.com/Ruinius/financial-analyst-skills) · [phuryn/pm-skills](https://github.com/phuryn/pm-skills) · [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal).
 
-Sources retain their individual authorship and license terms. Upstream names identify capabilities to investigate, not endorsements or guaranteed compatibility. We will publish per-runtime tests and actual adapter code before labeling these bundles production-ready.
+These are credited open-source foundations and reference materials. We can adapt, remix, and integrate them under their applicable licenses. The current packs include original orchestration; full upstream integrations and measured comparisons have not yet been completed.
 
 ## Next useful release
 
