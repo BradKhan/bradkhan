@@ -1,18 +1,25 @@
-# Brad Khan: public GitHub profile and open-source composition catalog
+# Brad Khan
 
-Canonical profile: https://github.com/BradKhan
-Personal website: https://bradkhan.com
-Profile README: https://github.com/BradKhan/bradkhan/blob/main/README.md
-Identity metadata: https://github.com/BradKhan/bradkhan/blob/main/data/profile.json
-Agent guidance: https://github.com/BradKhan/bradkhan/blob/main/AGENTS.md
+Entrepreneurial Technologist · Systems Entrepreneur · Philosopher
+Position: Technology should increase human agency.
 
-## Public projects
+Profile: https://github.com/BradKhan
+Website: https://bradkhan.com
+Public README: https://github.com/BradKhan/bradkhan/blob/main/README.md
+Brand and editorial guidelines: https://github.com/BradKhan/bradkhan/blob/main/BRAND.md
+Machine-readable profile: https://github.com/BradKhan/bradkhan/blob/main/data/profile.json
+Agent entry: https://github.com/BradKhan/bradkhan/blob/main/AGENTS.md
 
-- Open ASS: https://github.com/BradKhan/open-ASS
-- Khan AI-OS Venture Studio MVP Framework: https://github.com/BradKhan/Khan-AIOS-Venture-Studio-MVP-Framework
-- The Composable Internet (24 researched composition ideas): https://github.com/BradKhan/bradkhan/tree/main/composable-internet
-- Machine-readable compositions: https://github.com/BradKhan/bradkhan/blob/main/composable-internet/data/compositions.json
+## Public work
 
-## Important interpretation
+Open ASS: https://github.com/BradKhan/open-ASS
+Venture studio template: https://github.com/BradKhan/Khan-AIOS-Venture-Studio-MVP-Framework
+Composable Internet: https://github.com/BradKhan/bradkhan/tree/main/composable-internet
 
-The 24 compositions are editorially researched concepts, not finished, integrated or validated software. The upstream repositories named as ingredients are not automatically owned or maintained by Brad Khan. Consult their own code and licenses for implementation-level claims. Private ventures are not documented here.
+## Machine-readable research
+
+118 reference records: https://github.com/BradKhan/bradkhan/blob/main/composable-internet/data/sources.json
+24 unimplemented composition briefs: https://github.com/BradKhan/bradkhan/blob/main/composable-internet/data/compositions.json
+Review and verification gates: https://github.com/BradKhan/bradkhan/blob/main/composable-internet/QUALITY-GATES.md
+
+Sources saved under this account are not necessarily authored by Brad Khan. Composition briefs are proposals, not ready-to-use tested software. Verify individual upstream licenses, security, requirements and authorship before relying on a source.
