@@ -2,8 +2,8 @@
 <title id="title">Brad Khan · Tech × Society × Renaissance</title>
 <desc id="desc">A minimal typographic editorial banner. Brad Khan in large ivory letters; Tech, Society, Renaissance in warm orange; Human agency at every scale in an italic serif; bradkhan.com at lower right.</desc>
 <rect width="1600" height="450" fill="#181B1B"/>
-<text x="74" y="101" font-family="Inter Display, Inter, Arial, sans-serif" font-size="48" font-weight="800" letter-spacing="-1.4" fill="#E1A16C">TECH × SOCIETY × RENAISSANCE</text>
-<text x="68" y="296" font-family="Inter Display, Inter, Arial Black, sans-serif" font-size="187" font-weight="900" letter-spacing="-9" fill="#F5F1E9">BRAD KHAN</text>
+<text x="74" y="101" font-family="Inter Display, Inter, Arial, sans-serif" font-size="48" font-weight="800" fill="#E1A16C">TECH × SOCIETY × RENAISSANCE</text>
+<text x="68" y="296" font-family="Inter Display, Inter, Arial Black, sans-serif" font-size="187" font-weight="900" fill="#F5F1E9">BRAD KHAN</text>
 <text x="74" y="368" font-family="EB Garamond, Georgia, serif" font-size="43" font-style="italic" fill="#C9C7BF">Human agency, at every scale.</text>
 <text x="1315" y="402" font-family="Inter Display, Inter, Arial, sans-serif" font-size="32" font-weight="700" fill="#E1A16C">bradkhan.com</text>
 </svg>
