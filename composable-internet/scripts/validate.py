@@ -1,86 +1,112 @@
 #!/usr/bin/env python3
-"""Offline structural checks for the Composable Internet catalog.
+"""Offline checks for the public Composable Internet research catalog.
 
-No network calls, third-party code execution, or dependency installation.
+Tests provenance and internal consistency. Does NOT test external URLs, licenses,
+availability, security, compatibility, integrations or real user adoption.
 """
 import json
 import re
 import sys
 from pathlib import Path
+from urllib.parse import urlsplit
 
-ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "data" / "compositions.json"
-README = ROOT / "README.md"
-REQUIRED = {
-    "id", "slug", "title", "category", "outcome", "audience",
-    "components", "original_glue", "demonstration", "effort",
-    "priority", "implementation_status", "last_editorial_review",
-}
-STATUSES = {"concept_not_integrated", "proof_of_concept", "working_release", "field_validated"}
-errors = []
+BASE = Path(__file__).resolve().parents[1]
+COMPOSITIONS = BASE / "data" / "compositions.json"
+SOURCES = BASE / "data" / "sources.json"
+README = BASE / "README.md"
+SOURCES_MD = BASE / "SOURCES.md"
+VALID_STATUS = {"concept_not_integrated", "proof_of_concept", "working_release", "field_validated"}
+VALID_EFFORT = {"S", "M", "L"}
+VALID_PRIORITY = {"immediate", "next", "research"}
+REQ = {"id", "slug", "title", "category", "outcome", "audience", "components", "original_glue", "demonstration", "effort", "priority", "implementation_status", "last_editorial_review"}
+ISSUES = []
+
+def fail(msg):
+    ISSUES.append(msg)
 
 try:
-    data = json.loads(DATA.read_text(encoding="utf-8"))
-    text = README.read_text(encoding="utf-8")
-except (OSError, ValueError) as exc:
-    print(f"Catalog read failed: {exc}", file=sys.stderr)
-    sys.exit(1)
+    comp = json.loads(COMPOSITIONS.read_text(encoding="utf-8"))
+    source = json.loads(SOURCES.read_text(encoding="utf-8"))
+    readme = README.read_text(encoding="utf-8")
+    source_md = SOURCES_MD.read_text(encoding="utf-8")
+except (ValueError, OSError) as exc:
+    sys.exit(f"Read error: {exc}")
 
-entries = data.get("recipes")
-if not isinstance(entries, list) or not entries:
-    errors.append("recipes must be a nonempty array")
-    entries = []
+tax = comp.get("taxonomy", [])
+taxnames = [t.get("name") for t in tax if isinstance(t, dict)]
+if len(taxnames) != 8 or len(taxnames) != len(set(taxnames)):
+    fail("taxonomy must have exactly eight distinct named domains")
 
-ids, slugs = set(), set()
-for number, item in enumerate(entries, 1):
-    if not isinstance(item, dict):
-        errors.append(f"entry #{number} is not an object")
+ids = set()
+slugs = set()
+items = comp.get("recipes", [])
+for n, x in enumerate(items, 1):
+    if not isinstance(x, dict):
+        fail(f"record {n} not an object")
         continue
-    missing = REQUIRED - item.keys()
+    missing = REQ - x.keys()
     if missing:
-        errors.append(f"entry #{number} missing {', '.join(sorted(missing))}")
+        fail(f"record {n}: missing {sorted(missing)}")
         continue
-    ident, slug = item["id"], item["slug"]
-    if not isinstance(ident, str) or not re.fullmatch(r"C\d{2,3}", ident):
-        errors.append(f"entry #{number} invalid id")
-    if ident in ids:
-        errors.append(f"duplicate id {ident}")
-    if slug in slugs:
-        errors.append(f"duplicate slug {slug}")
-    ids.add(ident)
-    slugs.add(slug)
-    if item["implementation_status"] not in STATUSES:
-        errors.append(f"{ident} invalid implementation status")
-    if item["effort"] not in {"S", "M", "L"}:
-        errors.append(f"{ident} invalid effort")
-    if item["priority"] not in {"immediate", "next", "research"}:
-        errors.append(f"{ident} invalid priority")
-    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", item["last_editorial_review"]):
-        errors.append(f"{ident} invalid review date")
-    for field in ("title", "category", "outcome", "audience", "original_glue", "demonstration"):
-        if not isinstance(item[field], str) or not item[field].strip():
-            errors.append(f"{ident} missing text field {field}")
-    components = item["components"]
-    if not isinstance(components, list) or len(components) < 2:
-        errors.append(f"{ident} requires at least two components")
-    else:
-        seen = set()
-        for component in components:
-            if not isinstance(component, dict) or not component.get("name") or not component.get("url", "").startswith("https://"):
-                errors.append(f"{ident} has malformed source")
-                continue
-            if component["url"] in seen:
-                errors.append(f"{ident} has duplicate source URL")
-            seen.add(component["url"])
-    if f"#### {ident} · {item['title']}" not in text:
-        errors.append(f"{ident} missing from human-readable README")
+    cid = x["id"]
+    if not re.fullmatch(r"C\d{2,3}", str(cid)):
+        fail(f"{cid}: invalid ID")
+    if cid in ids:
+        fail(f"{cid}: duplicate ID")
+    ids.add(cid)
+    if x["slug"] in slugs:
+        fail(f"{cid}: duplicate slug")
+    slugs.add(x["slug"])
+    if x["category"] not in taxnames:
+        fail(f"{cid}: uncategorized or unknown domain")
+    if x["implementation_status"] not in VALID_STATUS:
+        fail(f"{cid}: invalid release status")
+    if x["effort"] not in VALID_EFFORT or x["priority"] not in VALID_PRIORITY:
+        fail(f"{cid}: invalid effort or priority")
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(x["last_editorial_review"])):
+        fail(f"{cid}: invalid editorial date")
+    if f"#### {cid} · {x['title']}" not in readme:
+        fail(f"{cid}: missing README entry")
+    if len(x.get("components", [])) < 2:
+        fail(f"{cid}: fewer than two source ingredients")
+    for item in x.get("components", []):
+        if not isinstance(item, dict) or not item.get("name") or not item.get("url", "").startswith("https://"):
+            fail(f"{cid}: malformed ingredient")
+for name in taxnames:
+    if f"### {name}" not in readme or f"### {name}" not in source_md:
+        fail(f"{name}: missing domain heading")
 
-if data.get("schema_version") != "1.0.0":
-    errors.append("unsupported catalog schema version")
-if len(entries) != len(ids):
-    errors.append("recipe count does not match unique IDs")
-if errors:
-    for error in errors:
-        print(f"ERROR: {error}", file=sys.stderr)
+sources = source.get("sources", [])
+if source.get("source_count") != len(sources):
+    fail("source_count is not equal to actual array length")
+if len(sources) < 1:
+    fail("empty source registry")
+urls = set()
+for n, item in enumerate(sources, 1):
+    if not isinstance(item, dict):
+        fail(f"source {n}: not an object")
+        continue
+    url = item.get("url", "")
+    if not url.startswith("https://") or not urlsplit(url).netloc:
+        fail(f"source {n}: invalid URL")
+    normalized = url.rstrip("/").lower()
+    if normalized in urls:
+        fail(f"source {n}: duplicate URL")
+    urls.add(normalized)
+    if item.get("domain") not in taxnames:
+        fail(f"source {n}: unrecognized domain")
+    if item.get("review_level") not in {"readme_inspected", "linked_in_composition", "inventory_only", "editorial_lead"}:
+        fail(f"source {n}: unknown evidence level")
+    if url not in source_md:
+        fail(f"source {n}: missing from SOURCES.md")
+    if item.get("origin") == "personal_account_reference_authorship_not_assumed" and "github.com/BradKhan/" not in url:
+        fail(f"source {n}: account provenance does not match URL")
+
+if comp.get("schema_version") != "1.0.0" or source.get("schema_version") != "1.0.0":
+    fail("unexpected schema version")
+if ISSUES:
+    for issue in ISSUES:
+        print("ERROR:", issue, file=sys.stderr)
     sys.exit(1)
-print(f"OK: {len(entries)} composition records, unique IDs, linked sources and README entries.")
+print(f"PASS: {len(items)} compositions, {len(taxnames)} domains, {len(sources)} attributed source records.")
+print("NOTE: This does not establish functioning integrations, safe dependencies, or market demand.")
