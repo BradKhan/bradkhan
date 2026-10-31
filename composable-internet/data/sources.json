@@ -257,7 +257,7 @@
       "url": "https://github.com/garrytan/gstack",
       "domain": "AI and agents",
       "contexts": [
-        "skill_issue_upstream_candidate"
+        "stack_mutiny_upstream_candidate"
       ],
       "why": "Agent coding and QA workflows",
       "origin": "external_repository",
@@ -504,7 +504,7 @@
       "url": "https://github.com/mattpocock/skills",
       "domain": "AI and agents",
       "contexts": [
-        "skill_issue_upstream_candidate"
+        "stack_mutiny_upstream_candidate"
       ],
       "why": "Engineering architecture, diagnosis, and review skills",
       "origin": "external_repository",
@@ -570,7 +570,7 @@
       "url": "https://github.com/obra/superpowers",
       "domain": "AI and agents",
       "contexts": [
-        "skill_issue_upstream_candidate"
+        "stack_mutiny_upstream_candidate"
       ],
       "why": "Engineering skill methodology and planning",
       "origin": "external_repository",
@@ -726,7 +726,7 @@
       "url": "https://github.com/VoltAgent/awesome-design-md",
       "domain": "Creative technology",
       "contexts": [
-        "skill_issue_upstream_candidate"
+        "stack_mutiny_upstream_candidate"
       ],
       "why": "Agent-readable design specifications",
       "origin": "external_repository",
@@ -752,7 +752,7 @@
       "url": "https://github.com/JimLiu/baoyu-skills",
       "domain": "Creative technology",
       "contexts": [
-        "skill_issue_upstream_candidate"
+        "stack_mutiny_upstream_candidate"
       ],
       "why": "Creative content production and publishing skills",
       "origin": "external_repository",
@@ -817,7 +817,7 @@
       "url": "https://github.com/pbakaus/impeccable",
       "domain": "Creative technology",
       "contexts": [
-        "skill_issue_upstream_candidate"
+        "stack_mutiny_upstream_candidate"
       ],
       "why": "Frontend design, critique, accessibility, and polish",
       "origin": "external_repository",
@@ -882,7 +882,7 @@
       "url": "https://github.com/google-labs-code/stitch-skills",
       "domain": "Creative technology",
       "contexts": [
-        "skill_issue_upstream_candidate"
+        "stack_mutiny_upstream_candidate"
       ],
       "why": "Design-to-code skills and DESIGN.md workflows",
       "origin": "external_repository",
@@ -908,7 +908,7 @@
       "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
       "domain": "Creative technology",
       "contexts": [
-        "skill_issue_upstream_candidate"
+        "stack_mutiny_upstream_candidate"
       ],
       "why": "Design references and structured visual guidance",
       "origin": "external_repository",
@@ -1483,7 +1483,7 @@
       "url": "https://github.com/mvanhorn/last30days-skill",
       "domain": "Public knowledge",
       "contexts": [
-        "skill_issue_upstream_candidate"
+        "stack_mutiny_upstream_candidate"
       ],
       "why": "Recent public discussion research skills",
       "origin": "external_repository",
@@ -1536,7 +1536,7 @@
       "url": "https://github.com/alirezarezvani/claude-skills",
       "domain": "Venture and markets",
       "contexts": [
-        "skill_issue_upstream_candidate"
+        "stack_mutiny_upstream_candidate"
       ],
       "why": "Cross-disciplinary business, research, marketing, and finance skills",
       "origin": "external_repository",
@@ -1562,7 +1562,7 @@
       "url": "https://github.com/Ruinius/financial-analyst-skills",
       "domain": "Venture and markets",
       "contexts": [
-        "skill_issue_upstream_candidate"
+        "stack_mutiny_upstream_candidate"
       ],
       "why": "Financial document processing and valuation workflow",
       "origin": "external_repository",
@@ -1588,7 +1588,7 @@
       "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
       "domain": "Venture and markets",
       "contexts": [
-        "skill_issue_upstream_candidate"
+        "stack_mutiny_upstream_candidate"
       ],
       "why": "Finance analytics engine, not an agent skill",
       "origin": "external_repository",
@@ -1614,7 +1614,7 @@
       "url": "https://github.com/coreyhaines31/marketingskills",
       "domain": "Venture and markets",
       "contexts": [
-        "skill_issue_upstream_candidate"
+        "stack_mutiny_upstream_candidate"
       ],
       "why": "Marketing research, CRO, SEO, and growth workflows",
       "origin": "external_repository",
@@ -1666,7 +1666,7 @@
       "url": "https://github.com/phuryn/pm-skills",
       "domain": "Venture and markets",
       "contexts": [
-        "skill_issue_upstream_candidate"
+        "stack_mutiny_upstream_candidate"
       ],
       "why": "Product management and experimentation skills",
       "origin": "external_repository",
