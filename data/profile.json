@@ -44,8 +44,11 @@
       "url": "https://github.com/BradKhan/bradkhan/tree/main/composable-internet/stack-mutiny",
       "kind": "experimental_agent_skill_orchestrators",
       "relationship": "creator_editor",
-      "status": "five_original_skills_not_harness_tested",
-      "pack_count": 5
+      "status": "public_beta_real_installation_profiles_not_fully_harness_tested",
+      "pack_count": 5,
+      "profile_count": 15,
+      "verified_skill_entrypoints": 43,
+      "tool_references": 50
     }
   ],
   "organizations": [
@@ -62,7 +65,7 @@
     "title": "The Composable Internet",
     "source_data": "https://github.com/BradKhan/bradkhan/blob/main/composable-internet/data/sources.json",
     "catalog": "https://github.com/BradKhan/bradkhan/blob/main/composable-internet/data/compositions.json",
-    "source_records": 132,
+    "source_records": 206,
     "composition_ideas": 24,
     "distinct_domains": 8,
     "evidence": "research, not 24 functioning applications"
