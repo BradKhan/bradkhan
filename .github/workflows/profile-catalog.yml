@@ -1,0 +1,25 @@
+name: Profile and composition catalog checks
+
+on:
+  push:
+    paths:
+      - 'composable-internet/**'
+      - '.github/workflows/profile-catalog.yml'
+  pull_request:
+    paths:
+      - 'composable-internet/**'
+      - '.github/workflows/profile-catalog.yml'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate catalog offline
+        run: python composable-internet/scripts/validate.py
