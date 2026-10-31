@@ -6,6 +6,10 @@ Help maintain a public research catalog of original product compositions assembl
 
 ## Canonical files
 
+- `SOURCES.md` and `data/sources.json`: research source registry with honest provenance and review depth.
+- `QUALITY-GATES.md`: release and editorial review criteria.
+- `scripts/find.py` and `scripts/validate.py`: deterministic offline catalog tools.
+
 - `README.md`: human-facing index and project framing.
 - `data/compositions.json`: machine-readable records (source of truth for composition metadata).
 - `BUILD-QUEUE.md`: tentative implementation order and evidence gates.
