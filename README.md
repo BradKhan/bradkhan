@@ -4,7 +4,7 @@
 
 **Systems Entrepreneur · Technologist · Philosopher**
 
-[Website & writing](https://bradkhan.com) · [Open source](#selected-public-projects) · [SKILL ISSUE](composable-internet/skill-issue/README.md) · [The Composable Internet](composable-internet/README.md) · [LinkedIn](https://www.linkedin.com/in/bradkhan)
+[Website & writing](https://bradkhan.com) · [Open source](#selected-public-projects) · [STACK MUTINY](composable-internet/stack-mutiny/README.md) · [The Composable Internet](composable-internet/README.md) · [LinkedIn](https://www.linkedin.com/in/bradkhan)
 
 </div>
 
@@ -23,11 +23,11 @@ I am especially interested in portable AI and personal data, independent infrast
 | Project | What it does | What is public |
 | :--- | :--- | :--- |
 | **[Open ASS](https://github.com/BradKhan/open-ASS)** | A GitHub-native system for developing software with AI agents: reusable skills, context, workflow coordination, and verification. | Open-source software and documentation |
-| **[SKILL ISSUE](composable-internet/skill-issue/README.md)** | Five cheekily named agent-skill workflows for developers, designers, founders, marketers, and investors. Each links to complementary upstream software. | Experimental original SKILL.md files; runtime compatibility not tested |
+| **[STACK MUTINY](composable-internet/stack-mutiny/README.md)** | Five cheekily named agent-skill workflows for developers, designers, founders, marketers, and investors. Each links to complementary upstream software. | Experimental original SKILL.md files; runtime compatibility not tested |
 | **[The Composable Internet](composable-internet/README.md)** | An atlas of existing tools and ways to combine them into useful products, from AI and creative technology to privacy and independent infrastructure. | Source library and **24 proposed** compositions; not 24 finished products |
 | **[Khan AI-OS Venture Studio Framework](https://github.com/BradKhan/Khan-AIOS-Venture-Studio-MVP-Framework)** | A Git-based framework for taking a venture from research through product definition and delivery. | Public, reusable venture template |
 
-[Explore the source library](composable-internet/SOURCES.md) · [Try the skill workflows](composable-internet/skill-issue/README.md) · [Browse the compositions](composable-internet/README.md) · [See the build queue](composable-internet/BUILD-QUEUE.md)
+[Explore the source library](composable-internet/SOURCES.md) · [Try the skill workflows](composable-internet/stack-mutiny/README.md) · [Browse the compositions](composable-internet/README.md) · [See the build queue](composable-internet/BUILD-QUEUE.md)
 
 ## The larger direction
 
