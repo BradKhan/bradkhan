@@ -22,7 +22,7 @@
 
 ## Operational rules
 
-The [SKILL ISSUE experimental packs](skill-issue/README.md) are published original `SKILL.md` files, not verified third-party skill bundles. Their harness compatibility, upstream security, licenses, and measurable usefulness are still open acceptance gates. The first release is not considered field-validated until those are tested.
+The [STACK MUTINY experimental packs](stack-mutiny/README.md) are published original `SKILL.md` files, not verified third-party skill bundles. Their harness compatibility, upstream security, licenses, and measurable usefulness are still open acceptance gates. The first release is not considered field-validated until those are tested.
 
 The tests in `.github/workflows/profile-catalog.yml` check the registry's *structure* only. They are not a substitute for G3, G7, G8, G9 or G10.
 
