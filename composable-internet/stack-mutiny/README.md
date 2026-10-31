@@ -4,7 +4,7 @@
 
 One collection, 15 selectable professional profiles, 48 individually inspected Agent Skills (43 upstream and 5 original), 50 complementary tools and infrastructure resources, and 17 upstream collections. Skills come from their original GitHub maintainers. This project supplies the selection, composition, installation plan, and a common interface.
 
-**[Install](#one-line-install) · [Choose a profile](#profiles) · [Tool atlas](#tools-and-infrastructure) · [Use with any agent](AGENTS.md) · [Machine-readable catalog](catalog.json) · [Source collections](#where-the-skills-come-from)**
+**[Install](#one-line-install) · [Choose a profile](#profiles) · [15 field guides](FIELD-GUIDES.md) · [Tool atlas](#tools-and-infrastructure) · [Use with any agent](AGENTS.md) · [Machine-readable catalog](catalog.json) · [Source collections](#where-the-skills-come-from)**
 
 > **Status: public beta.** The 43 upstream skill entrypoints and 5 original role skills were inspected on November 1, 2026. The Python installer and selection logic have offline tests. End-to-end compatibility across every agent runtime has **not** been demonstrated. No third-party skill scripts, credentials, model endpoints, or tools are automatically executed by the catalog.
 
