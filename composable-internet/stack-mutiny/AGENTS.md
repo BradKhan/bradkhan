@@ -21,11 +21,11 @@ This directory is a curated, permissioned installation system for open Agent Ski
 
 ## Engineering and licensing boundaries
 
-The selection layer is original. The installed skills remain sourced from their upstream GitHub repositories. Some are open source; some have different licensing or usage conditions. Review each source before distributing modifications or building a commercial bundle.
+The selection layer and five included role skills are original. The installed skills remain sourced from their upstream GitHub repositories. Some are open source; some have different licensing or usage conditions. Review each source before distributing modifications or building a commercial bundle.
 
 A verified `SKILL.md` link means only that the file and name were inspected on November 1, 2026. It is not a security audit, compatibility certification, provider-pricing guarantee, or tested improvement in real task performance.
 
-The installer does not install tools from the tool atlas, automatically execute installed skills, inspect private data, or attempt to bypass service usage limits. Third-party installers and the agent runtime may perform their own operations, which users must understand and authorize.
+The installer groups skill selection per repository, skips any known agent-incompatible source, and does not install tools from the tool atlas, automatically execute installed skills, inspect private data, or attempt to bypass service usage limits. Third-party installers and the agent runtime may perform their own operations, which users must understand and authorize.
 
 ## What to build next
 
