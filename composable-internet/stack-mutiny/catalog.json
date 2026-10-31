@@ -1,0 +1,1268 @@
+{
+  "schema_version": "0.2",
+  "edition": "2026-11-01",
+  "project": "Stack Mutiny",
+  "description": "Audited skill selectors and a companion tool atlas. Third-party skills are not bundled.",
+  "cli_version_tested_for_syntax": "1.7.4",
+  "skills": [
+    {
+      "id": "anthropics/skills@frontend-design",
+      "repo": "anthropics/skills",
+      "skill": "frontend-design",
+      "purpose": "Distinctive frontend design",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "anthropics/skills@skill-creator",
+      "repo": "anthropics/skills",
+      "skill": "skill-creator",
+      "purpose": "Create and evaluate skills",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "anthropics/skills@mcp-builder",
+      "repo": "anthropics/skills",
+      "skill": "mcp-builder",
+      "purpose": "Build interoperable MCP servers",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "anthropics/skills@webapp-testing",
+      "repo": "anthropics/skills",
+      "skill": "webapp-testing",
+      "purpose": "Browser-based web app tests",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "anthropics/skills@canvas-design",
+      "repo": "anthropics/skills",
+      "skill": "canvas-design",
+      "purpose": "Editorial graphic design",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "anthropics/skills@algorithmic-art",
+      "repo": "anthropics/skills",
+      "skill": "algorithmic-art",
+      "purpose": "Generative creative coding",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "vercel-labs/agent-skills@vercel-react-best-practices",
+      "repo": "vercel-labs/agent-skills",
+      "skill": "vercel-react-best-practices",
+      "purpose": "React and Next.js performance",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "vercel-labs/agent-skills@web-design-guidelines",
+      "repo": "vercel-labs/agent-skills",
+      "skill": "web-design-guidelines",
+      "purpose": "UX and accessibility audit",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "vercel-labs/agent-skills@writing-guidelines",
+      "repo": "vercel-labs/agent-skills",
+      "skill": "writing-guidelines",
+      "purpose": "Clear software writing and docs",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "vercel-labs/agent-skills@vercel-optimize",
+      "repo": "vercel-labs/agent-skills",
+      "skill": "vercel-optimize",
+      "purpose": "Hosting, performance, cost",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "vercel-labs/agent-skills@vercel-react-view-transitions",
+      "repo": "vercel-labs/agent-skills",
+      "skill": "vercel-react-view-transitions",
+      "purpose": "Polished UI transitions",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "mattpocock/skills@grill-with-docs",
+      "repo": "mattpocock/skills",
+      "skill": "grill-with-docs",
+      "purpose": "Architecture discovery and documentation",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "mattpocock/skills@grill-me",
+      "repo": "mattpocock/skills",
+      "skill": "grill-me",
+      "purpose": "Product and problem clarification",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "coreyhaines31/marketingskills@copywriting",
+      "repo": "coreyhaines31/marketingskills",
+      "skill": "copywriting",
+      "purpose": "Conversion-oriented copy",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "coreyhaines31/marketingskills@content-strategy",
+      "repo": "coreyhaines31/marketingskills",
+      "skill": "content-strategy",
+      "purpose": "Content strategy and positioning",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "coreyhaines31/marketingskills@seo-audit",
+      "repo": "coreyhaines31/marketingskills",
+      "skill": "seo-audit",
+      "purpose": "Technical and editorial SEO",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "coreyhaines31/marketingskills@marketing-ideas",
+      "repo": "coreyhaines31/marketingskills",
+      "skill": "marketing-ideas",
+      "purpose": "Marketing experiments",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "JimLiu/baoyu-skills@baoyu-article-illustrator",
+      "repo": "JimLiu/baoyu-skills",
+      "skill": "baoyu-article-illustrator",
+      "purpose": "Visuals for long-form articles",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "JimLiu/baoyu-skills@baoyu-cover-image",
+      "repo": "JimLiu/baoyu-skills",
+      "skill": "baoyu-cover-image",
+      "purpose": "Cover art for publications",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "JimLiu/baoyu-skills@baoyu-format-markdown",
+      "repo": "JimLiu/baoyu-skills",
+      "skill": "baoyu-format-markdown",
+      "purpose": "Editorial Markdown formatting",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "JimLiu/baoyu-skills@baoyu-image-gen",
+      "repo": "JimLiu/baoyu-skills",
+      "skill": "baoyu-image-gen",
+      "purpose": "Image generation workflows",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "JimLiu/baoyu-skills@baoyu-slide-deck",
+      "repo": "JimLiu/baoyu-skills",
+      "skill": "baoyu-slide-deck",
+      "purpose": "Visual slide-deck creation",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "JimLiu/baoyu-skills@baoyu-post-to-wechat",
+      "repo": "JimLiu/baoyu-skills",
+      "skill": "baoyu-post-to-wechat",
+      "purpose": "WeChat publishing with authorization",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "slavingia/skills@validate-idea",
+      "repo": "slavingia/skills",
+      "skill": "validate-idea",
+      "purpose": "Evidence-driven idea validation",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "slavingia/skills@find-community",
+      "repo": "slavingia/skills",
+      "skill": "find-community",
+      "purpose": "Find the communities around a problem",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "slavingia/skills@mvp",
+      "repo": "slavingia/skills",
+      "skill": "mvp",
+      "purpose": "Smallest useful product",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "slavingia/skills@pricing",
+      "repo": "slavingia/skills",
+      "skill": "pricing",
+      "purpose": "Pricing and willingness to pay",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "slavingia/skills@first-customers",
+      "repo": "slavingia/skills",
+      "skill": "first-customers",
+      "purpose": "First customer development",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "slavingia/skills@marketing-plan",
+      "repo": "slavingia/skills",
+      "skill": "marketing-plan",
+      "purpose": "Audience-led marketing",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "mvanhorn/last30days-skill@last30days",
+      "repo": "mvanhorn/last30days-skill",
+      "skill": "last30days",
+      "purpose": "Recent conversations and community research",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "acantrell0523/family-office@cio",
+      "repo": "acantrell0523/family-office",
+      "skill": "cio",
+      "purpose": "Investment committee workflows",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "acantrell0523/family-office@equity-research",
+      "repo": "acantrell0523/family-office",
+      "skill": "equity-research",
+      "purpose": "Public equity research",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "acantrell0523/family-office@risk",
+      "repo": "acantrell0523/family-office",
+      "skill": "risk",
+      "purpose": "Portfolio risk questions",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "acantrell0523/family-office@ventures",
+      "repo": "acantrell0523/family-office",
+      "skill": "ventures",
+      "purpose": "Venture and business scenario review",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "acantrell0523/family-office@macro",
+      "repo": "acantrell0523/family-office",
+      "skill": "macro",
+      "purpose": "Macroeconomic research",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "finterm-ai/investment-skills@buffett-investment-framework",
+      "repo": "finterm-ai/investment-skills",
+      "skill": "buffett-investment-framework",
+      "purpose": "Structured investment thesis review",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "evilhill/equity-research-skill@equity-research-skill-v1-2",
+      "repo": "evilhill/equity-research-skill",
+      "skill": "equity-research-skill-v1-2",
+      "purpose": "Evidence-backed valuation research",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "muratcankoylan/Agent-Skills-for-Context-Engineering@memory-systems",
+      "repo": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "skill": "memory-systems",
+      "purpose": "Durable agent memory architecture",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "muratcankoylan/Agent-Skills-for-Context-Engineering@context-optimization",
+      "repo": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "skill": "context-optimization",
+      "purpose": "Context-window efficiency",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "muratcankoylan/Agent-Skills-for-Context-Engineering@harness-engineering",
+      "repo": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "skill": "harness-engineering",
+      "purpose": "Agent harness architecture",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "muratcankoylan/Agent-Skills-for-Context-Engineering@tool-design",
+      "repo": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "skill": "tool-design",
+      "purpose": "Reliable agent tool interfaces",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "cloudflare/skills@cloudflare",
+      "repo": "cloudflare/skills",
+      "skill": "cloudflare",
+      "purpose": "Cloudflare Workers and distributed infrastructure",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    },
+    {
+      "id": "terminalskills/skills@agent-memory",
+      "repo": "terminalskills/skills",
+      "skill": "agent-memory",
+      "purpose": "Practical persistent agent memory",
+      "verification": "SKILL.md inspected",
+      "license_status": "check exact upstream license before reuse"
+    }
+  ],
+  "profiles": {
+    "developer": {
+      "label": "Developer",
+      "description": "Build, review, test and ship software.",
+      "core": [
+        "anthropics/skills@webapp-testing",
+        "vercel-labs/agent-skills@vercel-react-best-practices",
+        "mattpocock/skills@grill-with-docs"
+      ],
+      "extended": [
+        "anthropics/skills@mcp-builder",
+        "vercel-labs/agent-skills@web-design-guidelines",
+        "vercel-labs/agent-skills@vercel-react-view-transitions",
+        "cloudflare/skills@cloudflare"
+      ]
+    },
+    "engineering": {
+      "label": "Engineering",
+      "description": "Architecture, infrastructure, performance and operability.",
+      "core": [
+        "mattpocock/skills@grill-with-docs",
+        "muratcankoylan/Agent-Skills-for-Context-Engineering@harness-engineering",
+        "vercel-labs/agent-skills@vercel-react-best-practices"
+      ],
+      "extended": [
+        "anthropics/skills@mcp-builder",
+        "cloudflare/skills@cloudflare",
+        "muratcankoylan/Agent-Skills-for-Context-Engineering@tool-design"
+      ]
+    },
+    "design": {
+      "label": "Designer",
+      "description": "Direction, accessibility, visual polish and production UI.",
+      "core": [
+        "anthropics/skills@frontend-design",
+        "vercel-labs/agent-skills@web-design-guidelines",
+        "anthropics/skills@canvas-design"
+      ],
+      "extended": [
+        "vercel-labs/agent-skills@vercel-react-view-transitions",
+        "JimLiu/baoyu-skills@baoyu-cover-image",
+        "anthropics/skills@algorithmic-art"
+      ]
+    },
+    "founder": {
+      "label": "Founder",
+      "description": "Understand markets, validate value and find customers.",
+      "core": [
+        "slavingia/skills@find-community",
+        "slavingia/skills@validate-idea",
+        "slavingia/skills@mvp"
+      ],
+      "extended": [
+        "slavingia/skills@first-customers",
+        "slavingia/skills@pricing",
+        "mattpocock/skills@grill-me",
+        "coreyhaines31/marketingskills@marketing-ideas"
+      ]
+    },
+    "product": {
+      "label": "Product",
+      "description": "Discover, prioritize and deliver valuable outcomes.",
+      "core": [
+        "mattpocock/skills@grill-with-docs",
+        "slavingia/skills@validate-idea",
+        "vercel-labs/agent-skills@writing-guidelines"
+      ],
+      "extended": [
+        "slavingia/skills@mvp",
+        "slavingia/skills@first-customers",
+        "mvanhorn/last30days-skill@last30days"
+      ]
+    },
+    "marketing": {
+      "label": "Marketer",
+      "description": "Research, message, distribute and measure.",
+      "core": [
+        "coreyhaines31/marketingskills@copywriting",
+        "coreyhaines31/marketingskills@content-strategy",
+        "coreyhaines31/marketingskills@seo-audit"
+      ],
+      "extended": [
+        "coreyhaines31/marketingskills@marketing-ideas",
+        "slavingia/skills@marketing-plan",
+        "mvanhorn/last30days-skill@last30days",
+        "vercel-labs/agent-skills@writing-guidelines"
+      ]
+    },
+    "creator": {
+      "label": "Creator",
+      "description": "Publish strong visual and written content.",
+      "core": [
+        "JimLiu/baoyu-skills@baoyu-article-illustrator",
+        "JimLiu/baoyu-skills@baoyu-cover-image",
+        "JimLiu/baoyu-skills@baoyu-format-markdown"
+      ],
+      "extended": [
+        "JimLiu/baoyu-skills@baoyu-image-gen",
+        "JimLiu/baoyu-skills@baoyu-slide-deck",
+        "anthropics/skills@canvas-design",
+        "coreyhaines31/marketingskills@content-strategy"
+      ]
+    },
+    "investor": {
+      "label": "Investor",
+      "description": "Diligence, valuation and independent challenge.",
+      "core": [
+        "finterm-ai/investment-skills@buffett-investment-framework",
+        "acantrell0523/family-office@equity-research",
+        "acantrell0523/family-office@risk"
+      ],
+      "extended": [
+        "evilhill/equity-research-skill@equity-research-skill-v1-2",
+        "acantrell0523/family-office@macro",
+        "acantrell0523/family-office@cio"
+      ]
+    },
+    "family-office": {
+      "label": "Family Office",
+      "description": "Private wealth, operating companies and investment committee.",
+      "core": [
+        "acantrell0523/family-office@cio",
+        "acantrell0523/family-office@risk",
+        "acantrell0523/family-office@ventures"
+      ],
+      "extended": [
+        "acantrell0523/family-office@equity-research",
+        "acantrell0523/family-office@macro",
+        "finterm-ai/investment-skills@buffett-investment-framework"
+      ]
+    },
+    "research": {
+      "label": "Researcher",
+      "description": "Sources, research methodology and reproducibility.",
+      "core": [
+        "mvanhorn/last30days-skill@last30days",
+        "muratcankoylan/Agent-Skills-for-Context-Engineering@context-optimization",
+        "vercel-labs/agent-skills@writing-guidelines"
+      ],
+      "extended": [
+        "acantrell0523/family-office@macro",
+        "mattpocock/skills@grill-with-docs"
+      ]
+    },
+    "ai-agents": {
+      "label": "AI and Agents",
+      "description": "Design agent tools, evals, skills and orchestration.",
+      "core": [
+        "anthropics/skills@skill-creator",
+        "anthropics/skills@mcp-builder",
+        "muratcankoylan/Agent-Skills-for-Context-Engineering@harness-engineering"
+      ],
+      "extended": [
+        "muratcankoylan/Agent-Skills-for-Context-Engineering@tool-design",
+        "muratcankoylan/Agent-Skills-for-Context-Engineering@context-optimization",
+        "muratcankoylan/Agent-Skills-for-Context-Engineering@memory-systems"
+      ]
+    },
+    "ai-memory": {
+      "label": "AI Memory & Context",
+      "description": "Portable memory, context engineering and retrieval.",
+      "core": [
+        "muratcankoylan/Agent-Skills-for-Context-Engineering@memory-systems",
+        "terminalskills/skills@agent-memory",
+        "muratcankoylan/Agent-Skills-for-Context-Engineering@context-optimization"
+      ],
+      "extended": [
+        "muratcankoylan/Agent-Skills-for-Context-Engineering@harness-engineering",
+        "muratcankoylan/Agent-Skills-for-Context-Engineering@tool-design",
+        "anthropics/skills@mcp-builder"
+      ]
+    },
+    "ai-compute": {
+      "label": "AI Compute & Inference",
+      "description": "Models, routing, free tiers, local and edge compute.",
+      "core": [
+        "cloudflare/skills@cloudflare",
+        "muratcankoylan/Agent-Skills-for-Context-Engineering@harness-engineering",
+        "muratcankoylan/Agent-Skills-for-Context-Engineering@context-optimization"
+      ],
+      "extended": [
+        "anthropics/skills@mcp-builder",
+        "muratcankoylan/Agent-Skills-for-Context-Engineering@tool-design"
+      ]
+    },
+    "sovereignty": {
+      "label": "Sovereignty",
+      "description": "Interoperability, private operation, portability and exit.",
+      "core": [
+        "terminalskills/skills@agent-memory",
+        "cloudflare/skills@cloudflare",
+        "anthropics/skills@mcp-builder"
+      ],
+      "extended": [
+        "muratcankoylan/Agent-Skills-for-Context-Engineering@memory-systems",
+        "muratcankoylan/Agent-Skills-for-Context-Engineering@tool-design"
+      ]
+    },
+    "operations": {
+      "label": "Operator",
+      "description": "Internal processes, automation and execution.",
+      "core": [
+        "mattpocock/skills@grill-me",
+        "anthropics/skills@skill-creator",
+        "slavingia/skills@mvp"
+      ],
+      "extended": [
+        "coreyhaines31/marketingskills@marketing-ideas",
+        "vercel-labs/agent-skills@writing-guidelines"
+      ]
+    }
+  },
+  "tools": [
+    {
+      "name": "OmniRoute",
+      "url": "https://github.com/cheaper-inference/OmniRoute",
+      "category": "inference",
+      "purpose": "Unified model gateway, quotas and fallback",
+      "profiles": [
+        "ai-compute",
+        "ai-agents",
+        "developer"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "9Router",
+      "url": "https://github.com/decolua/9router",
+      "category": "inference",
+      "purpose": "Multi-provider routing and quota management; review credential and proxy risks",
+      "profiles": [
+        "ai-compute",
+        "developer"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "LiteLLM",
+      "url": "https://github.com/BerriAI/litellm",
+      "category": "inference",
+      "purpose": "Model-agnostic API proxy and usage observability",
+      "profiles": [
+        "ai-compute",
+        "ai-agents"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai/",
+      "category": "inference",
+      "purpose": "Optional hosted model access and routing",
+      "profiles": [
+        "ai-compute"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "category": "inference",
+      "purpose": "Local model runtime",
+      "profiles": [
+        "ai-compute",
+        "sovereignty"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Ollama",
+      "url": "https://github.com/ollama/ollama",
+      "category": "inference",
+      "purpose": "Local model management",
+      "profiles": [
+        "ai-compute",
+        "sovereignty"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "vLLM",
+      "url": "https://github.com/vllm-project/vllm",
+      "category": "inference",
+      "purpose": "GPU model serving",
+      "profiles": [
+        "ai-compute",
+        "engineering"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "exo",
+      "url": "https://github.com/exo-explore/exo",
+      "category": "inference",
+      "purpose": "Experimental multi-device inference",
+      "profiles": [
+        "ai-compute"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "MLX",
+      "url": "https://github.com/ml-explore/mlx",
+      "category": "inference",
+      "purpose": "Apple silicon machine learning",
+      "profiles": [
+        "ai-compute"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "WebLLM",
+      "url": "https://github.com/mlc-ai/web-llm",
+      "category": "inference",
+      "purpose": "In-browser model inference",
+      "profiles": [
+        "ai-compute",
+        "creator"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Free Inference Watch",
+      "url": "https://github.com/surendranb/free-inference",
+      "category": "catalog",
+      "purpose": "Public free inference provider tracker; verify live quotas",
+      "profiles": [
+        "ai-compute"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "GroqCloud",
+      "url": "https://console.groq.com/",
+      "category": "provider",
+      "purpose": "Rate-limited hosted inference; verify current free terms",
+      "profiles": [
+        "ai-compute"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Cloudflare Workers AI",
+      "url": "https://developers.cloudflare.com/workers-ai/",
+      "category": "provider",
+      "purpose": "Edge inference with usage caps",
+      "profiles": [
+        "ai-compute",
+        "engineering"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "NVIDIA Build",
+      "url": "https://build.nvidia.com/",
+      "category": "provider",
+      "purpose": "Developer model endpoints, possible trial-only access",
+      "profiles": [
+        "ai-compute"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://github.com/huggingface/huggingface_hub",
+      "category": "provider",
+      "purpose": "Model and dataset discovery",
+      "profiles": [
+        "ai-compute",
+        "research"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Context7",
+      "url": "https://github.com/upstash/context7",
+      "category": "mcp",
+      "purpose": "Live library documentation for agents",
+      "profiles": [
+        "developer",
+        "engineering",
+        "ai-agents",
+        "ai-memory"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "MCP Servers",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "category": "mcp",
+      "purpose": "Official tool-interface reference implementations",
+      "profiles": [
+        "ai-agents",
+        "developer"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Playwright MCP",
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "category": "mcp",
+      "purpose": "Browser inspection and automation with permissions",
+      "profiles": [
+        "developer",
+        "design"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Browser Use",
+      "url": "https://github.com/browser-use/browser-use",
+      "category": "tool",
+      "purpose": "Browser agent orchestration",
+      "profiles": [
+        "developer",
+        "ai-agents"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "category": "tool",
+      "purpose": "Browser automation CLI for agents",
+      "profiles": [
+        "developer",
+        "design"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Hermes Agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "category": "agent",
+      "purpose": "Agent runtime with skills and connectors",
+      "profiles": [
+        "ai-agents",
+        "ai-compute"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "OpenCode",
+      "url": "https://github.com/anomalyco/opencode",
+      "category": "agent",
+      "purpose": "Independent coding-agent runtime",
+      "profiles": [
+        "developer",
+        "engineering"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Codex",
+      "url": "https://github.com/openai/codex",
+      "category": "agent",
+      "purpose": "Coding agent runtime",
+      "profiles": [
+        "developer",
+        "engineering"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Vercel skills CLI",
+      "url": "https://github.com/vercel-labs/skills",
+      "category": "installer",
+      "purpose": "Shared multi-agent skill installation",
+      "profiles": [
+        "developer",
+        "ai-agents"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Skills.sh",
+      "url": "https://skills.sh/",
+      "category": "catalog",
+      "purpose": "Skill search and popularity index",
+      "profiles": [
+        "ai-agents"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Anthropic Skills",
+      "url": "https://github.com/anthropics/skills",
+      "category": "catalog",
+      "purpose": "Official exemplar skills; check per-folder licenses",
+      "profiles": [
+        "ai-agents",
+        "design"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Marketing Skills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "category": "catalog",
+      "purpose": "Marketing domain skills",
+      "profiles": [
+        "marketing",
+        "founder"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Phuryn PM Skills",
+      "url": "https://github.com/phuryn/pm-skills",
+      "category": "catalog",
+      "purpose": "Product management skills and chained workflows",
+      "profiles": [
+        "product",
+        "founder"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Wshobson Agents",
+      "url": "https://github.com/wshobson/agents",
+      "category": "catalog",
+      "purpose": "Multi-harness plugins, skills and specialized agents",
+      "profiles": [
+        "developer",
+        "engineering"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "category": "design",
+      "purpose": "Design critique, typography and polish toolkit, separate installer",
+      "profiles": [
+        "design",
+        "developer"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Stitch Skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "category": "design",
+      "purpose": "Design-to-UI skills, requires Stitch integrations",
+      "profiles": [
+        "design"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "UI UX Pro Max",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "category": "design",
+      "purpose": "UI/UX design knowledge and style references",
+      "profiles": [
+        "design"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "category": "tool",
+      "purpose": "Coding-agent engineering methodology; use upstream plugin install",
+      "profiles": [
+        "developer",
+        "engineering"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "category": "tool",
+      "purpose": "Multi-role engineering and product QA; use upstream installation",
+      "profiles": [
+        "developer",
+        "founder"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Repomix",
+      "url": "https://github.com/yamadashy/repomix",
+      "category": "tool",
+      "purpose": "Package repository context for AI coding agents",
+      "profiles": [
+        "developer",
+        "ai-memory"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Mem0",
+      "url": "https://github.com/mem0ai/mem0",
+      "category": "memory",
+      "purpose": "Personal and agent memory infrastructure",
+      "profiles": [
+        "ai-memory",
+        "sovereignty"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Letta",
+      "url": "https://github.com/letta-ai/letta",
+      "category": "memory",
+      "purpose": "Stateful agent memory framework",
+      "profiles": [
+        "ai-memory"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Graphiti",
+      "url": "https://github.com/getzep/graphiti",
+      "category": "memory",
+      "purpose": "Temporal knowledge graph for memory",
+      "profiles": [
+        "ai-memory"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Automerge",
+      "url": "https://github.com/automerge/automerge",
+      "category": "data",
+      "purpose": "Local-first sync primitives",
+      "profiles": [
+        "sovereignty",
+        "ai-memory"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Syncthing",
+      "url": "https://github.com/syncthing/syncthing",
+      "category": "data",
+      "purpose": "User-controlled device sync",
+      "profiles": [
+        "sovereignty"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "rclone",
+      "url": "https://github.com/rclone/rclone",
+      "category": "data",
+      "purpose": "Portable file movement across cloud providers",
+      "profiles": [
+        "sovereignty"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "SearXNG",
+      "url": "https://github.com/searxng/searxng",
+      "category": "search",
+      "purpose": "Self-hostable metasearch",
+      "profiles": [
+        "sovereignty",
+        "research"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Perplexica",
+      "url": "https://github.com/ItzCrazyKns/Perplexica",
+      "category": "search",
+      "purpose": "Open research answer experience",
+      "profiles": [
+        "research",
+        "sovereignty"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Open WebUI",
+      "url": "https://github.com/open-webui/open-webui",
+      "category": "tool",
+      "purpose": "Local/provider independent AI chat front-end",
+      "profiles": [
+        "ai-memory",
+        "sovereignty"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Financial Agent Skills",
+      "url": "https://github.com/agentii-ai/agentii-investment-intelligence",
+      "category": "finance",
+      "purpose": "Financial modeling and filings skill collection; many depend on services",
+      "profiles": [
+        "investor",
+        "family-office"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Financial Services Agents",
+      "url": "https://github.com/commit-ai/anthropics-financial-services",
+      "category": "finance",
+      "purpose": "Financial vertical plugins and data connectors",
+      "profiles": [
+        "investor",
+        "family-office"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "FinceptTerminal",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "category": "finance",
+      "purpose": "Open financial research terminal",
+      "profiles": [
+        "investor",
+        "family-office"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Finance Guru",
+      "url": "https://github.com/AojdevStudio/Finance-Guru",
+      "category": "finance",
+      "purpose": "Self-hosted finance modeling and risk controls",
+      "profiles": [
+        "investor",
+        "family-office"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Research Skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "category": "research",
+      "purpose": "Scientific methods, datasets and reproducible workflows",
+      "profiles": [
+        "research",
+        "investor"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    },
+    {
+      "name": "Awesome AI Skills",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "category": "catalog",
+      "purpose": "Additional skill discovery, not a tested bundle",
+      "profiles": [
+        "ai-agents",
+        "creator"
+      ],
+      "installation": "manual_review",
+      "claims": "verify current capabilities and pricing before use"
+    }
+  ],
+  "source_collections": [
+    {
+      "name": "Anthropic",
+      "repo": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "purpose": "Reference design, tools and creator skills"
+    },
+    {
+      "name": "Vercel",
+      "repo": "vercel-labs/agent-skills",
+      "url": "https://github.com/vercel-labs/agent-skills",
+      "purpose": "Engineering and frontend practices"
+    },
+    {
+      "name": "Context Engineering",
+      "repo": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "purpose": "Memory, context and harness systems"
+    },
+    {
+      "name": "Marketing Skills",
+      "repo": "coreyhaines31/marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "purpose": "Marketing and content"
+    },
+    {
+      "name": "Minimalist Entrepreneur",
+      "repo": "slavingia/skills",
+      "url": "https://github.com/slavingia/skills",
+      "purpose": "Small business building"
+    },
+    {
+      "name": "Baoyu",
+      "repo": "JimLiu/baoyu-skills",
+      "url": "https://github.com/JimLiu/baoyu-skills",
+      "purpose": "Illustration, decks and publishing"
+    },
+    {
+      "name": "Matt Pocock",
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "purpose": "Engineering discovery"
+    },
+    {
+      "name": "Family Office",
+      "repo": "acantrell0523/family-office",
+      "url": "https://github.com/acantrell0523/family-office",
+      "purpose": "Investment research and private financial workflows"
+    },
+    {
+      "name": "K-Dense",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "purpose": "Scientific methodology"
+    },
+    {
+      "name": "Phuryn PM",
+      "repo": "phuryn/pm-skills",
+      "url": "https://github.com/phuryn/pm-skills",
+      "purpose": "Product management"
+    },
+    {
+      "name": "Wshobson",
+      "repo": "wshobson/agents",
+      "url": "https://github.com/wshobson/agents",
+      "purpose": "Cross-agent engineer tools"
+    },
+    {
+      "name": "Superpowers",
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "purpose": "Coding agent workflow"
+    },
+    {
+      "name": "GStack",
+      "repo": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "purpose": "Coding agent leadership and QA"
+    },
+    {
+      "name": "Stitch",
+      "repo": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "purpose": "Design systems and code handoff"
+    },
+    {
+      "name": "Impeccable",
+      "repo": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "purpose": "Visual design critique"
+    },
+    {
+      "name": "Awesome Agent Skills",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "purpose": "Broad community discovery"
+    },
+    {
+      "name": "Skills CLI",
+      "repo": "vercel-labs/skills",
+      "url": "https://github.com/vercel-labs/skills",
+      "purpose": "Multi-harness skill installation"
+    }
+  ],
+  "limits": {
+    "upstream_revisions": "not_pinned",
+    "binary_execution": "delegated_to_external_skills_cli_and_requires_explicit_yes",
+    "tool_install": "reference_only",
+    "compatibility": "per-agent_variation",
+    "pricing": "time_sensitive_and_unverified"
+  }
+}
