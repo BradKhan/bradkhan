@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "edition": "2026-11-01",
-  "source_count": 206,
+  "source_count": 211,
   "method": "Curated public repository inventory plus exact inspected Agent Skill files, tools and collections. Source presence is verified at a point in time; integration, licensing and security are not comprehensively audited.",
   "sources": [
     {
@@ -71,6 +71,20 @@
       "review_level": "readme_inspected",
       "license_status": "not_audited",
       "integration_status": "not_verified"
+    },
+    {
+      "name": "anti-guru",
+      "url": "https://github.com/BradKhan/bradkhan/blob/main/composable-internet/stack-mutiny/packs/anti-guru/SKILL.md",
+      "domain": "AI and agents",
+      "contexts": [
+        "original_role_skill",
+        "stack_mutiny_installable"
+      ],
+      "why": "Original skill: Evidence-driven growth strategy. Experimental, independently published.",
+      "origin": "first_party_project",
+      "review_level": "skill_file_inspected",
+      "license_status": "original_role_skill",
+      "integration_status": "not_field_validated"
     },
     {
       "name": "atomic-agents",
@@ -755,6 +769,20 @@
       "review_level": "linked_in_composition",
       "license_status": "not_audited",
       "integration_status": "not_verified"
+    },
+    {
+      "name": "ship-or-it-didnt-happen",
+      "url": "https://github.com/BradKhan/bradkhan/blob/main/composable-internet/stack-mutiny/packs/ship-or-it-didnt-happen/SKILL.md",
+      "domain": "AI and agents",
+      "contexts": [
+        "original_role_skill",
+        "stack_mutiny_installable"
+      ],
+      "why": "Original skill: Software delivery with test evidence. Experimental, independently published.",
+      "origin": "first_party_project",
+      "review_level": "skill_file_inspected",
+      "license_status": "original_role_skill",
+      "integration_status": "not_field_validated"
     },
     {
       "name": "skill-creator",
@@ -1445,6 +1473,20 @@
       "review_level": "editorial_lead",
       "license_status": "not_audited",
       "integration_status": "not_verified"
+    },
+    {
+      "name": "stop-shipping-beige",
+      "url": "https://github.com/BradKhan/bradkhan/blob/main/composable-internet/stack-mutiny/packs/stop-shipping-beige/SKILL.md",
+      "domain": "Creative technology",
+      "contexts": [
+        "original_role_skill",
+        "stack_mutiny_installable"
+      ],
+      "why": "Original skill: Distinctive design with visual QA. Experimental, independently published.",
+      "origin": "first_party_project",
+      "review_level": "skill_file_inspected",
+      "license_status": "original_role_skill",
+      "integration_status": "not_field_validated"
     },
     {
       "name": "syncthing",
@@ -2751,6 +2793,20 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "no-permission-required",
+      "url": "https://github.com/BradKhan/bradkhan/blob/main/composable-internet/stack-mutiny/packs/no-permission-required/SKILL.md",
+      "domain": "Venture and markets",
+      "contexts": [
+        "original_role_skill",
+        "stack_mutiny_installable"
+      ],
+      "why": "Original skill: Venture validation and first offers. Experimental, independently published.",
+      "origin": "first_party_project",
+      "review_level": "skill_file_inspected",
+      "license_status": "original_role_skill",
+      "integration_status": "not_field_validated"
+    },
+    {
       "name": "open-payments",
       "url": "https://github.com/interledger/open-payments",
       "domain": "Venture and markets",
@@ -2860,6 +2916,20 @@
       "review_level": "linked_in_composition",
       "license_status": "not_audited",
       "integration_status": "not_verified"
+    },
+    {
+      "name": "show-the-receipts",
+      "url": "https://github.com/BradKhan/bradkhan/blob/main/composable-internet/stack-mutiny/packs/show-the-receipts/SKILL.md",
+      "domain": "Venture and markets",
+      "contexts": [
+        "original_role_skill",
+        "stack_mutiny_installable"
+      ],
+      "why": "Original skill: Investment diligence with sources and contradictions. Experimental, independently published.",
+      "origin": "first_party_project",
+      "review_level": "skill_file_inspected",
+      "license_status": "original_role_skill",
+      "integration_status": "not_field_validated"
     },
     {
       "name": "skills",
