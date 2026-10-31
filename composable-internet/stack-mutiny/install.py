@@ -80,10 +80,23 @@ def select_skills(data, names, depth):
 def build_command(item, agent, global_scope=False, cli_version="1.7.4"):
     if not re.fullmatch(r"\d+\.\d+\.\d+", cli_version):
         raise ValueError("CLI version must be pinned to a numeric release")
-    command = ["npx", "--yes", f"skills@{cli_version}", "add", item["repo"], "--skill", item["skill"], "-a", agent, "-y"]
+    items = item if isinstance(item, list) else [item]
+    if not items or len({x["repo"] for x in items}) != 1:
+        raise ValueError("one install command must target exactly one upstream repository")
+    command = ["npx", "--yes", f"skills@{cli_version}", "add", items[0]["repo"]]
+    for entry in items:
+        command.extend(["--skill", entry["skill"]])
+    command.extend(["-a", agent, "-y"])
     if global_scope:
         command.append("-g")
     return command
+
+
+def group_by_repository(items):
+    groups = {}
+    for item in items:
+        groups.setdefault(item["repo"], []).append(item)
+    return list(groups.values())
 
 
 def main(argv=None, runner=None):
@@ -117,14 +130,20 @@ def main(argv=None, runner=None):
         if not names:
             parser.error("select at least one profile; see 'list'")
         selected = select_skills(data, names, args.depth)
-        print(f"Profiles: {', '.join(names)} | {args.depth} | agent={args.agent} | selected={len(selected)}")
+        skipped = [item for item in selected if item.get("supported_agents") and args.agent not in item["supported_agents"]]
+        selected = [item for item in selected if item not in skipped]
+        print(f"Profiles: {', '.join(names)} | {args.depth} | agent={args.agent} | selected={len(selected)} | incompatible={len(skipped)}")
+        for item in skipped:
+            print("  ! SKIPPED (requires a different agent): " + item["id"])
         for item in selected:
             print("  + " + item["id"] + " | " + item["purpose"])
+        if not selected:
+            raise ValueError("no skills remain for this agent; choose another profile or agent")
         print("Tool integrations are reference-only. Use 'tools' to review their setup requirements.")
         if args.action == "plan":
             print("\nCommands that would be executed:")
-            for item in selected:
-                print("  " + " ".join(build_command(item, args.agent, args.global_scope, args.cli_version)))
+            for group in group_by_repository(selected):
+                print("  " + " ".join(build_command(group, args.agent, args.global_scope, args.cli_version)))
             return 0
         if not args.yes:
             print("No changes made. Re-run with --yes after reviewing the plan.", file=sys.stderr)
@@ -135,15 +154,15 @@ def main(argv=None, runner=None):
         run = runner or subprocess.run
         env = dict(os.environ, DISABLE_TELEMETRY="1", DO_NOT_TRACK="1")
         failed = []
-        for item in selected:
-            command = build_command(item, args.agent, args.global_scope, args.cli_version)
-            print("\nInstalling: " + item["id"], flush=True)
+        for group in group_by_repository(selected):
+            command = build_command(group, args.agent, args.global_scope, args.cli_version)
+            print("\nInstalling from " + group[0]["repo"] + ": " + ", ".join(x["skill"] for x in group), flush=True)
             result = run(command, env=env, check=False)
             if result.returncode:
-                failed.append(item["id"])
-                print("FAILED: " + item["id"], file=sys.stderr)
+                failed.extend(x["id"] for x in group)
+                print("FAILED: " + ", ".join(x["id"] for x in group), file=sys.stderr)
         if failed:
-            print(f"{len(selected) - len(failed)}/{len(selected)} installs succeeded; failures: {', '.join(failed)}", file=sys.stderr)
+            print(f"{len(selected) - len(failed)}/{len(selected)} skills reported successful; failures: {', '.join(failed)}", file=sys.stderr)
             return 1
         print(f"Completed {len(selected)} skill installations. Restart your agent, then verify the loaded skills.")
         return 0
