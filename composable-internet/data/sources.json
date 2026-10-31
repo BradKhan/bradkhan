@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
   "edition": "2026-11-01",
-  "source_count": 118,
-  "method": "public saved repository inventory, selected README excerpts and source leads; not a code or license audit",
+  "source_count": 132,
+  "method": "public saved repository inventory, selected README excerpts, open-source directory research and Skill Issue upstream leads; not code or license audit",
   "sources": [
     {
       "name": "agency-swarm",
@@ -253,6 +253,19 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "domain": "AI and agents",
+      "contexts": [
+        "skill_issue_upstream_candidate"
+      ],
+      "why": "Agent coding and QA workflows",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "kreuzberg",
       "url": "https://github.com/kreuzberg-dev/kreuzberg",
       "domain": "AI and agents",
@@ -487,6 +500,19 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "skills",
+      "url": "https://github.com/mattpocock/skills",
+      "domain": "AI and agents",
+      "contexts": [
+        "skill_issue_upstream_candidate"
+      ],
+      "why": "Engineering architecture, diagnosis, and review skills",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "skillspector",
       "url": "https://github.com/NVIDIA/skillspector",
       "domain": "AI and agents",
@@ -536,6 +562,19 @@
       "why": "coding agent process and skills",
       "origin": "personal_account_reference_authorship_not_assumed",
       "review_level": "readme_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "domain": "AI and agents",
+      "contexts": [
+        "skill_issue_upstream_candidate"
+      ],
+      "why": "Engineering skill methodology and planning",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
       "license_status": "not_audited",
       "integration_status": "not_verified"
     },
@@ -683,6 +722,19 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "awesome-design-md",
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "domain": "Creative technology",
+      "contexts": [
+        "skill_issue_upstream_candidate"
+      ],
+      "why": "Agent-readable design specifications",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "awesome-motion-graphics",
       "url": "https://github.com/beast-ofcourse/awesome-motion-graphics",
       "domain": "Creative technology",
@@ -690,6 +742,19 @@
         "source_collection_or_engine"
       ],
       "why": "Motion graphics tooling",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "baoyu-skills",
+      "url": "https://github.com/JimLiu/baoyu-skills",
+      "domain": "Creative technology",
+      "contexts": [
+        "skill_issue_upstream_candidate"
+      ],
+      "why": "Creative content production and publishing skills",
       "origin": "external_repository",
       "review_level": "editorial_lead",
       "license_status": "not_audited",
@@ -748,6 +813,19 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "domain": "Creative technology",
+      "contexts": [
+        "skill_issue_upstream_candidate"
+      ],
+      "why": "Frontend design, critique, accessibility, and polish",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "playwright",
       "url": "https://github.com/microsoft/playwright",
       "domain": "Creative technology",
@@ -800,6 +878,19 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "domain": "Creative technology",
+      "contexts": [
+        "skill_issue_upstream_candidate"
+      ],
+      "why": "Design-to-code skills and DESIGN.md workflows",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "syncthing",
       "url": "https://github.com/syncthing/syncthing",
       "domain": "Creative technology",
@@ -809,6 +900,19 @@
       "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
       "origin": "external_reference",
       "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "domain": "Creative technology",
+      "contexts": [
+        "skill_issue_upstream_candidate"
+      ],
+      "why": "Design references and structured visual guidance",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
       "license_status": "not_audited",
       "integration_status": "not_verified"
     },
@@ -1375,6 +1479,19 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "domain": "Public knowledge",
+      "contexts": [
+        "skill_issue_upstream_candidate"
+      ],
+      "why": "Recent public discussion research skills",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "owid-grapher",
       "url": "https://github.com/owid/owid-grapher",
       "domain": "Public knowledge",
@@ -1415,6 +1532,19 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "domain": "Venture and markets",
+      "contexts": [
+        "skill_issue_upstream_candidate"
+      ],
+      "why": "Cross-disciplinary business, research, marketing, and finance skills",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "dexter",
       "url": "https://github.com/BradKhan/dexter",
       "domain": "Venture and markets",
@@ -1424,6 +1554,19 @@
       "why": "financial research agent reference",
       "origin": "personal_account_reference_authorship_not_assumed",
       "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "financial-analyst-skills",
+      "url": "https://github.com/Ruinius/financial-analyst-skills",
+      "domain": "Venture and markets",
+      "contexts": [
+        "skill_issue_upstream_candidate"
+      ],
+      "why": "Financial document processing and valuation workflow",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
       "license_status": "not_audited",
       "integration_status": "not_verified"
     },
@@ -1441,6 +1584,19 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "FinceptTerminal",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "domain": "Venture and markets",
+      "contexts": [
+        "skill_issue_upstream_candidate"
+      ],
+      "why": "Finance analytics engine, not an agent skill",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "Khan-AIOS-Venture-Studio-MVP-Framework",
       "url": "https://github.com/BradKhan/Khan-AIOS-Venture-Studio-MVP-Framework",
       "domain": "Venture and markets",
@@ -1450,6 +1606,19 @@
       "why": "first-party venture template",
       "origin": "first_party_project",
       "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "domain": "Venture and markets",
+      "contexts": [
+        "skill_issue_upstream_candidate"
+      ],
+      "why": "Marketing research, CRO, SEO, and growth workflows",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
       "license_status": "not_audited",
       "integration_status": "not_verified"
     },
@@ -1489,6 +1658,19 @@
       "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
       "origin": "external_reference",
       "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills",
+      "domain": "Venture and markets",
+      "contexts": [
+        "skill_issue_upstream_candidate"
+      ],
+      "why": "Product management and experimentation skills",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
       "license_status": "not_audited",
       "integration_status": "not_verified"
     },
