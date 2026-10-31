@@ -1,10 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="335" viewBox="0 0 1200 335" role="img" aria-labelledby="title desc">
-<title id="title">The future is not their property.</title>
-<desc id="desc">Editorial manifesto on cream: bold near-black text across two lines, with the word NOT in brick red. No personal name or supporting slogans.</desc>
-<rect width="1200" height="335" fill="#F2EFE5"/>
-<g font-family="Impact, 'Arial Narrow', 'Liberation Sans Narrow', 'DejaVu Sans Condensed', sans-serif" font-weight="900" letter-spacing="-2">
-<text x="43" y="137" font-size="122" textLength="856" lengthAdjust="spacingAndGlyphs" fill="#171816">THE FUTURE IS</text>
-<text x="920" y="137" font-size="122" textLength="238" lengthAdjust="spacingAndGlyphs" fill="#B84631">NOT</text>
-<text x="43" y="276" font-size="122" textLength="1115" lengthAdjust="spacingAndGlyphs" fill="#171816">THEIR PROPERTY.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="600" viewBox="0 0 1800 600" role="img" aria-labelledby="title desc">
+<title id="title">Brad Khan · Tech × Society × Renaissance</title>
+<desc id="desc">A restrained editorial banner with elegant ivory serif typography on charcoal, gold details, and a subtle geometric motif. Brad Khan, Human Agency at Every Scale, bradkhan.com.</desc>
+<defs>
+<radialGradient id="bg" cx=".76" cy=".48" r=".85"><stop offset="0" stop-color="#282825"/><stop offset=".8" stop-color="#181917"/><stop offset="1" stop-color="#121312"/></radialGradient>
+<linearGradient id="cream" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#FFF9E8"/><stop offset="1" stop-color="#DDD3BD"/></linearGradient>
+</defs>
+<rect width="1800" height="600" fill="url(#bg)"/>
+<g fill="none" stroke="#C49B58" stroke-width="1.4" opacity=".24">
+<circle cx="1620" cy="322" r="221"/><circle cx="1399" cy="322" r="221"/><circle cx="1509.5" cy="130.6" r="221"/><circle cx="1509.5" cy="513.4" r="221"/><circle cx="1730.5" cy="130.6" r="221"/><circle cx="1730.5" cy="513.4" r="221"/>
 </g>
+<rect x="91" y="76" width="2" height="454" fill="#B89963" opacity=".8"/>
+<text x="138" y="119" font-family="Noto Serif Display, Georgia, Times New Roman, serif" font-size="32" font-weight="400" letter-spacing="12.5" fill="#C8A569">TECH &#215; SOCIETY &#215; RENAISSANCE</text>
+<text x="131" y="334" font-family="Noto Serif Display, Georgia, Times New Roman, serif" font-size="174" font-weight="400" letter-spacing="-5" fill="url(#cream)">BRAD KHAN</text>
+<text x="141" y="412" font-family="Noto Serif Display, Georgia, Times New Roman, serif" font-size="42" font-style="italic" letter-spacing="8.2" fill="#E9E2D3">HUMAN AGENCY, AT EVERY SCALE</text>
+<rect x="142" y="492" width="66" height="3" fill="#BE9A5B"/>
+<text x="233" y="506" font-family="Noto Serif Display, Georgia, Times New Roman, serif" font-size="40" font-weight="400" letter-spacing="1.6" fill="#F0E9D9">bradkhan.com</text>
 </svg>
