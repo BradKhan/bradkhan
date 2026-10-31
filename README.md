@@ -1,49 +1,47 @@
 <div align="left">
 
-![BRAD KHAN.](assets/profile-hero.svg)
+![Brad Khan](assets/profile-hero.svg)
 
-**Entrepreneurial Technologist · Systems Entrepreneur · Philosopher**
+**Systems Entrepreneur · Technologist · Philosopher**
 
-[Personal site](https://bradkhan.com) · [Open-source projects](#selected-public-projects) · [Research atlas](composable-internet/README.md) · [LinkedIn](https://www.linkedin.com/in/bradkhan) · [Collaborate](https://bradkhan.com)
+[Website & writing](https://bradkhan.com) · [Open source](#selected-public-projects) · [The Composable Internet](composable-internet/README.md) · [LinkedIn](https://www.linkedin.com/in/bradkhan)
 
 </div>
 
 ## Build the world you would rather live in.
 
-I build companies, software, and ways of organizing knowledge that give people greater capacity to understand and shape their circumstances.
+I build companies, products, and technologies that expand people's capacity to understand their circumstances and shape what happens next.
 
-Technology should increase human agency. Too often it instead makes people dependent on opaque systems, concentrated infrastructure, and business models built around surveillance. I am interested in practical alternatives: portable intelligence, open technology, independent infrastructure, and the ability to choose who and what we rely on.
+My interests meet at the intersection of **technology, entrepreneurship, and power**. I believe technology should increase human agency, not make it easier to surveil people, capture their knowledge, or lock them into systems they cannot freely leave.
 
-I work across venture creation, product leadership, engineering, and strategic research. Over two decades, I've been a four-time founder and held CTO, VP Engineering, and Head of Product roles. My background in philosophy and sociology informs how I think about technology, political economy, organizations, and power.
+I'm a four-time founder with two decades in enterprise technology, product, engineering, and venture development. I've served as CTO, VP Engineering, and Head of Product. My background in philosophy and sociology shapes how I approach organizations, markets, incentives, and the structures behind technology.
 
-**I care about both the argument and the artifact.** The projects below range from working open-source software to public frameworks and researched proposals. Their status is explicit.
+I am especially interested in portable AI and personal data, independent infrastructure, open-source software, and building businesses with the capacity to make meaningful alternatives available.
 
 ## Selected public projects
 
-| Project | What you'll find | Status |
+| Project | What it does | What is public |
 | :--- | :--- | :--- |
-| **[Open ASS](https://github.com/BradKhan/open-ASS)** | A GitHub-native system for AI-assisted software development: reusable skills, context, workflow coordination, and verification. | Software and tooling; see repository for tested scope |
-| **[The Composable Internet](composable-internet/README.md)** | An open research atlas connecting existing software, skills, models, data, and workflows into products people could actually use. | Research collection; proposed compositions are not shipped apps |
-| **[Khan AI-OS Venture Studio Framework](https://github.com/BradKhan/Khan-AIOS-Venture-Studio-MVP-Framework)** | A Git-based venture-building template that keeps decisions, research, design, and delivery readable to people and agents. | Public template |
+| **[Open ASS](https://github.com/BradKhan/open-ASS)** | A GitHub-native system for developing software with AI agents: reusable skills, context, workflow coordination, and verification. | Open-source software and documentation |
+| **[The Composable Internet](composable-internet/README.md)** | An atlas of existing tools and ways to combine them into useful products, from AI and creative technology to privacy and independent infrastructure. | Source library and **24 proposed** compositions; not 24 finished products |
+| **[Khan AI-OS Venture Studio Framework](https://github.com/BradKhan/Khan-AIOS-Venture-Studio-MVP-Framework)** | A Git-based framework for taking a venture from research through product definition and delivery. | Public, reusable venture template |
 
-**[Explore the source library](composable-internet/SOURCES.md)** · **[Browse the compositions](composable-internet/README.md)** · **[See what is being built](composable-internet/BUILD-QUEUE.md)**
+[Explore the source library](composable-internet/SOURCES.md) · [Browse the compositions](composable-internet/README.md) · [See the build queue](composable-internet/BUILD-QUEUE.md)
 
-## Areas of inquiry
+## The larger direction
 
-**Independent intelligence.** Personal data, memory, identity, AI, and compute that remain portable between providers.
+**Independent intelligence.** Data, memory, identity, computing, and AI that people can control and carry across providers.
 
-**Venture architecture.** Researching and building companies, markets, products, and economic arrangements with a practical understanding of incentives and power.
+**Venture creation.** Identifying valuable opportunities, combining existing technologies intelligently, and taking products from an idea to a working release.
 
-**Human-centered technology.** Privacy, open-source software, accountable agents, accessible tools, and systems people can actually control.
+**Collective capacity.** Tools and systems that help people, communities, and independent businesses organize knowledge, coordinate, and own more of their infrastructure.
 
-**Collective capacity.** Technology that helps communities, independent businesses, and networks coordinate knowledge and resources on their own terms.
+## Collaboration
 
-## Work together
+I work with founders, venture studios, investors, and operating companies on venture architecture, product strategy, technology leadership, private AI, and complex software initiatives. This includes fractional CTO/CPO roles, advisory engagements, partnerships, and direct product development.
 
-I collaborate with founders, venture studios, investors, and organizations on product direction, technology strategy, AI adoption, venture design, and complex software initiatives. I am particularly interested in ambitious projects where technical execution and strategic judgment need to reinforce each other.
-
-For consulting, fractional CTO/CPO leadership, partnerships, or other serious inquiries: **[BradKhan.com](https://bradkhan.com)** · **[LinkedIn](https://www.linkedin.com/in/bradkhan)** · **[Upwork](https://www.upwork.com/freelancers/~019d51f13324a07eab)**.
+[BradKhan.com](https://bradkhan.com) · [LinkedIn](https://www.linkedin.com/in/bradkhan) · [Upwork](https://www.upwork.com/freelancers/~019d51f13324a07eab)
 
 ---
 
-<sub>Public GitHub repositories, research references, and private ventures are different things. My [agent-readable profile](data/profile.json), [editorial guidance](AGENTS.md), and [source provenance records](composable-internet/data/sources.json) preserve those distinctions.</sub>
+<sub>For automated readers: [public identity and projects](data/profile.json) · [repository guidance](AGENTS.md) · [research provenance](composable-internet/data/sources.json). Saved references and unfinished compositions are not represented as original, shipped software.</sub>
