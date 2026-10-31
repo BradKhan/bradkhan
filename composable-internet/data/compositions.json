@@ -9,7 +9,7 @@
       "id": "C01",
       "slug": "research-trails",
       "title": "Research Trails",
-      "category": "Personal intelligence",
+      "category": "Personal autonomy",
       "outcome": "Find the thing you saw months ago, including the research trail that led to it.",
       "audience": "Researchers, students, founders",
       "components": [
@@ -31,13 +31,14 @@
       "effort": "S",
       "priority": "immediate",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "Personal intelligence"
     },
     {
       "id": "C02",
       "slug": "saved-into-action",
       "title": "Saved Into Action",
-      "category": "Consumer liberation",
+      "category": "Personal autonomy",
       "outcome": "Turn forgotten social saves into usable collections such as recipes, tutorials and trips.",
       "audience": "Creators, travelers, ordinary users",
       "components": [
@@ -59,13 +60,14 @@
       "effort": "M",
       "priority": "immediate",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "Consumer liberation"
     },
     {
       "id": "C03",
       "slug": "exit-audit",
       "title": "Exit Audit",
-      "category": "Digital independence",
+      "category": "Personal autonomy",
       "outcome": "Know exactly what you'll keep and lose when moving a library out of a cloud platform.",
       "audience": "Consumers, privacy advocates",
       "components": [
@@ -87,13 +89,14 @@
       "effort": "M",
       "priority": "immediate",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "Digital independence"
     },
     {
       "id": "C04",
       "slug": "skill-safety-passport",
       "title": "Skill Safety Passport",
-      "category": "AI agents",
+      "category": "AI and agents",
       "outcome": "A human-readable safety and compatibility card for installable AI agent skills.",
       "audience": "Agent users, maintainers",
       "components": [
@@ -115,13 +118,14 @@
       "effort": "S",
       "priority": "immediate",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "AI agents"
     },
     {
       "id": "C05",
       "slug": "model-choice-lab",
       "title": "Model Choice Lab",
-      "category": "AI compute",
+      "category": "AI and agents",
       "outcome": "Choose a model by actual task performance, latency, privacy and cost.",
       "audience": "Developers, technical buyers",
       "components": [
@@ -143,13 +147,14 @@
       "effort": "S",
       "priority": "immediate",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "AI compute"
     },
     {
       "id": "C06",
       "slug": "open-source-opportunity-radar",
       "title": "Open Source Opportunity Radar",
-      "category": "Venture building",
+      "category": "Venture and markets",
       "outcome": "Discover recurring unmet needs hidden inside existing software ecosystems.",
       "audience": "Founders, venture studios",
       "components": [
@@ -171,13 +176,14 @@
       "effort": "M",
       "priority": "immediate",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "Venture building"
     },
     {
       "id": "C07",
       "slug": "repo-cinema",
       "title": "Repo Cinema",
-      "category": "Creative developer tools",
+      "category": "Creative technology",
       "outcome": "Turn a software release into a short, art-directed before/after demonstration.",
       "audience": "Independent developers, agencies",
       "components": [
@@ -199,13 +205,14 @@
       "effort": "S",
       "priority": "immediate",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "Creative developer tools"
     },
     {
       "id": "C08",
       "slug": "brand-constellation",
       "title": "Brand Constellation",
-      "category": "Design intelligence",
+      "category": "Creative technology",
       "outcome": "Show where brands converge, compete and distinguish themselves, visually and verbally.",
       "audience": "Designers, founders, editors",
       "components": [
@@ -227,13 +234,14 @@
       "effort": "M",
       "priority": "immediate",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "Design intelligence"
     },
     {
       "id": "C09",
       "slug": "own-your-feed",
       "title": "Own Your Feed",
-      "category": "Attention autonomy",
+      "category": "Independent publishing",
       "outcome": "Read trusted sources and public social feeds with ranking rules you control.",
       "audience": "Readers, journalists, creators",
       "components": [
@@ -255,13 +263,14 @@
       "effort": "M",
       "priority": "next",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "Attention autonomy"
     },
     {
       "id": "C10",
       "slug": "your-data-explained",
       "title": "Your Data, Explained",
-      "category": "Personal data rights",
+      "category": "Personal autonomy",
       "outcome": "Explore what account exports actually contain and what they do not.",
       "audience": "General consumers, researchers",
       "components": [
@@ -283,13 +292,14 @@
       "effort": "M",
       "priority": "next",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "Personal data rights"
     },
     {
       "id": "C11",
       "slug": "ai-memory-suitcase",
       "title": "AI Memory Suitcase",
-      "category": "AI interoperability",
+      "category": "Personal autonomy",
       "outcome": "Take selected context between assistants without bringing along your entire history.",
       "audience": "AI power users, developer tools",
       "components": [
@@ -311,13 +321,14 @@
       "effort": "M",
       "priority": "next",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "AI interoperability"
     },
     {
       "id": "C12",
       "slug": "local-media-desk",
       "title": "Local Media Desk",
-      "category": "Creative independence",
+      "category": "Creative technology",
       "outcome": "Turn a recording into transcripts, clips, captions and structured notes on your machine.",
       "audience": "Educators, creators, journalists",
       "components": [
@@ -339,13 +350,14 @@
       "effort": "M",
       "priority": "next",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "Creative independence"
     },
     {
       "id": "C13",
       "slug": "no-cloud-document-desk",
       "title": "No-Cloud Document Desk",
-      "category": "Local AI",
+      "category": "AI and agents",
       "outcome": "Search and transform private documents without requiring an external upload.",
       "audience": "Professionals, students",
       "components": [
@@ -367,7 +379,8 @@
       "effort": "M",
       "priority": "next",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "Local AI"
     },
     {
       "id": "C14",
@@ -395,13 +408,14 @@
       "effort": "M",
       "priority": "next",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "Independent publishing"
     },
     {
       "id": "C15",
       "slug": "website-receipts",
       "title": "Website Receipts",
-      "category": "Public accountability",
+      "category": "Public knowledge",
       "outcome": "Prove when public product claims, policies or prices changed.",
       "audience": "Journalists, consumers",
       "components": [
@@ -423,13 +437,14 @@
       "effort": "M",
       "priority": "next",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "Public accountability"
     },
     {
       "id": "C16",
       "slug": "home-ai-fit-test",
       "title": "Home AI Fit Test",
-      "category": "Affordable compute",
+      "category": "Independent infrastructure",
       "outcome": "Show what real AI workloads a user's devices can run before they spend money.",
       "audience": "Hobbyists, independent teams",
       "components": [
@@ -451,13 +466,14 @@
       "effort": "M",
       "priority": "next",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "Affordable compute"
     },
     {
       "id": "C17",
       "slug": "software-exit-guide",
       "title": "Software Exit Guide",
-      "category": "Service independence",
+      "category": "Personal autonomy",
       "outcome": "Discover open replacements for a proprietary workflow and estimate migration friction.",
       "audience": "Small businesses, privacy-conscious users",
       "components": [
@@ -479,13 +495,14 @@
       "effort": "S",
       "priority": "next",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "Service independence"
     },
     {
       "id": "C18",
       "slug": "community-in-a-box",
       "title": "Community-in-a-Box",
-      "category": "Collective autonomy",
+      "category": "Collective infrastructure",
       "outcome": "Give a small group a portable site, events, proposals and member resources.",
       "audience": "Associations, cooperatives",
       "components": [
@@ -507,13 +524,14 @@
       "effort": "L",
       "priority": "research",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "Collective autonomy"
     },
     {
       "id": "C19",
       "slug": "public-data-stories",
       "title": "Public Data Stories",
-      "category": "Civic creativity",
+      "category": "Public knowledge",
       "outcome": "Turn open datasets into source-linked, understandable visual stories.",
       "audience": "Educators, researchers, civic groups",
       "components": [
@@ -535,13 +553,14 @@
       "effort": "S",
       "priority": "next",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "Civic creativity"
     },
     {
       "id": "C20",
       "slug": "agent-receipts",
       "title": "Agent Receipts",
-      "category": "Trustworthy AI",
+      "category": "AI and agents",
       "outcome": "Make agent runs independently inspectable: actual actions, changes and test results.",
       "audience": "Engineers, organizations",
       "components": [
@@ -563,13 +582,14 @@
       "effort": "M",
       "priority": "next",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "Trustworthy AI"
     },
     {
       "id": "C21",
       "slug": "attention-receipt",
       "title": "Attention Receipt",
-      "category": "Privacy and surveillance",
+      "category": "Public knowledge",
       "outcome": "Show the outside services contacted when a page loads and explain the consequences.",
       "audience": "General consumers, researchers",
       "components": [
@@ -591,13 +611,14 @@
       "effort": "M",
       "priority": "research",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "Privacy and surveillance"
     },
     {
       "id": "C22",
       "slug": "open-payment-explorer",
       "title": "Open Payment Explorer",
-      "category": "Economic autonomy",
+      "category": "Venture and markets",
       "outcome": "Compare interoperable payment networks through reproducible simulated transactions.",
       "audience": "Developers, merchants",
       "components": [
@@ -619,13 +640,14 @@
       "effort": "M",
       "priority": "research",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "Economic autonomy"
     },
     {
       "id": "C23",
       "slug": "independent-search-starter",
       "title": "Independent Search Starter",
-      "category": "Search autonomy",
+      "category": "Personal autonomy",
       "outcome": "Install a useful private search experience without configuring five servers.",
       "audience": "Privacy enthusiasts, small teams",
       "components": [
@@ -647,13 +669,14 @@
       "effort": "M",
       "priority": "next",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "Search autonomy"
     },
     {
       "id": "C24",
       "slug": "one-click-knowledge-transfer",
       "title": "One-Click Knowledge Transfer",
-      "category": "Creator and team productivity",
+      "category": "Creative technology",
       "outcome": "Move a research workspace between machines and apps, with verification.",
       "audience": "Researchers, small teams",
       "components": [
@@ -675,7 +698,51 @@
       "effort": "M",
       "priority": "research",
       "implementation_status": "concept_not_integrated",
-      "last_editorial_review": "2026-11-01"
+      "last_editorial_review": "2026-11-01",
+      "subtopic": "Creator and team productivity"
     }
-  ]
+  ],
+  "taxonomy": [
+    {
+      "id": "personal",
+      "name": "Personal autonomy",
+      "purpose": "Recover, control and move personal data, context and digital resources."
+    },
+    {
+      "id": "agents",
+      "name": "AI and agents",
+      "purpose": "Use, evaluate and constrain agent capabilities and inference."
+    },
+    {
+      "id": "infrastructure",
+      "name": "Independent infrastructure",
+      "purpose": "Run capable software on hardware and networks people can control."
+    },
+    {
+      "id": "creative",
+      "name": "Creative technology",
+      "purpose": "Combine visual, media and developer tools into experiences worth sharing."
+    },
+    {
+      "id": "venture",
+      "name": "Venture and markets",
+      "purpose": "Find, evaluate and build useful products and independent economic capacity."
+    },
+    {
+      "id": "publishing",
+      "name": "Independent publishing",
+      "purpose": "Control channels and sources of information and creative distribution."
+    },
+    {
+      "id": "public",
+      "name": "Public knowledge",
+      "purpose": "Make public claims, records and knowledge inspectable."
+    },
+    {
+      "id": "collective",
+      "name": "Collective infrastructure",
+      "purpose": "Help independent groups coordinate and operate their own tools."
+    }
+  ],
+  "curation_status": "initial research inventory; implementations untested; source licensing requires per-component review"
 }
