@@ -2,7 +2,7 @@
 
 **Most of the hard technology already exists. What happens when we put the right pieces together?**
 
-An open field guide to **recomposing existing software into capabilities people can actually use**. By [Brad Khan](https://github.com/BradKhan), entrepreneurial technologist.
+An open field guide to **recomposing existing software into capabilities people can actually use**. By [Brad Khan](https://github.com/BradKhan), systems entrepreneur, technologist, and philosopher.
 
 [**Source library**](SOURCES.md) · [**Compositions**](#compositions-by-outcome) · [**Build queue**](BUILD-QUEUE.md) · [**Quality gates**](QUALITY-GATES.md) · [**Methods**](METHOD.md) · [**Structured data**](data/compositions.json) · [**For agents**](AGENTS.md)
 
