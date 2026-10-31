@@ -40,8 +40,8 @@
       "status": "public_repository"
     },
     {
-      "name": "SKILL ISSUE",
-      "url": "https://github.com/BradKhan/bradkhan/tree/main/composable-internet/skill-issue",
+      "name": "STACK MUTINY",
+      "url": "https://github.com/BradKhan/bradkhan/tree/main/composable-internet/stack-mutiny",
       "kind": "experimental_agent_skill_orchestrators",
       "relationship": "creator_editor",
       "status": "five_original_skills_not_harness_tested",
