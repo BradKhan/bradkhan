@@ -4,7 +4,7 @@
 
 An open field guide to **recomposing existing software into capabilities people can actually use**. By [Brad Khan](https://github.com/BradKhan), entrepreneurial technologist.
 
-[**Source library**](SOURCES.md) · [**Compositions**](#compositions-by-outcome) · [**Build queue**](BUILD-QUEUE.md) · [**Methods**](METHOD.md) · [**Structured data**](data/compositions.json) · [**For agents**](AGENTS.md)
+[**Source library**](SOURCES.md) · [**Compositions**](#compositions-by-outcome) · [**Build queue**](BUILD-QUEUE.md) · [**Quality gates**](QUALITY-GATES.md) · [**Methods**](METHOD.md) · [**Structured data**](data/compositions.json) · [**For agents**](AGENTS.md)
 
 > **Publication status:** This is an attributed research collection, not a gallery of completed products. All 24 compositions are conceptual. Ingredient links are starting points, not endorsements or proof of compatibility. The difference between an idea, proof of concept, and working release must remain visible.
 
@@ -308,6 +308,19 @@ Help independent groups coordinate and operate their own tools.
 A link collection answers *what exists*. A composition answers *what can become possible*, the work still required, and how to demonstrate it. Both are needed. So we maintain a distinct [source registry](data/sources.json) instead of treating every source as a product concept.
 
 The strongest opportunities will eventually get executable configurations, comparison tests, demos, and public case studies. Until then, they remain precisely labeled candidates.
+
+## Search the library locally
+
+This repository includes a small, dependency-free search utility. It searches both the source inventory and proposed compositions, so the collection is useful without a hosted website or AI subscription.
+
+```bash
+python3 composable-internet/scripts/find.py --kind sources skill
+python3 composable-internet/scripts/find.py --kind compositions research
+python3 composable-internet/scripts/find.py --json --limit 5 privacy
+python3 composable-internet/scripts/validate.py
+```
+
+Run these commands from the **profile repository root**. The validator checks internal structure and attribution, not third-party licenses, security, or runtime compatibility.
 
 ## Intellectual honesty
 
