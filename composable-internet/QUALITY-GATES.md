@@ -22,7 +22,7 @@
 
 ## Operational rules
 
-The [STACK MUTINY experimental packs](stack-mutiny/README.md) are published original `SKILL.md` files, not verified third-party skill bundles. Their harness compatibility, upstream security, licenses, and measurable usefulness are still open acceptance gates. The first release is not considered field-validated until those are tested.
+[STACK MUTINY](stack-mutiny/README.md) now includes 15 role profiles, 48 skill entrypoints (43 inspected upstream and 5 original), a permissioned installer, 50 tool references, and 15 practical field guides. The selected upstream skill names and paths were checked, but multi-runtime installation, licenses, security, and improvements in task outcomes remain unvalidated. A weekly read-only drift workflow detects changed upstream files; it is not a security audit.
 
 The tests in `.github/workflows/profile-catalog.yml` check the registry's *structure* only. They are not a substitute for G3, G7, G8, G9 or G10.
 
