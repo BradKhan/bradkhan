@@ -5,7 +5,7 @@
 ## Positioning and design
 
 - [x] **G1 / Accurate positioning:** Primary identity is **Systems Entrepreneur · Technologist · Philosopher**; the three descriptors are distinct. The README, brand guide, metadata, and automated-reader descriptions agree.
-- [x] **G2 / Reduced visual noise:** A single vector wordmark replaces the previous multi-message banner. It uses no font download, third-party image, animated counter or gratuitous device graphics.
+- [x] **G2 / Reduced visual noise:** A single two-line editorial slogan, *The future is not their property*, replaces the name-only banner. It uses no font download, third-party image, animated counter or gratuitous device graphics.
 - [ ] **G3 / Visual acceptance:** Confirm GitHub's rendered desktop and mobile profile, accessibility, scaling, layout and typography against the *actual* client-approved reference. The specified reference URL was not accessible in this working session. This is not approved solely because a local SVG preview exists.
 
 ## Editorial and technical integrity
@@ -21,6 +21,8 @@
 - [ ] **G10 / Distribution and external response:** Produce a documented release kit for three working projects and record real references, adoption or valuable maintainer feedback. No invented follower or traffic milestones.
 
 ## Operational rules
+
+The [SKILL ISSUE experimental packs](skill-issue/README.md) are published original `SKILL.md` files, not verified third-party skill bundles. Their harness compatibility, upstream security, licenses, and measurable usefulness are still open acceptance gates. The first release is not considered field-validated until those are tested.
 
 The tests in `.github/workflows/profile-catalog.yml` check the registry's *structure* only. They are not a substitute for G3, G7, G8, G9 or G10.
 
