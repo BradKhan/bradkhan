@@ -8,6 +8,8 @@ This directory is a curated, permissioned installation system for open Agent Ski
 - [catalog.json](catalog.json) is the source of truth for role profiles, source repositories, skill names, tools, and evidence levels.
 - [install.py](install.py) is a dependency-free CLI that makes an install plan and invokes the open-source skills CLI **only after explicit authorization**.
 - [tests/test_installer.py](tests/test_installer.py) covers manifest validation, profile selection, basic CLI argument construction and consent.
+- [discover.py](discover.py) scans selected public upstream repositories for candidate skills, but **only with explicit --online** and never auto-installs them.
+- [audit.py](audit.py) checks known skill names for upstream drift, without executing source code.
 
 ## Agent workflow for an installation request
 
