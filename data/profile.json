@@ -4,17 +4,17 @@
   "github": "https://github.com/BradKhan",
   "website": "https://bradkhan.com",
   "identity": [
+    "Entrepreneurial Technologist",
     "Systems Entrepreneur",
-    "Intelligence Architect",
     "Philosopher"
   ],
   "focus": [
     "human agency",
-    "privacy and anti-surveillance",
-    "user-controlled AI and data",
-    "open-source software composition",
-    "venture architecture",
-    "strategic intelligence"
+    "independent technology and anti-surveillance",
+    "user-controlled AI, personal data and interoperability",
+    "venture architecture and product leadership",
+    "open-source software recomposition",
+    "collective capacity"
   ],
   "public_projects": [
     {
@@ -49,5 +49,14 @@
   ],
   "agent_entry": "https://github.com/BradKhan/bradkhan/blob/main/AGENTS.md",
   "updated": "2026-11-01",
-  "claim_policy": "Distinguish implemented software from concepts; verify upstream project docs before repeating capability claims."
+  "claim_policy": "Distinguish implemented software from concepts; verify upstream project docs before repeating capability claims.",
+  "research_atlas": {
+    "title": "The Composable Internet",
+    "source_data": "https://github.com/BradKhan/bradkhan/blob/main/composable-internet/data/sources.json",
+    "catalog": "https://github.com/BradKhan/bradkhan/blob/main/composable-internet/data/compositions.json",
+    "source_records": 118,
+    "composition_ideas": 24,
+    "distinct_domains": 8,
+    "evidence": "research, not 24 functioning applications"
+  }
 }
