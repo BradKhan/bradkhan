@@ -2,11 +2,11 @@
 
 **The important thing isn't how many tools exist. It's what you can make them do together.**
 
-This is the attributed source registry behind [The Composable Internet](README.md) and [SKILL ISSUE](skill-issue/README.md). It includes selected external research, references saved on the profile account, and verified first-party project identities.
+This is the attributed source registry behind [The Composable Internet](README.md) and [STACK MUTINY](stack-mutiny/README.md). It includes selected external research, references saved on the profile account, and verified first-party project identities.
 
 **Provenance is not endorsement.** A saved repository is not necessarily Brad's original work. An external reference has not necessarily passed licensing, security, or compatibility checks. See the [editorial method](METHOD.md).
 
-[Compositions](README.md) · [Role-specific skill packs](skill-issue/README.md) · [Structured sources](data/sources.json)
+[Compositions](README.md) · [Role-specific skill packs](stack-mutiny/README.md) · [Structured sources](data/sources.json)
 
 ## Browse by area
 
