@@ -1,6 +1,6 @@
 # STACK MUTINY / Field Guides
 
-**15 field-tested-in-concept compositions for combining open skills with real tools.** These are action plans to try, **not a claim that every integration has been built or benchmarked**. Start with a profile from [the installable library](README.md), then follow the relevant guide.
+**15 practical compositions for combining open skills with real tools.** These are action plans to try, **not a claim that every integration has been built or benchmarked**. Start with a profile from [the installable library](README.md), then follow the relevant guide.
 
 [Install a role](README.md#one-line-install) · [Explore 48 skill entrypoints and 50 tools](catalog.json) · [Agent instructions](AGENTS.md)
 
