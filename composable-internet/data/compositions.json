@@ -1,0 +1,681 @@
+{
+  "schema_version": "1.0.0",
+  "title": "The Composable Internet",
+  "editor": "Brad Khan",
+  "edition": "2026-11-01",
+  "disclaimer": "Proposed compositions; integrations untested; no copied upstream implementation code",
+  "recipes": [
+    {
+      "id": "C01",
+      "slug": "research-trails",
+      "title": "Research Trails",
+      "category": "Personal intelligence",
+      "outcome": "Find the thing you saw months ago, including the research trail that led to it.",
+      "audience": "Researchers, students, founders",
+      "components": [
+        {
+          "name": "browser-history",
+          "url": "https://github.com/browser-history/browser-history"
+        },
+        {
+          "name": "hister",
+          "url": "https://github.com/asciimoo/hister"
+        },
+        {
+          "name": "ArchiveBox",
+          "url": "https://github.com/ArchiveBox/ArchiveBox"
+        }
+      ],
+      "original_glue": "Import, normalize and time-group visits; show source-grounded research sessions; exclude sensitive domains.",
+      "demonstration": "Recover one forgotten article and its surrounding tabs.",
+      "effort": "S",
+      "priority": "immediate",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C02",
+      "slug": "saved-into-action",
+      "title": "Saved Into Action",
+      "category": "Consumer liberation",
+      "outcome": "Turn forgotten social saves into usable collections such as recipes, tutorials and trips.",
+      "audience": "Creators, travelers, ordinary users",
+      "components": [
+        {
+          "name": "linkosh",
+          "url": "https://github.com/sabyasachi/linkosh"
+        },
+        {
+          "name": "whisper.cpp",
+          "url": "https://github.com/ggml-org/whisper.cpp"
+        },
+        {
+          "name": "maplibre-gl-js",
+          "url": "https://github.com/maplibre/maplibre-gl-js"
+        }
+      ],
+      "original_glue": "Import permitted saved-content records; route by intent; preserve original links and uncertainty.",
+      "demonstration": "Convert ten saved travel posts into an editable map.",
+      "effort": "M",
+      "priority": "immediate",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C03",
+      "slug": "exit-audit",
+      "title": "Exit Audit",
+      "category": "Digital independence",
+      "outcome": "Know exactly what you'll keep and lose when moving a library out of a cloud platform.",
+      "audience": "Consumers, privacy advocates",
+      "components": [
+        {
+          "name": "immich-go",
+          "url": "https://github.com/simulot/immich-go"
+        },
+        {
+          "name": "immich",
+          "url": "https://github.com/immich-app/immich"
+        },
+        {
+          "name": "rclone",
+          "url": "https://github.com/rclone/rclone"
+        }
+      ],
+      "original_glue": "Make an export inventory, preview import fidelity, verify counts and metadata after migration.",
+      "demonstration": "A Google Photos Takeout-to-Immich migration report with mismatches.",
+      "effort": "M",
+      "priority": "immediate",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C04",
+      "slug": "skill-safety-passport",
+      "title": "Skill Safety Passport",
+      "category": "AI agents",
+      "outcome": "A human-readable safety and compatibility card for installable AI agent skills.",
+      "audience": "Agent users, maintainers",
+      "components": [
+        {
+          "name": "agentskills",
+          "url": "https://github.com/agentskills/agentskills"
+        },
+        {
+          "name": "skillspector",
+          "url": "https://github.com/NVIDIA/skillspector"
+        },
+        {
+          "name": "servers",
+          "url": "https://github.com/modelcontextprotocol/servers"
+        }
+      ],
+      "original_glue": "Unify specification checks and security reports; never execute untrusted skills in the analyzer.",
+      "demonstration": "A clear before-install report for three public skills.",
+      "effort": "S",
+      "priority": "immediate",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C05",
+      "slug": "model-choice-lab",
+      "title": "Model Choice Lab",
+      "category": "AI compute",
+      "outcome": "Choose a model by actual task performance, latency, privacy and cost.",
+      "audience": "Developers, technical buyers",
+      "components": [
+        {
+          "name": "litellm",
+          "url": "https://github.com/BerriAI/litellm"
+        },
+        {
+          "name": "promptfoo",
+          "url": "https://github.com/promptfoo/promptfoo"
+        },
+        {
+          "name": "llmfit",
+          "url": "https://github.com/khonello/llmfit"
+        }
+      ],
+      "original_glue": "Run the same fixed tasks against configured models and export repeatable, labeled comparisons.",
+      "demonstration": "Compare three models on one user's coding task with a traceable rubric.",
+      "effort": "S",
+      "priority": "immediate",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C06",
+      "slug": "open-source-opportunity-radar",
+      "title": "Open Source Opportunity Radar",
+      "category": "Venture building",
+      "outcome": "Discover recurring unmet needs hidden inside existing software ecosystems.",
+      "audience": "Founders, venture studios",
+      "components": [
+        {
+          "name": "repos",
+          "url": "https://github.com/ecosyste-ms"
+        },
+        {
+          "name": "roadmap",
+          "url": "https://github.com/github/roadmap"
+        },
+        {
+          "name": "awesome",
+          "url": "https://github.com/sindresorhus/awesome"
+        }
+      ],
+      "original_glue": "Connect issues and releases to existing alternatives; produce cited opportunity briefs, not imaginary TAM.",
+      "demonstration": "Three defensible opportunities in one technical domain.",
+      "effort": "M",
+      "priority": "immediate",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C07",
+      "slug": "repo-cinema",
+      "title": "Repo Cinema",
+      "category": "Creative developer tools",
+      "outcome": "Turn a software release into a short, art-directed before/after demonstration.",
+      "audience": "Independent developers, agencies",
+      "components": [
+        {
+          "name": "playwright",
+          "url": "https://github.com/microsoft/playwright"
+        },
+        {
+          "name": "remotion",
+          "url": "https://github.com/remotion-dev/remotion"
+        },
+        {
+          "name": "repomix",
+          "url": "https://github.com/yamadashy/repomix"
+        }
+      ],
+      "original_glue": "Use explicit demonstration scripts and verified screenshots; render shareable visuals without claiming untested functionality.",
+      "demonstration": "A 15-second release film from a real PR.",
+      "effort": "S",
+      "priority": "immediate",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C08",
+      "slug": "brand-constellation",
+      "title": "Brand Constellation",
+      "category": "Design intelligence",
+      "outcome": "Show where brands converge, compete and distinguish themselves, visually and verbally.",
+      "audience": "Designers, founders, editors",
+      "components": [
+        {
+          "name": "dembrandt",
+          "url": "https://github.com/dembrandt/dembrandt"
+        },
+        {
+          "name": "playwright",
+          "url": "https://github.com/microsoft/playwright"
+        },
+        {
+          "name": "d3",
+          "url": "https://github.com/d3/d3"
+        }
+      ],
+      "original_glue": "Compare design-system data across a declared sample; annotate observed messaging and avoid claiming AI authorship.",
+      "demonstration": "An explorable cluster of 20 websites with transparent methodology.",
+      "effort": "M",
+      "priority": "immediate",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C09",
+      "slug": "own-your-feed",
+      "title": "Own Your Feed",
+      "category": "Attention autonomy",
+      "outcome": "Read trusted sources and public social feeds with ranking rules you control.",
+      "audience": "Readers, journalists, creators",
+      "components": [
+        {
+          "name": "RSSHub",
+          "url": "https://github.com/DIYgod/RSSHub"
+        },
+        {
+          "name": "FreshRSS",
+          "url": "https://github.com/FreshRSS/FreshRSS"
+        },
+        {
+          "name": "feed-generator",
+          "url": "https://github.com/bluesky-social/feed-generator"
+        }
+      ],
+      "original_glue": "Expose user-editable ordering and discovery rules; support reliable feeds before unstable platform adapters.",
+      "demonstration": "Publish and share a portable feed recipe.",
+      "effort": "M",
+      "priority": "next",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C10",
+      "slug": "your-data-explained",
+      "title": "Your Data, Explained",
+      "category": "Personal data rights",
+      "outcome": "Explore what account exports actually contain and what they do not.",
+      "audience": "General consumers, researchers",
+      "components": [
+        {
+          "name": "ArchiveBox",
+          "url": "https://github.com/ArchiveBox/ArchiveBox"
+        },
+        {
+          "name": "linkosh",
+          "url": "https://github.com/sabyasachi/linkosh"
+        },
+        {
+          "name": "portable-memory",
+          "url": "https://github.com/MacPaw/portable-memory"
+        }
+      ],
+      "original_glue": "Parse supported exports locally; present a plain-language inventory and data caveats.",
+      "demonstration": "Explore one export without sending private content to a server.",
+      "effort": "M",
+      "priority": "next",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C11",
+      "slug": "ai-memory-suitcase",
+      "title": "AI Memory Suitcase",
+      "category": "AI interoperability",
+      "outcome": "Take selected context between assistants without bringing along your entire history.",
+      "audience": "AI power users, developer tools",
+      "components": [
+        {
+          "name": "portable-memory",
+          "url": "https://github.com/MacPaw/portable-memory"
+        },
+        {
+          "name": "mem0",
+          "url": "https://github.com/mem0ai/mem0"
+        },
+        {
+          "name": "openfga",
+          "url": "https://github.com/openfga/openfga"
+        }
+      ],
+      "original_glue": "Implement selective context packs, provenance, and explicit recipient permissions; document limitations of revocation.",
+      "demonstration": "Switch between two compatible assistants using an approved context pack.",
+      "effort": "M",
+      "priority": "next",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C12",
+      "slug": "local-media-desk",
+      "title": "Local Media Desk",
+      "category": "Creative independence",
+      "outcome": "Turn a recording into transcripts, clips, captions and structured notes on your machine.",
+      "audience": "Educators, creators, journalists",
+      "components": [
+        {
+          "name": "whisper.cpp",
+          "url": "https://github.com/ggml-org/whisper.cpp"
+        },
+        {
+          "name": "FFmpeg",
+          "url": "https://github.com/FFmpeg/FFmpeg"
+        },
+        {
+          "name": "remotion",
+          "url": "https://github.com/remotion-dev/remotion"
+        }
+      ],
+      "original_glue": "Build a single-use workflow around existing encoders and speech tools; disclose hardware needs.",
+      "demonstration": "A recorded interview becomes transcript plus three shareable clips.",
+      "effort": "M",
+      "priority": "next",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C13",
+      "slug": "no-cloud-document-desk",
+      "title": "No-Cloud Document Desk",
+      "category": "Local AI",
+      "outcome": "Search and transform private documents without requiring an external upload.",
+      "audience": "Professionals, students",
+      "components": [
+        {
+          "name": "kreuzberg",
+          "url": "https://github.com/kreuzberg-dev/kreuzberg"
+        },
+        {
+          "name": "llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp"
+        },
+        {
+          "name": "sqlite",
+          "url": "https://www.sqlite.org/"
+        }
+      ],
+      "original_glue": "Use file extraction, full-text index and optional local inference; make answer sources inspectable.",
+      "demonstration": "Find and quote a passage from a private PDF bundle offline.",
+      "effort": "M",
+      "priority": "next",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C14",
+      "slug": "personal-publishing-switch",
+      "title": "Personal Publishing Switch",
+      "category": "Independent publishing",
+      "outcome": "Publish to your own domain first, then distribute compatible content across networks.",
+      "audience": "Writers, communities",
+      "components": [
+        {
+          "name": "indiekit",
+          "url": "https://github.com/getindiekit/indiekit"
+        },
+        {
+          "name": "eleventy",
+          "url": "https://github.com/11ty/eleventy"
+        },
+        {
+          "name": "atproto",
+          "url": "https://github.com/bluesky-social/atproto"
+        }
+      ],
+      "original_glue": "Provide a guided ownership-first publishing setup with reusable content export.",
+      "demonstration": "Publish one post to a personal site and a supported social channel.",
+      "effort": "M",
+      "priority": "next",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C15",
+      "slug": "website-receipts",
+      "title": "Website Receipts",
+      "category": "Public accountability",
+      "outcome": "Prove when public product claims, policies or prices changed.",
+      "audience": "Journalists, consumers",
+      "components": [
+        {
+          "name": "changedetection.io",
+          "url": "https://github.com/dgtlmoon/changedetection.io"
+        },
+        {
+          "name": "ArchiveBox",
+          "url": "https://github.com/ArchiveBox/ArchiveBox"
+        },
+        {
+          "name": "engine",
+          "url": "https://github.com/OpenTermsArchive/engine"
+        }
+      ],
+      "original_glue": "Preserve dated snapshots and source URLs, generate careful diff reports and distinguish uncertainty.",
+      "demonstration": "A sourced timeline of a published policy change.",
+      "effort": "M",
+      "priority": "next",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C16",
+      "slug": "home-ai-fit-test",
+      "title": "Home AI Fit Test",
+      "category": "Affordable compute",
+      "outcome": "Show what real AI workloads a user's devices can run before they spend money.",
+      "audience": "Hobbyists, independent teams",
+      "components": [
+        {
+          "name": "llmfit",
+          "url": "https://github.com/khonello/llmfit"
+        },
+        {
+          "name": "llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp"
+        },
+        {
+          "name": "exo",
+          "url": "https://github.com/exo-explore/exo"
+        }
+      ],
+      "original_glue": "Combine hardware inventory with model recommendations and separate multi-job scheduling from model sharding.",
+      "demonstration": "An evidence-labeled workload compatibility report for two devices.",
+      "effort": "M",
+      "priority": "next",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C17",
+      "slug": "software-exit-guide",
+      "title": "Software Exit Guide",
+      "category": "Service independence",
+      "outcome": "Discover open replacements for a proprietary workflow and estimate migration friction.",
+      "audience": "Small businesses, privacy-conscious users",
+      "components": [
+        {
+          "name": "awesome-selfhosted",
+          "url": "https://github.com/awesome-selfhosted/awesome-selfhosted"
+        },
+        {
+          "name": "rclone",
+          "url": "https://github.com/rclone/rclone"
+        },
+        {
+          "name": "restic",
+          "url": "https://github.com/restic/restic"
+        }
+      ],
+      "original_glue": "Turn lists into task-oriented migration plans, with backups and explicit unsupported features.",
+      "demonstration": "A migration path for one common document workflow.",
+      "effort": "S",
+      "priority": "next",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C18",
+      "slug": "community-in-a-box",
+      "title": "Community-in-a-Box",
+      "category": "Collective autonomy",
+      "outcome": "Give a small group a portable site, events, proposals and member resources.",
+      "audience": "Associations, cooperatives",
+      "components": [
+        {
+          "name": "decidim",
+          "url": "https://github.com/decidim/decidim"
+        },
+        {
+          "name": "eleventy",
+          "url": "https://github.com/11ty/eleventy"
+        },
+        {
+          "name": "bonfire-app",
+          "url": "https://github.com/bonfire-networks/bonfire-app"
+        }
+      ],
+      "original_glue": "Offer one constrained starter template and optional integrations instead of bundling multiple huge platforms.",
+      "demonstration": "An independent group launches a usable public site with governance links.",
+      "effort": "L",
+      "priority": "research",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C19",
+      "slug": "public-data-stories",
+      "title": "Public Data Stories",
+      "category": "Civic creativity",
+      "outcome": "Turn open datasets into source-linked, understandable visual stories.",
+      "audience": "Educators, researchers, civic groups",
+      "components": [
+        {
+          "name": "owid-grapher",
+          "url": "https://github.com/owid/owid-grapher"
+        },
+        {
+          "name": "maplibre-gl-js",
+          "url": "https://github.com/maplibre/maplibre-gl-js"
+        },
+        {
+          "name": "d3",
+          "url": "https://github.com/d3/d3"
+        }
+      ],
+      "original_glue": "Template data sourcing, caveats and exportable interactive narratives.",
+      "demonstration": "An animated, reproducible story from one public dataset.",
+      "effort": "S",
+      "priority": "next",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C20",
+      "slug": "agent-receipts",
+      "title": "Agent Receipts",
+      "category": "Trustworthy AI",
+      "outcome": "Make agent runs independently inspectable: actual actions, changes and test results.",
+      "audience": "Engineers, organizations",
+      "components": [
+        {
+          "name": "playwright",
+          "url": "https://github.com/microsoft/playwright"
+        },
+        {
+          "name": "rrweb",
+          "url": "https://github.com/rrweb-io/rrweb"
+        },
+        {
+          "name": "skillspector",
+          "url": "https://github.com/NVIDIA/skillspector"
+        }
+      ],
+      "original_glue": "Normalize tool-call and test evidence, preserve redaction controls and never fabricate a run log.",
+      "demonstration": "Replay an agent's browser actions and inspect the resulting Git changes.",
+      "effort": "M",
+      "priority": "next",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C21",
+      "slug": "attention-receipt",
+      "title": "Attention Receipt",
+      "category": "Privacy and surveillance",
+      "outcome": "Show the outside services contacted when a page loads and explain the consequences.",
+      "audience": "General consumers, researchers",
+      "components": [
+        {
+          "name": "tracker-radar",
+          "url": "https://github.com/duckduckgo/tracker-radar"
+        },
+        {
+          "name": "playwright",
+          "url": "https://github.com/microsoft/playwright"
+        },
+        {
+          "name": "changedetection.io",
+          "url": "https://github.com/dgtlmoon/changedetection.io"
+        }
+      ],
+      "original_glue": "Capture first-party and third-party requests in an authorized browser run; explain limits without inventing tracking intentions.",
+      "demonstration": "Compare third-party connections on two publicly accessible websites.",
+      "effort": "M",
+      "priority": "research",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C22",
+      "slug": "open-payment-explorer",
+      "title": "Open Payment Explorer",
+      "category": "Economic autonomy",
+      "outcome": "Compare interoperable payment networks through reproducible simulated transactions.",
+      "audience": "Developers, merchants",
+      "components": [
+        {
+          "name": "open-payments",
+          "url": "https://github.com/interledger/open-payments"
+        },
+        {
+          "name": "mojaloop",
+          "url": "https://github.com/mojaloop"
+        },
+        {
+          "name": "openpaygents",
+          "url": "https://github.com/cyberagencyorg/openpaygents"
+        }
+      ],
+      "original_glue": "Build a simulator and transparent fee/reconciliation display; never imply settlement is free or universally supported.",
+      "demonstration": "A side-by-side simulated route showing costs, errors and reconciliation.",
+      "effort": "M",
+      "priority": "research",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C23",
+      "slug": "independent-search-starter",
+      "title": "Independent Search Starter",
+      "category": "Search autonomy",
+      "outcome": "Install a useful private search experience without configuring five servers.",
+      "audience": "Privacy enthusiasts, small teams",
+      "components": [
+        {
+          "name": "searxng",
+          "url": "https://github.com/searxng/searxng"
+        },
+        {
+          "name": "Perplexica",
+          "url": "https://github.com/ItzCrazyKns/Perplexica"
+        },
+        {
+          "name": "llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp"
+        }
+      ],
+      "original_glue": "Create a supported single-machine deployment and provider-independent model configuration.",
+      "demonstration": "Run private metasearch with optional local summarization.",
+      "effort": "M",
+      "priority": "next",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    },
+    {
+      "id": "C24",
+      "slug": "one-click-knowledge-transfer",
+      "title": "One-Click Knowledge Transfer",
+      "category": "Creator and team productivity",
+      "outcome": "Move a research workspace between machines and apps, with verification.",
+      "audience": "Researchers, small teams",
+      "components": [
+        {
+          "name": "syncthing",
+          "url": "https://github.com/syncthing/syncthing"
+        },
+        {
+          "name": "restic",
+          "url": "https://github.com/restic/restic"
+        },
+        {
+          "name": "automerge",
+          "url": "https://github.com/automerge/automerge"
+        }
+      ],
+      "original_glue": "Combine structured exports, integrity checks and conflict-aware sync only where needed.",
+      "demonstration": "Resume a research workspace on another machine, with matching records.",
+      "effort": "M",
+      "priority": "research",
+      "implementation_status": "concept_not_integrated",
+      "last_editorial_review": "2026-11-01"
+    }
+  ]
+}
