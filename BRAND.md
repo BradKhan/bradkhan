@@ -17,7 +17,7 @@ Do not change, compound, repeat, or invent professional titles based on uncertai
 
 **Build the world you would rather live in.**
 **Technology should increase human agency.**
-**The future is not their property.** (GitHub banner)
+**Tech × Society × Renaissance.** (GitHub banner theme)
 
 These express a direction, not a demand that every page repeat both phrases.
 
@@ -49,7 +49,7 @@ Typographic, distinctive, restrained, editorial. Prioritize hierarchy and readab
 
 One idea in the hero. Avoid ornamental circuitry, fake dashboards, surveillance eyes, terminal costume, meaningless geometric flourishes, vanity badges, and generic AI website styling.
 
-The GitHub banner is an original typographic statement: **The future is not their property.** It deliberately avoids reproducing the user's name, which is already visible on GitHub. The professional identity is stated directly beneath the banner in the README. This is not a substitute for rendered-design review.
+The GitHub banner is an editorial identity composition featuring **Brad Khan**, **Tech × Society × Renaissance**, **Human agency, at every scale**, and **bradkhan.com**. The distinct, versioned SVG path prevents the previous rejected banner from being reused through an old image URL. The professional roles remain in the README. Live cross-device visual acceptance is a separate review.
 
 Validate the actual GitHub rendering on desktop and mobile in both light and dark environments before marking the visual review complete.
 
