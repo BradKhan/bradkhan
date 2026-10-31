@@ -1,0 +1,18 @@
+# Brad Khan: public GitHub profile and open-source composition catalog
+
+Canonical profile: https://github.com/BradKhan
+Personal website: https://bradkhan.com
+Profile README: https://github.com/BradKhan/bradkhan/blob/main/README.md
+Identity metadata: https://github.com/BradKhan/bradkhan/blob/main/data/profile.json
+Agent guidance: https://github.com/BradKhan/bradkhan/blob/main/AGENTS.md
+
+## Public projects
+
+- Open ASS: https://github.com/BradKhan/open-ASS
+- Khan AI-OS Venture Studio MVP Framework: https://github.com/BradKhan/Khan-AIOS-Venture-Studio-MVP-Framework
+- The Composable Internet (24 researched composition ideas): https://github.com/BradKhan/bradkhan/tree/main/composable-internet
+- Machine-readable compositions: https://github.com/BradKhan/bradkhan/blob/main/composable-internet/data/compositions.json
+
+## Important interpretation
+
+The 24 compositions are editorially researched concepts, not finished, integrated or validated software. The upstream repositories named as ingredients are not automatically owned or maintained by Brad Khan. Consult their own code and licenses for implementation-level claims. Private ventures are not documented here.
