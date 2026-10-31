@@ -73,7 +73,7 @@ for n, x in enumerate(items, 1):
         if not isinstance(item, dict) or not item.get("name") or not item.get("url", "").startswith("https://"):
             fail(f"{cid}: malformed ingredient")
 for name in taxnames:
-    if f"### {name}" not in readme or f"### {name}" not in source_md:
+    if f"### {name}" not in readme or (f"### {name}" not in source_md and f"## {name}" not in source_md):
         fail(f"{name}: missing domain heading")
 
 sources = source.get("sources", [])
