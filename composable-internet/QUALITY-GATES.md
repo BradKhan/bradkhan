@@ -31,6 +31,12 @@ Do not mark an unchecked gate complete merely because documentation has been pub
 - Before elevating a composition to a release: add an exact implementation URL, commit, test command, output evidence and known limitations.
 - Before outreach: independently assess whether the project provides a genuinely new user outcome beyond its upstream ingredients.
 
+## Tracked follow-up issues
+
+- [#1 / Visual rendering review](https://github.com/BradKhan/bradkhan/issues/1)
+- [#2 / Independent upstream audit](https://github.com/BradKhan/bradkhan/issues/2)
+- [#3 / First reproducible product proof](https://github.com/BradKhan/bradkhan/issues/3)
+
 ## Priority queue
 
 1. Accurate profile identity and a restrained visual system.
