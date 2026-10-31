@@ -4,7 +4,7 @@
 
 One collection, 15 selectable professional profiles, 48 individually inspected Agent Skills (43 upstream and 5 original), 50 complementary tools and infrastructure resources, and 17 upstream collections. Skills come from their original GitHub maintainers. This project supplies the selection, composition, installation plan, and a common interface.
 
-**[Install](#one-line-install) · [Choose a profile](#profiles) · [15 field guides](FIELD-GUIDES.md) · [Tool atlas](#tools-and-infrastructure) · [Use with any agent](AGENTS.md) · [Machine-readable catalog](catalog.json) · [Source collections](#where-the-skills-come-from)**
+**[Install](#one-line-install) · [Choose a profile](#profiles) · [15 field guides](FIELD-GUIDES.md) · [Discover current skills](#discover-more-from-source-collections) · [Tool atlas](#tools-and-infrastructure) · [Use with any agent](AGENTS.md) · [Machine-readable catalog](catalog.json) · [Source collections](#where-the-skills-come-from)**
 
 > **Status: public beta.** The 43 upstream skill entrypoints and 5 original role skills were inspected on November 1, 2026. The Python installer and selection logic have offline tests. End-to-end compatibility across every agent runtime has **not** been demonstrated. No third-party skill scripts, credentials, model endpoints, or tools are automatically executed by the catalog.
 
@@ -93,6 +93,18 @@ This prints canonical source URLs and their purpose. Unlike skills, these tools 
 - **Context and memory:** [Context7](https://github.com/upstash/context7), [Mem0](https://github.com/mem0ai/mem0), [Graphiti](https://github.com/getzep/graphiti), [Letta](https://github.com/letta-ai/letta).
 - **Engineering and agents:** [Vercel skills CLI](https://github.com/vercel-labs/skills), [Hermes Agent](https://github.com/NousResearch/hermes-agent), [Superpowers](https://github.com/obra/superpowers), [gstack](https://github.com/garrytan/gstack), [Playwright MCP](https://github.com/microsoft/playwright-mcp).
 - **Independent operation:** [Cloudflare skills](https://github.com/cloudflare/skills), [Syncthing](https://github.com/syncthing/syncthing), [rclone](https://github.com/rclone/rclone), [SearXNG](https://github.com/searxng/searxng).
+
+## Discover more from source collections
+
+The 48 installable entries are deliberately curated, not a fixed ceiling on what can be discovered. The [read-only discovery tool](discover.py) can inspect the latest `SKILL.md` paths across the 17 listed GitHub source collections. It presents **candidates for review**, not automatically approved dependencies.
+
+```bash
+python3 composable-internet/stack-mutiny/discover.py --list
+python3 composable-internet/stack-mutiny/discover.py --online --query memory --limit 60
+python3 composable-internet/stack-mutiny/discover.py --online --output candidates.json --limit 1000
+```
+
+The utility uses only public GitHub API reads and optional `GITHUB_TOKEN` for rate limits. Tree results may be incomplete for very large repositories; that limitation is reported. Candidates need actual frontmatter, licensing, compatibility and safety review before they join the installable catalog. A weekly workflow captures both checked-skill drift and additional discovery candidates when Actions is enabled.
 
 ## Where the skills come from
 
