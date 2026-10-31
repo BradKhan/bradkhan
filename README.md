@@ -20,7 +20,7 @@ I am especially interested in portable AI and personal data, independent infrast
 
 ## [STACK MUTINY](composable-internet/stack-mutiny/README.md) · Skills worth using
 
-A curated installation system for open-source agent skills, tooling, and infrastructure. **15 role profiles. 43 individually inspected skills. 50 tools and resources.** Install a focused selection across supported coding agents rather than hunting through disconnected directories.
+A curated installation system for open-source agent skills, tooling, and infrastructure. **15 role profiles. 48 individually inspected skills (43 upstream and 5 original). 50 tools and resources.** Install a focused selection across supported coding agents rather than hunting through disconnected directories.
 
 **[Development](composable-internet/stack-mutiny/README.md#profiles)** · **[Design](composable-internet/stack-mutiny/README.md#profiles)** · **[Venture building](composable-internet/stack-mutiny/README.md#profiles)** · **[Marketing](composable-internet/stack-mutiny/README.md#profiles)** · **[Content creation](composable-internet/stack-mutiny/README.md#profiles)** · **[Investment and family offices](composable-internet/stack-mutiny/README.md#profiles)** · **[Memory and context](composable-internet/stack-mutiny/README.md#profiles)** · **[AI inference and compute](composable-internet/stack-mutiny/README.md#profiles)**
 
