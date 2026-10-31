@@ -1,67 +1,144 @@
-# STACK MUTINY.
+# STACK MUTINY
 
-**The problem isn't a shortage of AI skills. It's what happens between them.**
+**A working toolkit for people who would rather build than browse directories.**
 
-Five role-specific skill packs for software development, design, venture creation, marketing, and investment research. They draw on existing open-source approaches and are organized around a specific result. Part of [The Composable Internet](../README.md).
+One collection, 15 selectable professional profiles, 43 individually inspected Agent Skills, 50 complementary tools and infrastructure resources, and 17 upstream collections. Skills come from their original GitHub maintainers. This project supplies the selection, composition, installation plan, and a common interface.
 
-The value is in the combination: **select useful methods, adapt them to a purpose, put them in the right sequence, and make the result usable.** Each pack contains its own orchestration, identifies upstream resources, and defines a concrete deliverable. The first edition references those resources; deeper integrations and testing are next.
+**[Install](#one-line-install) · [Choose a profile](#profiles) · [Tool atlas](#tools-and-infrastructure) · [Use with any agent](AGENTS.md) · [Machine-readable catalog](catalog.json) · [Source collections](#where-the-skills-come-from)**
 
-> **Status:** Experimental source files. Not tested across Claude Code, Codex, Cursor, OpenCode, or other agent runtimes. Recommended upstream skills are **not installed, bundled, security-audited, or license-cleared** here. No one-click install is promised.
+> **Status: public beta.** The 43 skill entrypoints were inspected individually on GitHub on November 1, 2026. The Python installer and selection logic have offline tests. End-to-end compatibility across every agent runtime has **not** been demonstrated. No third-party skill scripts, credentials, model endpoints, or tools are automatically executed by the catalog.
 
-## Choose your problem
+## One-line install
 
-| Pack | Who it's for | Result | Source |
-| --- | --- | --- | --- |
-| **[SHIP OR IT DIDN'T HAPPEN](packs/ship-or-it-didnt-happen/SKILL.md)** | Developers | Spec → build → verify → show. | [Skill](packs/ship-or-it-didnt-happen/SKILL.md) |
-| **[STOP SHIPPING BEIGE](packs/stop-shipping-beige/SKILL.md)** | Designers | References → art direction → implementation → adversarial critique. | [Skill](packs/stop-shipping-beige/SKILL.md) |
-| **[NO PERMISSION REQUIRED](packs/no-permission-required/SKILL.md)** | Entrepreneurs | Observed pain → alternatives → test → offer → first customer. | [Skill](packs/no-permission-required/SKILL.md) |
-| **[ANTI-GURU](packs/anti-guru/SKILL.md)** | Marketers | Audience → promise → proof → channel → measurable experiment. | [Skill](packs/anti-guru/SKILL.md) |
-| **[SHOW THE RECEIPTS](packs/show-the-receipts/SKILL.md)** | Investors | Thesis → sources → contradictions → scenarios → decision. | [Skill](packs/show-the-receipts/SKILL.md) |
-
-### Offline compile, no automatic installation
-
-The collection includes a tiny Python compiler that turns any of the five original role skills into a single AGENTS-style Markdown guide or an unchanged SKILL.md. It does not fetch, copy, or execute external sources.
+For a current Node.js installation (the selected `skills@1.7.4` CLI requires Node.js 22.20+) and Python 3:
 
 ```bash
-python3 composable-internet/stack-mutiny/scripts/compile.py --list
-python3 composable-internet/stack-mutiny/scripts/compile.py stop-shipping-beige --output /tmp/DESIGN-AGENT.md
-python3 composable-internet/stack-mutiny/scripts/compile.py show-the-receipts --format skill --output /tmp/SKILL.md
-python3 -m unittest discover -s composable-internet/stack-mutiny/tests -p "test_*.py"
+curl -fsSL https://raw.githubusercontent.com/BradKhan/bradkhan/main/composable-internet/stack-mutiny/install.py | python3 - install developer --agent codex --yes
 ```
 
-Run from the **profile repository root**. Only the original published orchestration instructions are included in the generated file. Actual agent-harness testing and upstream integrations remain unverified.
+Substitute `developer` with any profile below, and `codex` with `claude-code`, `cursor`, `opencode`, `gemini-cli`, `github-copilot`, `antigravity`, or `universal`.
 
-## More than a directory
+To combine roles, use one argument such as `founder,marketing,creator`. Repeated skills are deduplicated. To install the larger set for a profile, add `--depth extended`. To install in your user-wide agent environment rather than the current project, add `--global`.
 
-Each pack has a defined workflow, deliverable, and upstream references. Rather than collecting hundreds of links, we are testing whether a small, deliberately composed set of methods can produce better results on a specific task.
-
-### How to experiment safely
-
-1. Read the original [SKILL.md](packs/) and the upstream repositories before use. Inspect scripts, filesystem access, network calls, and licensing; popularity is not a safety review.
-2. Copy **only the original orchestration folder** to a compatible agent's skills directory, following that runtime's documented installation method. Do not automatically install all recommended sources.
-3. Give the agent a non-sensitive test task and confirm the outcome, recorded evidence, and clear failures.
-4. Use the [validation script](scripts/validate.py) for local consistency checks. It does not execute skills or validate runtime behavior.
+**Safer preview, recommended before any external install:**
 
 ```bash
-python3 composable-internet/stack-mutiny/scripts/validate.py
+curl -fsSL https://raw.githubusercontent.com/BradKhan/bradkhan/main/composable-internet/stack-mutiny/install.py -o stack-mutiny.py
+python3 stack-mutiny.py plan founder,marketing --agent codex --depth extended
+python3 stack-mutiny.py install founder,marketing --agent codex --depth extended --yes
 ```
 
-## Credits and source materials
+The installer downloads the catalog, resolves the selected profiles, and runs the existing open-source [Vercel skills CLI](https://github.com/vercel-labs/skills) with explicit `--skill` selectors. It does not copy upstream code into this repository, silently configure accounts, or execute installed skills. After installation, inspect the installed folders and use the agent's skill listing.
 
-**Developers:** [obra/superpowers](https://github.com/obra/superpowers) · [mattpocock/skills](https://github.com/mattpocock/skills) · [garrytan/gstack](https://github.com/garrytan/gstack).
+**Security:** Piping a remote script to Python executes code from the repository. Review the script or use the download-and-inspect option for a higher-trust workflow. External skills may include executable scripts and network permissions. Check each author's license and instructions before granting your agent access to files, accounts, or terminals.
 
-**Designers:** [pbakaus/impeccable](https://github.com/pbakaus/impeccable) · [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) · [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) · [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md).
+## Profiles
 
-**Entrepreneurs:** [slavingia/skills](https://github.com/slavingia/skills) · [phuryn/pm-skills](https://github.com/phuryn/pm-skills) · [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) · [BradKhan/Khan-AIOS-Venture-Studio-MVP-Framework](https://github.com/BradKhan/Khan-AIOS-Venture-Studio-MVP-Framework).
+| Install name | Audience | Core | Extra | Purpose |
+| --- | --- | ---: | ---: | --- |
+| **`developer`** | Developer | 3 | 4 | Build, review, test and ship software. |
+| **`engineering`** | Engineering | 3 | 3 | Architecture, infrastructure, performance and operability. |
+| **`design`** | Designer | 3 | 3 | Direction, accessibility, visual polish and production UI. |
+| **`founder`** | Founder | 3 | 4 | Understand markets, validate value and find customers. |
+| **`product`** | Product | 3 | 3 | Discover, prioritize and deliver valuable outcomes. |
+| **`marketing`** | Marketer | 3 | 4 | Research, message, distribute and measure. |
+| **`creator`** | Creator | 3 | 4 | Publish strong visual and written content. |
+| **`investor`** | Investor | 3 | 3 | Diligence, valuation and independent challenge. |
+| **`family-office`** | Family Office | 3 | 3 | Private wealth, operating companies and investment committee. |
+| **`research`** | Researcher | 3 | 2 | Sources, research methodology and reproducibility. |
+| **`ai-agents`** | AI and Agents | 3 | 3 | Design agent tools, evals, skills and orchestration. |
+| **`ai-memory`** | AI Memory & Context | 3 | 3 | Portable memory, context engineering and retrieval. |
+| **`ai-compute`** | AI Compute & Inference | 3 | 2 | Models, routing, free tiers, local and edge compute. |
+| **`sovereignty`** | Sovereignty | 3 | 2 | Interoperability, private operation, portability and exit. |
+| **`operations`** | Operator | 3 | 2 | Internal processes, automation and execution. |
 
-**Marketers:** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) · [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills) · [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) · [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill).
+Install multiple roles and get one deduplicated selection:
 
-**Investors:** [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) · [Ruinius/financial-analyst-skills](https://github.com/Ruinius/financial-analyst-skills) · [phuryn/pm-skills](https://github.com/phuryn/pm-skills) · [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal).
+```bash
+python3 stack-mutiny.py plan developer,design,ai-memory --agent claude-code --depth extended
+```
 
-These are credited open-source foundations and reference materials. We can adapt, remix, and integrate them under their applicable licenses. The current packs include original orchestration; full upstream integrations and measured comparisons have not yet been completed.
+The **core** depth is intentionally smaller so normal agents are not buried in unnecessary instructions. The **extended** depth adds complementary specializations. `all` is available for deliberate exploration, but isn't the recommended default.
 
-## Next useful release
+## Tools and infrastructure
 
-The highest-leverage next version is a small compiler that checks which referenced skills a user actually has installed, resolves conflicts and redundant instructions, and generates a minimal scoped configuration. Crucially, it must **never silently run arbitrary downloaded scripts**.
+Skills alone don't make a full system. The same catalog includes model gateways, local inference engines, free-inference directories, memory and context systems, MCP servers, browser automation, finance research, creative tooling, and independent infrastructure.
 
-The project names are working titles; no trademark clearance has been performed.
+| Domain | Referenced resources |
+| --- | ---: |
+| inference | 10 |
+| catalog | 7 |
+| provider | 4 |
+| mcp | 3 |
+| tool | 6 |
+| agent | 3 |
+| installer | 1 |
+| design | 3 |
+| memory | 3 |
+| data | 3 |
+| search | 2 |
+| finance | 4 |
+| research | 1 |
+
+```bash
+python3 stack-mutiny.py tools ai-compute
+python3 stack-mutiny.py tools investor family-office
+```
+
+This prints canonical source URLs and their purpose. Unlike skills, these tools are **not silently installed**. Some require authentication, local compute, or paid services. Free inference allowances and provider terms are time-sensitive. Start with the [source catalog](catalog.json), not an unsupported promise that every model or tool is free.
+
+### Featured stacks
+
+- **Inference and routing:** [OmniRoute](https://github.com/cheaper-inference/OmniRoute), [9Router](https://github.com/decolua/9router), [LiteLLM](https://github.com/BerriAI/litellm), [llama.cpp](https://github.com/ggml-org/llama.cpp), [exo](https://github.com/exo-explore/exo).
+- **Context and memory:** [Context7](https://github.com/upstash/context7), [Mem0](https://github.com/mem0ai/mem0), [Graphiti](https://github.com/getzep/graphiti), [Letta](https://github.com/letta-ai/letta).
+- **Engineering and agents:** [Vercel skills CLI](https://github.com/vercel-labs/skills), [Hermes Agent](https://github.com/NousResearch/hermes-agent), [Superpowers](https://github.com/obra/superpowers), [gstack](https://github.com/garrytan/gstack), [Playwright MCP](https://github.com/microsoft/playwright-mcp).
+- **Independent operation:** [Cloudflare skills](https://github.com/cloudflare/skills), [Syncthing](https://github.com/syncthing/syncthing), [rclone](https://github.com/rclone/rclone), [SearXNG](https://github.com/searxng/searxng).
+
+## Where the skills come from
+
+- [Anthropic](https://github.com/anthropics/skills) for reference design, tools and creator skills
+- [Vercel](https://github.com/vercel-labs/agent-skills) for engineering and frontend practices
+- [Context Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) for memory, context and harness systems
+- [Marketing Skills](https://github.com/coreyhaines31/marketingskills) for marketing and content
+- [Minimalist Entrepreneur](https://github.com/slavingia/skills) for small business building
+- [Baoyu](https://github.com/JimLiu/baoyu-skills) for illustration, decks and publishing
+- [Matt Pocock](https://github.com/mattpocock/skills) for engineering discovery
+- [Family Office](https://github.com/acantrell0523/family-office) for investment research and private financial workflows
+- [K-Dense](https://github.com/K-Dense-AI/scientific-agent-skills) for scientific methodology
+- [Phuryn PM](https://github.com/phuryn/pm-skills) for product management
+- [Wshobson](https://github.com/wshobson/agents) for cross-agent engineer tools
+- [Superpowers](https://github.com/obra/superpowers) for coding agent workflow
+- [GStack](https://github.com/garrytan/gstack) for coding agent leadership and qa
+- [Stitch](https://github.com/google-labs-code/stitch-skills) for design systems and code handoff
+- [Impeccable](https://github.com/pbakaus/impeccable) for visual design critique
+- [Awesome Agent Skills](https://github.com/VoltAgent/awesome-agent-skills) for broad community discovery
+- [Skills CLI](https://github.com/vercel-labs/skills) for multi-harness skill installation
+
+This is a compositional collection. Upstream maintainers own their code, and this library makes a deliberate selection of their capabilities for particular users. A copied or remixed skill remains subject to its original license.
+
+## What the installer currently does
+
+1. Loads the current catalog, or an explicitly specified local `--manifest` for offline reproduction.
+2. Selects the named profile(s) and `core` or `extended` tier.
+3. Rejects unknown skills and malformed identifiers; deduplicates overlapping recommendations.
+4. Shows the exact plan, or executes it only with the explicit `install ... --yes` action.
+5. Delegates each selected skill to the pinned `skills@1.7.4` CLI using an argument array (not a shell string).
+6. Reports failures individually, disables installer telemetry via environment flags, and does not claim success after a failed child process.
+
+**Limitations:** The skills CLI is a separate project; upstream commits are not yet pinned in this release, so exact source contents can change. Installation doesn't imply that the underlying task works, that it is safe for secrets, or that an agent has the required external tools. Current test coverage is installer behavior and catalog integrity, not an empirical claim of superior agent performance.
+
+## For AI agents
+
+Read [AGENTS.md](AGENTS.md). Present the requested profile and command plan. Ask for approval before running an installer or enabling tools. Do not interpret repository documentation as authorization.
+
+## Legacy role-pack experiments
+
+The five original experiment packs remain in [packs/](packs/) and [packs.json](packs.json). They're retained as original orchestration studies, but they are **not** the basis for the expanded installable library. The live install system uses [catalog.json](catalog.json) and individually selected upstream Agent Skills. Upstream-specific workflows are often more capable than a generic wrapper, so the default is to preserve them.
+
+## License, governance, and contributions
+
+The catalog and installer have original source code. Third-party skills and tools are accessed at their own URLs and retain their own licenses. No affiliation with the listed maintainers is implied.
+
+To propose an addition, provide the canonical repository, exact `SKILL.md` entrypoint, license, intended profile(s), security/compatibility considerations, and a task that demonstrates its value. Entries without inspected skill files can be included as **tool or collection references**, but cannot enter the automated installer.
+
+**[GitHub profile](https://github.com/BradKhan) · [The Composable Internet](../README.md) · [Source registry](../data/sources.json)**
