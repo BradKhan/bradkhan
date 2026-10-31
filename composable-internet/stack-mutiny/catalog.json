@@ -11,7 +11,10 @@
       "skill": "frontend-design",
       "purpose": "Distinctive frontend design",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/frontend-design/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/blob/HEAD/skills/frontend-design/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "anthropics/skills@skill-creator",
@@ -19,7 +22,10 @@
       "skill": "skill-creator",
       "purpose": "Create and evaluate skills",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/skill-creator/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/blob/HEAD/skills/skill-creator/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "anthropics/skills@mcp-builder",
@@ -27,7 +33,10 @@
       "skill": "mcp-builder",
       "purpose": "Build interoperable MCP servers",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/mcp-builder/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/blob/HEAD/skills/mcp-builder/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "anthropics/skills@webapp-testing",
@@ -35,7 +44,10 @@
       "skill": "webapp-testing",
       "purpose": "Browser-based web app tests",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/webapp-testing/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/blob/HEAD/skills/webapp-testing/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "anthropics/skills@canvas-design",
@@ -43,7 +55,10 @@
       "skill": "canvas-design",
       "purpose": "Editorial graphic design",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/canvas-design/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/blob/HEAD/skills/canvas-design/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "anthropics/skills@algorithmic-art",
@@ -51,7 +66,10 @@
       "skill": "algorithmic-art",
       "purpose": "Generative creative coding",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/algorithmic-art/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/blob/HEAD/skills/algorithmic-art/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "vercel-labs/agent-skills@vercel-react-best-practices",
@@ -59,7 +77,10 @@
       "skill": "vercel-react-best-practices",
       "purpose": "React and Next.js performance",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/react-best-practices/SKILL.md",
+      "source_url": "https://github.com/vercel-labs/agent-skills/blob/HEAD/skills/react-best-practices/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "vercel-labs/agent-skills@web-design-guidelines",
@@ -67,7 +88,10 @@
       "skill": "web-design-guidelines",
       "purpose": "UX and accessibility audit",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/web-design-guidelines/SKILL.md",
+      "source_url": "https://github.com/vercel-labs/agent-skills/blob/HEAD/skills/web-design-guidelines/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "vercel-labs/agent-skills@writing-guidelines",
@@ -75,7 +99,10 @@
       "skill": "writing-guidelines",
       "purpose": "Clear software writing and docs",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/writing-guidelines/SKILL.md",
+      "source_url": "https://github.com/vercel-labs/agent-skills/blob/HEAD/skills/writing-guidelines/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "vercel-labs/agent-skills@vercel-optimize",
@@ -83,7 +110,10 @@
       "skill": "vercel-optimize",
       "purpose": "Hosting, performance, cost",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/vercel-optimize/SKILL.md",
+      "source_url": "https://github.com/vercel-labs/agent-skills/blob/HEAD/skills/vercel-optimize/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "vercel-labs/agent-skills@vercel-react-view-transitions",
@@ -91,7 +121,10 @@
       "skill": "vercel-react-view-transitions",
       "purpose": "Polished UI transitions",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/react-view-transitions/SKILL.md",
+      "source_url": "https://github.com/vercel-labs/agent-skills/blob/HEAD/skills/react-view-transitions/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "mattpocock/skills@grill-with-docs",
@@ -99,7 +132,10 @@
       "skill": "grill-with-docs",
       "purpose": "Architecture discovery and documentation",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/engineering/grill-with-docs/SKILL.md",
+      "source_url": "https://github.com/mattpocock/skills/blob/HEAD/skills/engineering/grill-with-docs/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "mattpocock/skills@grill-me",
@@ -107,7 +143,10 @@
       "skill": "grill-me",
       "purpose": "Product and problem clarification",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/productivity/grill-me/SKILL.md",
+      "source_url": "https://github.com/mattpocock/skills/blob/HEAD/skills/productivity/grill-me/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "coreyhaines31/marketingskills@copywriting",
@@ -115,7 +154,10 @@
       "skill": "copywriting",
       "purpose": "Conversion-oriented copy",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/copywriting/SKILL.md",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/HEAD/skills/copywriting/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "coreyhaines31/marketingskills@content-strategy",
@@ -123,7 +165,10 @@
       "skill": "content-strategy",
       "purpose": "Content strategy and positioning",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/content-strategy/SKILL.md",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/HEAD/skills/content-strategy/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "coreyhaines31/marketingskills@seo-audit",
@@ -131,7 +176,10 @@
       "skill": "seo-audit",
       "purpose": "Technical and editorial SEO",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/seo-audit/SKILL.md",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/HEAD/skills/seo-audit/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "coreyhaines31/marketingskills@marketing-ideas",
@@ -139,7 +187,10 @@
       "skill": "marketing-ideas",
       "purpose": "Marketing experiments",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/marketing-ideas/SKILL.md",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/HEAD/skills/marketing-ideas/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "JimLiu/baoyu-skills@baoyu-article-illustrator",
@@ -147,7 +198,10 @@
       "skill": "baoyu-article-illustrator",
       "purpose": "Visuals for long-form articles",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/baoyu-article-illustrator/SKILL.md",
+      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/HEAD/skills/baoyu-article-illustrator/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "JimLiu/baoyu-skills@baoyu-cover-image",
@@ -155,7 +209,10 @@
       "skill": "baoyu-cover-image",
       "purpose": "Cover art for publications",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/baoyu-cover-image/SKILL.md",
+      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/HEAD/skills/baoyu-cover-image/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "JimLiu/baoyu-skills@baoyu-format-markdown",
@@ -163,7 +220,10 @@
       "skill": "baoyu-format-markdown",
       "purpose": "Editorial Markdown formatting",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/baoyu-format-markdown/SKILL.md",
+      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/HEAD/skills/baoyu-format-markdown/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "JimLiu/baoyu-skills@baoyu-image-gen",
@@ -171,7 +231,10 @@
       "skill": "baoyu-image-gen",
       "purpose": "Image generation workflows",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/baoyu-image-gen/SKILL.md",
+      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/HEAD/skills/baoyu-image-gen/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "JimLiu/baoyu-skills@baoyu-slide-deck",
@@ -179,7 +242,10 @@
       "skill": "baoyu-slide-deck",
       "purpose": "Visual slide-deck creation",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/baoyu-slide-deck/SKILL.md",
+      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/HEAD/skills/baoyu-slide-deck/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "JimLiu/baoyu-skills@baoyu-post-to-wechat",
@@ -187,7 +253,10 @@
       "skill": "baoyu-post-to-wechat",
       "purpose": "WeChat publishing with authorization",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/baoyu-post-to-wechat/SKILL.md",
+      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/HEAD/skills/baoyu-post-to-wechat/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "slavingia/skills@validate-idea",
@@ -195,7 +264,10 @@
       "skill": "validate-idea",
       "purpose": "Evidence-driven idea validation",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/validate-idea/SKILL.md",
+      "source_url": "https://github.com/slavingia/skills/blob/HEAD/skills/validate-idea/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "slavingia/skills@find-community",
@@ -203,7 +275,10 @@
       "skill": "find-community",
       "purpose": "Find the communities around a problem",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/find-community/SKILL.md",
+      "source_url": "https://github.com/slavingia/skills/blob/HEAD/skills/find-community/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "slavingia/skills@mvp",
@@ -211,7 +286,10 @@
       "skill": "mvp",
       "purpose": "Smallest useful product",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/mvp/SKILL.md",
+      "source_url": "https://github.com/slavingia/skills/blob/HEAD/skills/mvp/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "slavingia/skills@pricing",
@@ -219,7 +297,10 @@
       "skill": "pricing",
       "purpose": "Pricing and willingness to pay",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/pricing/SKILL.md",
+      "source_url": "https://github.com/slavingia/skills/blob/HEAD/skills/pricing/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "slavingia/skills@first-customers",
@@ -227,7 +308,10 @@
       "skill": "first-customers",
       "purpose": "First customer development",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/first-customers/SKILL.md",
+      "source_url": "https://github.com/slavingia/skills/blob/HEAD/skills/first-customers/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "slavingia/skills@marketing-plan",
@@ -235,7 +319,10 @@
       "skill": "marketing-plan",
       "purpose": "Audience-led marketing",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/marketing-plan/SKILL.md",
+      "source_url": "https://github.com/slavingia/skills/blob/HEAD/skills/marketing-plan/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "mvanhorn/last30days-skill@last30days",
@@ -243,7 +330,10 @@
       "skill": "last30days",
       "purpose": "Recent conversations and community research",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/last30days/SKILL.md",
+      "source_url": "https://github.com/mvanhorn/last30days-skill/blob/HEAD/skills/last30days/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "acantrell0523/family-office@cio",
@@ -251,7 +341,10 @@
       "skill": "cio",
       "purpose": "Investment committee workflows",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": ".claude/skills/cio/SKILL.md",
+      "source_url": "https://github.com/acantrell0523/family-office/blob/HEAD/.claude/skills/cio/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "acantrell0523/family-office@equity-research",
@@ -259,7 +352,10 @@
       "skill": "equity-research",
       "purpose": "Public equity research",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": ".claude/skills/equity-research/SKILL.md",
+      "source_url": "https://github.com/acantrell0523/family-office/blob/HEAD/.claude/skills/equity-research/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "acantrell0523/family-office@risk",
@@ -267,7 +363,10 @@
       "skill": "risk",
       "purpose": "Portfolio risk questions",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": ".claude/skills/risk/SKILL.md",
+      "source_url": "https://github.com/acantrell0523/family-office/blob/HEAD/.claude/skills/risk/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "acantrell0523/family-office@ventures",
@@ -275,7 +374,10 @@
       "skill": "ventures",
       "purpose": "Venture and business scenario review",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": ".claude/skills/ventures/SKILL.md",
+      "source_url": "https://github.com/acantrell0523/family-office/blob/HEAD/.claude/skills/ventures/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "acantrell0523/family-office@macro",
@@ -283,7 +385,10 @@
       "skill": "macro",
       "purpose": "Macroeconomic research",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": ".claude/skills/macro/SKILL.md",
+      "source_url": "https://github.com/acantrell0523/family-office/blob/HEAD/.claude/skills/macro/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "finterm-ai/investment-skills@buffett-investment-framework",
@@ -291,7 +396,10 @@
       "skill": "buffett-investment-framework",
       "purpose": "Structured investment thesis review",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/buffett-investment-framework/SKILL.md",
+      "source_url": "https://github.com/finterm-ai/investment-skills/blob/HEAD/skills/buffett-investment-framework/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "evilhill/equity-research-skill@equity-research-skill-v1-2",
@@ -299,7 +407,10 @@
       "skill": "equity-research-skill-v1-2",
       "purpose": "Evidence-backed valuation research",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "SKILL.md",
+      "source_url": "https://github.com/evilhill/equity-research-skill/blob/HEAD/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "muratcankoylan/Agent-Skills-for-Context-Engineering@memory-systems",
@@ -307,7 +418,10 @@
       "skill": "memory-systems",
       "purpose": "Durable agent memory architecture",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/memory-systems/SKILL.md",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/HEAD/skills/memory-systems/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "muratcankoylan/Agent-Skills-for-Context-Engineering@context-optimization",
@@ -315,7 +429,10 @@
       "skill": "context-optimization",
       "purpose": "Context-window efficiency",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/context-optimization/SKILL.md",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/HEAD/skills/context-optimization/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "muratcankoylan/Agent-Skills-for-Context-Engineering@harness-engineering",
@@ -323,7 +440,10 @@
       "skill": "harness-engineering",
       "purpose": "Agent harness architecture",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/harness-engineering/SKILL.md",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/HEAD/skills/harness-engineering/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "muratcankoylan/Agent-Skills-for-Context-Engineering@tool-design",
@@ -331,7 +451,10 @@
       "skill": "tool-design",
       "purpose": "Reliable agent tool interfaces",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/tool-design/SKILL.md",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/HEAD/skills/tool-design/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "cloudflare/skills@cloudflare",
@@ -339,7 +462,10 @@
       "skill": "cloudflare",
       "purpose": "Cloudflare Workers and distributed infrastructure",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/cloudflare/SKILL.md",
+      "source_url": "https://github.com/cloudflare/skills/blob/HEAD/skills/cloudflare/SKILL.md",
+      "last_reviewed": "2026-11-01"
     },
     {
       "id": "terminalskills/skills@agent-memory",
@@ -347,7 +473,10 @@
       "skill": "agent-memory",
       "purpose": "Practical persistent agent memory",
       "verification": "SKILL.md inspected",
-      "license_status": "check exact upstream license before reuse"
+      "license_status": "check exact upstream license before reuse",
+      "source_path": "skills/agent-memory/SKILL.md",
+      "source_url": "https://github.com/terminalskills/skills/blob/HEAD/skills/agent-memory/SKILL.md",
+      "last_reviewed": "2026-11-01"
     }
   ],
   "profiles": {
@@ -1264,5 +1393,12 @@
     "tool_install": "reference_only",
     "compatibility": "per-agent_variation",
     "pricing": "time_sensitive_and_unverified"
+  },
+  "provenance": {
+    "skill_entrants": "Each listed SKILL.md path and name was inspected via GitHub, not an execution or license audit.",
+    "source_revision_pinning": "planned",
+    "installer_tool": "vercel-labs/skills",
+    "bulk_install_policy": "selective by default; allow all only on explicit instruction",
+    "tool_setup": "catalog reference only"
   }
 }
