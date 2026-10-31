@@ -35,3 +35,5 @@ jobs:
           python-version: '3.12'
       - name: Validate catalog offline
         run: python composable-internet/scripts/validate.py
+      - name: Validate experimental skill packs
+        run: python composable-internet/skill-issue/scripts/validate.py
