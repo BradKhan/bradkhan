@@ -335,10 +335,10 @@
       "url": "https://github.com/BradKhan/open-ASS",
       "domain": "AI and agents",
       "contexts": [
-        "saved_on_account"
+        "original_public_work"
       ],
       "why": "first-party agent software system",
-      "origin": "personal_account_reference_authorship_not_assumed",
+      "origin": "first_party_project",
       "review_level": "readme_inspected",
       "license_status": "not_audited",
       "integration_status": "not_verified"
@@ -700,10 +700,10 @@
       "url": "https://github.com/BradKhan/bradkhan",
       "domain": "Creative technology",
       "contexts": [
-        "saved_on_account"
+        "original_public_work"
       ],
       "why": "first-party public profile, atlas and guides",
-      "origin": "personal_account_reference_authorship_not_assumed",
+      "origin": "first_party_project",
       "review_level": "inventory_only",
       "license_status": "not_audited",
       "integration_status": "not_verified"
@@ -1445,10 +1445,10 @@
       "url": "https://github.com/BradKhan/Khan-AIOS-Venture-Studio-MVP-Framework",
       "domain": "Venture and markets",
       "contexts": [
-        "saved_on_account"
+        "original_public_work"
       ],
       "why": "first-party venture template",
-      "origin": "personal_account_reference_authorship_not_assumed",
+      "origin": "first_party_project",
       "review_level": "inventory_only",
       "license_status": "not_audited",
       "integration_status": "not_verified"
