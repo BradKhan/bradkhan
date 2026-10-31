@@ -10,7 +10,7 @@
 
 ## Build the world you would rather live in.
 
-I build companies, products, and technologies that expand people's capacity to understand their circumstances and shape what happens next.
+I build companies, technologies, mental models, and new ways of organizing intelligence around power, society, and human agency.
 
 My interests meet at the intersection of **technology, entrepreneurship, and power**. I believe technology should increase human agency, not make it easier to surveil people, capture their knowledge, or lock them into systems they cannot freely leave.
 
@@ -23,7 +23,7 @@ I am especially interested in portable AI and personal data, independent infrast
 | Project | What it does | What is public |
 | :--- | :--- | :--- |
 | **[Open ASS](https://github.com/BradKhan/open-ASS)** | A GitHub-native system for developing software with AI agents: reusable skills, context, workflow coordination, and verification. | Open-source software and documentation |
-| **[STACK MUTINY](composable-internet/stack-mutiny/README.md)** | Five cheekily named agent-skill workflows for developers, designers, founders, marketers, and investors. Each links to complementary upstream software. | Experimental original SKILL.md files; runtime compatibility not tested |
+| **[STACK MUTINY](composable-internet/stack-mutiny/README.md)** | Five specialist agent-skill workflows for development, design, venture building, marketing, and investment research. Curated from open-source approaches and organized around practical results. | Experimental original SKILL.md files; runtime compatibility not tested |
 | **[The Composable Internet](composable-internet/README.md)** | An atlas of existing tools and ways to combine them into useful products, from AI and creative technology to privacy and independent infrastructure. | Source library and **24 proposed** compositions; not 24 finished products |
 | **[Khan AI-OS Venture Studio Framework](https://github.com/BradKhan/Khan-AIOS-Venture-Studio-MVP-Framework)** | A Git-based framework for taking a venture from research through product definition and delivery. | Public, reusable venture template |
 
