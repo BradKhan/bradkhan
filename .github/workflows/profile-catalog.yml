@@ -4,10 +4,22 @@ on:
   push:
     paths:
       - 'composable-internet/**'
+      - 'README.md'
+      - 'BRAND.md'
+      - 'AGENTS.md'
+      - 'llms.txt'
+      - 'data/profile.json'
+      - 'assets/profile-hero.svg'
       - '.github/workflows/profile-catalog.yml'
   pull_request:
     paths:
       - 'composable-internet/**'
+      - 'README.md'
+      - 'BRAND.md'
+      - 'AGENTS.md'
+      - 'llms.txt'
+      - 'data/profile.json'
+      - 'assets/profile-hero.svg'
       - '.github/workflows/profile-catalog.yml'
   workflow_dispatch:
 
