@@ -1,0 +1,1548 @@
+{
+  "schema_version": "1.0.0",
+  "edition": "2026-11-01",
+  "source_count": 118,
+  "method": "public saved repository inventory, selected README excerpts and source leads; not a code or license audit",
+  "sources": [
+    {
+      "name": "agency-swarm",
+      "url": "https://github.com/BradKhan/agency-swarm",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "multi-agent orchestration",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "readme_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "agents.md",
+      "url": "https://github.com/BradKhan/agents.md",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "agent instruction convention",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "readme_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "agentskills",
+      "url": "https://github.com/agentskills/agentskills",
+      "domain": "AI and agents",
+      "contexts": [
+        "composition_ingredient",
+        "source_collection_or_engine"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "ai-cognitive-framework",
+      "url": "https://github.com/BradKhan/ai-cognitive-framework",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "structured AI methodology",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "readme_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "atomic-agents",
+      "url": "https://github.com/BradKhan/atomic-agents",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "lightweight agent architecture",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "awesome-agent-skills",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "domain": "AI and agents",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "Cross-agent skills collection",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "awesome-agent-skills",
+      "url": "https://github.com/linny006/awesome-agent-skills",
+      "domain": "AI and agents",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "Continuously updated skill directory",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "awesome-ai-agents",
+      "url": "https://github.com/e2b-dev/awesome-ai-agents",
+      "domain": "AI and agents",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "Agent projects directory",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "awesome-claude-skills",
+      "url": "https://github.com/BradKhan/awesome-claude-skills",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "agent skills collection",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "readme_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "awesome-claude-skills",
+      "url": "https://github.com/travisvn/awesome-claude-skills",
+      "domain": "AI and agents",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "Agent skill catalog",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "awesome-claude-skills",
+      "url": "https://github.com/VoltAgent/awesome-claude-skills",
+      "domain": "AI and agents",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "Claude skill library",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "awesome-mcp-servers",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "domain": "AI and agents",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "MCP services catalog",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "awesome-n8n-templates",
+      "url": "https://github.com/ScraperNode/awesome-n8n-templates",
+      "domain": "AI and agents",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "Automation workflow collection",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "claude-code-skills",
+      "url": "https://github.com/BradKhan/claude-code-skills",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "skill library",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "claude-code-tips",
+      "url": "https://github.com/BradKhan/claude-code-tips",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "practical agent usage notes",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "readme_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "everything-claude-code",
+      "url": "https://github.com/BradKhan/everything-claude-code",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "agent orchestration and skill patterns",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "readme_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "gemini-cli",
+      "url": "https://github.com/BradKhan/gemini-cli",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "model-agnostic coding agent reference",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "get-shit-done",
+      "url": "https://github.com/BradKhan/get-shit-done",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "agent planning and execution",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "readme_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "goose",
+      "url": "https://github.com/BradKhan/goose",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "agent runtime",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "kreuzberg",
+      "url": "https://github.com/kreuzberg-dev/kreuzberg",
+      "domain": "AI and agents",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "litellm",
+      "url": "https://github.com/BerriAI/litellm",
+      "domain": "AI and agents",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "domain": "AI and agents",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "LlamaFactory",
+      "url": "https://github.com/BradKhan/LlamaFactory",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "model fine-tuning references",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "llmfit",
+      "url": "https://github.com/khonello/llmfit",
+      "domain": "AI and agents",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "domain": "AI and agents",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "Workflow automation engine",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "open-ASS",
+      "url": "https://github.com/BradKhan/open-ASS",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "first-party agent software system",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "readme_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "open-claude-cowork",
+      "url": "https://github.com/BradKhan/open-claude-cowork",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "agent desktop UX",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "readme_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "open-skills",
+      "url": "https://github.com/BradKhan/open-skills",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "portable skill utilities",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "opencode",
+      "url": "https://github.com/BradKhan/opencode",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "coding agent runtime",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "opencode-antigravity-auth",
+      "url": "https://github.com/BradKhan/opencode-antigravity-auth",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "authentication bridge reference",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "openwork",
+      "url": "https://github.com/BradKhan/openwork",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "coding agent interface reference",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "promptfoo",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "domain": "AI and agents",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "qwen-code",
+      "url": "https://github.com/BradKhan/qwen-code",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "open-weight model coding harness",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "rrweb",
+      "url": "https://github.com/rrweb-io/rrweb",
+      "domain": "AI and agents",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "servers",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "domain": "AI and agents",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "skills",
+      "url": "https://github.com/anthropics/skills",
+      "domain": "AI and agents",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "Skill specification examples",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "skills",
+      "url": "https://github.com/huggingface/skills",
+      "domain": "AI and agents",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "Hugging Face skills research",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "skillspector",
+      "url": "https://github.com/NVIDIA/skillspector",
+      "domain": "AI and agents",
+      "contexts": [
+        "composition_ingredient",
+        "source_collection_or_engine"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "sky-livekit-agent-perplexica",
+      "url": "https://github.com/BradKhan/sky-livekit-agent-perplexica",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "realtime audio research and search",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "sqlite",
+      "url": "https://www.sqlite.org/",
+      "domain": "AI and agents",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "superpowers",
+      "url": "https://github.com/BradKhan/superpowers",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "coding agent process and skills",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "readme_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "superpowers-marketplace",
+      "url": "https://github.com/BradKhan/superpowers-marketplace",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "skill distribution",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "system-prompts-and-models-of-ai-tools",
+      "url": "https://github.com/BradKhan/system-prompts-and-models-of-ai-tools",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "third-party prompt research; provenance and rights caution",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "readme_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "trae-agent",
+      "url": "https://github.com/BradKhan/trae-agent",
+      "domain": "AI and agents",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "coding agent architecture",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "bonfire-app",
+      "url": "https://github.com/bonfire-networks/bonfire-app",
+      "domain": "Collective infrastructure",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "decidim",
+      "url": "https://github.com/decidim/decidim",
+      "domain": "Collective infrastructure",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "A2UI",
+      "url": "https://github.com/BradKhan/A2UI",
+      "domain": "Creative technology",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "agent-generated UI protocol",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "agent-skills",
+      "url": "https://github.com/vercel-labs/agent-skills",
+      "domain": "Creative technology",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "Web development skills",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "AionUi",
+      "url": "https://github.com/BradKhan/AionUi",
+      "domain": "Creative technology",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "AI application interface lead",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "automerge",
+      "url": "https://github.com/automerge/automerge",
+      "domain": "Creative technology",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "awesome-creative-coding",
+      "url": "https://github.com/terkelg/awesome-creative-coding",
+      "domain": "Creative technology",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "Creative coding libraries",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "awesome-design-md",
+      "url": "https://github.com/BradKhan/awesome-design-md",
+      "domain": "Creative technology",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "agent-readable design libraries",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "readme_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "awesome-motion-graphics",
+      "url": "https://github.com/beast-ofcourse/awesome-motion-graphics",
+      "domain": "Creative technology",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "Motion graphics tooling",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "bradkhan",
+      "url": "https://github.com/BradKhan/bradkhan",
+      "domain": "Creative technology",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "first-party public profile, atlas and guides",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "d3",
+      "url": "https://github.com/d3/d3",
+      "domain": "Creative technology",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "dembrandt",
+      "url": "https://github.com/dembrandt/dembrandt",
+      "domain": "Creative technology",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "FFmpeg",
+      "url": "https://github.com/FFmpeg/FFmpeg",
+      "domain": "Creative technology",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "playwright",
+      "url": "https://github.com/microsoft/playwright",
+      "domain": "Creative technology",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "domain": "Creative technology",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "repomix",
+      "url": "https://github.com/yamadashy/repomix",
+      "domain": "Creative technology",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "stitch-skills",
+      "url": "https://github.com/BradKhan/stitch-skills",
+      "domain": "Creative technology",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "design-to-component skills",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "readme_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "syncthing",
+      "url": "https://github.com/syncthing/syncthing",
+      "domain": "Creative technology",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "awesome-free-ai",
+      "url": "https://github.com/chid/awesome-free-ai",
+      "domain": "Independent infrastructure",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "Free AI tooling catalog",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "awesome-free-llm-apis",
+      "url": "https://github.com/mnfst/awesome-free-llm-apis",
+      "domain": "Independent infrastructure",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "Free AI API research",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "awesome-open-source-saas-alternatives",
+      "url": "https://github.com/Anil-matcha/awesome-open-source-saas-alternatives",
+      "domain": "Independent infrastructure",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "SaaS alternative catalog",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "awesome-selfhosted-data",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted-data",
+      "domain": "Independent infrastructure",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "Machine-readable self-hosted metadata",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "exo",
+      "url": "https://github.com/exo-explore/exo",
+      "domain": "Independent infrastructure",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "atproto",
+      "url": "https://github.com/bluesky-social/atproto",
+      "domain": "Independent publishing",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "eleventy",
+      "url": "https://github.com/11ty/eleventy",
+      "domain": "Independent publishing",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "feed-generator",
+      "url": "https://github.com/bluesky-social/feed-generator",
+      "domain": "Independent publishing",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "FreshRSS",
+      "url": "https://github.com/FreshRSS/FreshRSS",
+      "domain": "Independent publishing",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "indiekit",
+      "url": "https://github.com/getindiekit/indiekit",
+      "domain": "Independent publishing",
+      "contexts": [
+        "composition_ingredient",
+        "source_collection_or_engine"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "RSSHub",
+      "url": "https://github.com/DIYgod/RSSHub",
+      "domain": "Independent publishing",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "ArchiveBox",
+      "url": "https://github.com/ArchiveBox/ArchiveBox",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "awesome-privacy",
+      "url": "https://github.com/pluja/awesome-privacy",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "Privacy tooling catalog",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "awesome-selfhosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "composition_ingredient",
+        "source_collection_or_engine"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "browser-history",
+      "url": "https://github.com/browser-history/browser-history",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "CloudGallery",
+      "url": "https://github.com/BradKhan/CloudGallery",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "photo storage alternatives reference",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "hister",
+      "url": "https://github.com/asciimoo/hister",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "immich",
+      "url": "https://github.com/immich-app/immich",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "immich-go",
+      "url": "https://github.com/simulot/immich-go",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "linkosh",
+      "url": "https://github.com/sabyasachi/linkosh",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "maplibre-gl-js",
+      "url": "https://github.com/maplibre/maplibre-gl-js",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "mem0",
+      "url": "https://github.com/mem0ai/mem0",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Memdown",
+      "url": "https://github.com/BradKhan/Memdown",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "personal memory research lead",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "openfga",
+      "url": "https://github.com/openfga/openfga",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "PAI",
+      "url": "https://github.com/danielmiessler/PAI",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "Personal AI infrastructure",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "perplexed-plugin",
+      "url": "https://github.com/BradKhan/perplexed-plugin",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "search plugin",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Perplexica",
+      "url": "https://github.com/BradKhan/Perplexica",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "private search and answer engine",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "readme_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Perplexica",
+      "url": "https://github.com/ItzCrazyKns/Perplexica",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "perplexica-mcp",
+      "url": "https://github.com/BradKhan/perplexica-mcp",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "search tool integration",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "perplexica-pipe",
+      "url": "https://github.com/BradKhan/perplexica-pipe",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "search integration",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "perplexicapp",
+      "url": "https://github.com/BradKhan/perplexicapp",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "search interface experiment",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Personal_AI_Infrastructure",
+      "url": "https://github.com/BradKhan/Personal_AI_Infrastructure",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "personal agent capability stack",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "readme_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "portable-memory",
+      "url": "https://github.com/MacPaw/portable-memory",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "rclone",
+      "url": "https://github.com/rclone/rclone",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "composition_ingredient",
+        "source_collection_or_engine"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "restic",
+      "url": "https://github.com/restic/restic",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "searxng",
+      "url": "https://github.com/searxng/searxng",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "whisper.cpp",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "awesome-osint",
+      "url": "https://github.com/jivoi/awesome-osint",
+      "domain": "Public knowledge",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "Open-source intelligence research",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "awesome-public-datasets",
+      "url": "https://github.com/awesomedata/awesome-public-datasets",
+      "domain": "Public knowledge",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "Public dataset index",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "changedetection.io",
+      "url": "https://github.com/dgtlmoon/changedetection.io",
+      "domain": "Public knowledge",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "claude-scientific-skills",
+      "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+      "domain": "Public knowledge",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "Research and scientific agent skills",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "engine",
+      "url": "https://github.com/OpenTermsArchive/engine",
+      "domain": "Public knowledge",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "gods-eye-view",
+      "url": "https://github.com/BradKhan/gods-eye-view",
+      "domain": "Public knowledge",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "public feeds visualized as a 3D experience",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "owid-grapher",
+      "url": "https://github.com/owid/owid-grapher",
+      "domain": "Public knowledge",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "tracker-radar",
+      "url": "https://github.com/duckduckgo/tracker-radar",
+      "domain": "Public knowledge",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "awesome",
+      "url": "https://github.com/sindresorhus/awesome",
+      "domain": "Venture and markets",
+      "contexts": [
+        "composition_ingredient",
+        "source_collection_or_engine"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "dexter",
+      "url": "https://github.com/BradKhan/dexter",
+      "domain": "Venture and markets",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "financial research agent reference",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "FinceptTerminal",
+      "url": "https://github.com/BradKhan/FinceptTerminal",
+      "domain": "Venture and markets",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "financial research terminal",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "readme_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Khan-AIOS-Venture-Studio-MVP-Framework",
+      "url": "https://github.com/BradKhan/Khan-AIOS-Venture-Studio-MVP-Framework",
+      "domain": "Venture and markets",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "first-party venture template",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "mojaloop",
+      "url": "https://github.com/mojaloop",
+      "domain": "Venture and markets",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "open-payments",
+      "url": "https://github.com/interledger/open-payments",
+      "domain": "Venture and markets",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "openpaygents",
+      "url": "https://github.com/cyberagencyorg/openpaygents",
+      "domain": "Venture and markets",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "QuantMuse",
+      "url": "https://github.com/BradKhan/QuantMuse",
+      "domain": "Venture and markets",
+      "contexts": [
+        "saved_on_account"
+      ],
+      "why": "quantitative analysis research lead",
+      "origin": "personal_account_reference_authorship_not_assumed",
+      "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "repos",
+      "url": "https://github.com/ecosyste-ms",
+      "domain": "Venture and markets",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "roadmap",
+      "url": "https://github.com/github/roadmap",
+      "domain": "Venture and markets",
+      "contexts": [
+        "composition_ingredient"
+      ],
+      "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
+      "origin": "external_reference",
+      "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "skills",
+      "url": "https://github.com/slavingia/skills",
+      "domain": "Venture and markets",
+      "contexts": [
+        "source_collection_or_engine"
+      ],
+      "why": "Founder and small-business skills",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    }
+  ]
+}
