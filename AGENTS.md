@@ -18,6 +18,7 @@ Brad Khan builds companies, products, software systems, and methods of organizin
 - [composable-internet/README.md](composable-internet/README.md): research compositions.
 - [composable-internet/SOURCES.md](composable-internet/SOURCES.md): existing software references, with provenance.
 - [composable-internet/data/compositions.json](composable-internet/data/compositions.json): proposals, not functioning integrations.
+- [composable-internet/skill-issue/README.md](composable-internet/skill-issue/README.md): five experimental original SKILL.md orchestration workflows; untested in agent runtimes.
 - [composable-internet/data/sources.json](composable-internet/data/sources.json): inventory, not verified licensing or performance.
 - [composable-internet/QUALITY-GATES.md](composable-internet/QUALITY-GATES.md): review and implementation evidence requirements.
 
