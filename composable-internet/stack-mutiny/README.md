@@ -20,6 +20,14 @@ Substitute `developer` with any profile below, and `codex` with `claude-code`, `
 
 To combine roles, use one argument such as `founder,marketing,creator`. Repeated skills are deduplicated. To install the larger set for a profile, add `--depth extended`. To install in your user-wide agent environment rather than the current project, add `--global`.
 
+**Install the complete cross-role selection** (larger, intentionally opt-in):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/BradKhan/bradkhan/main/composable-internet/stack-mutiny/install.py | python3 - install all --depth extended --agent codex --yes
+```
+
+This selects every cataloged, compatible skill and deduplicates overlaps. Agent-specific sources that cannot support the chosen runtime are skipped and reported. Using every available skill can create conflicting instructions and a large maintenance burden, so the focused professional profiles remain the recommended starting point.
+
 **Safer preview, recommended before any external install:**
 
 ```bash
