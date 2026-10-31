@@ -37,3 +37,5 @@ jobs:
         run: python composable-internet/scripts/validate.py
       - name: Validate experimental skill packs
         run: python composable-internet/skill-issue/scripts/validate.py
+      - name: Test offline pack compiler
+        run: python -m unittest discover -s composable-internet/skill-issue/tests -p 'test_*.py'
