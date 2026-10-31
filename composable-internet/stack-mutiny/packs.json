@@ -1,0 +1,199 @@
+{
+  "schema_version": "0.1.0",
+  "name": "STACK MUTINY",
+  "parent": "The Composable Internet",
+  "published": "2026-11-01",
+  "status": "experimental_not_harness_tested",
+  "licensing_note": "Original orchestration text only; upstream references are not bundled. Review individual source licenses before any source redistribution.",
+  "packs": [
+    {
+      "id": "ship-or-it-didnt-happen",
+      "title": "SHIP OR IT DIDN'T HAPPEN",
+      "slug": "ship-or-it-didnt-happen",
+      "audience": "Developer",
+      "tagline": "Ideas don't pass tests. Software does.",
+      "hook": "Spec → build → verify → show.",
+      "description": "Ship a small code change with reproducible evidence rather than celebratory prose.",
+      "orchestrator": "packs/ship-or-it-didnt-happen/SKILL.md",
+      "upstream_candidates": [
+        {
+          "repository": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "reason": "Planning, TDD and review discipline",
+          "status": "candidate_not_bundled_or_tested"
+        },
+        {
+          "repository": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "reason": "Domain modeling and engineering review patterns",
+          "status": "candidate_not_bundled_or_tested"
+        },
+        {
+          "repository": "garrytan/gstack",
+          "url": "https://github.com/garrytan/gstack",
+          "reason": "Coding-agent QA and launch coordination",
+          "status": "candidate_not_bundled_or_tested"
+        }
+      ],
+      "deliverable": "A runnable change or clear refusal, passing or failing test evidence, and a 30-second product demonstration plan.",
+      "failure_condition": "Do not claim shipped, tested, merged or deployed unless the exact command, commit and artifact substantiate it.",
+      "evaluation_status": "not_tested"
+    },
+    {
+      "id": "stop-shipping-beige",
+      "title": "STOP SHIPPING BEIGE",
+      "slug": "stop-shipping-beige",
+      "audience": "Designer",
+      "tagline": "Taste is a discipline, not a prompt.",
+      "hook": "References → art direction → implementation → adversarial critique.",
+      "description": "Make a distinctive interface with an explicit visual point of view and a documented UX review.",
+      "orchestrator": "packs/stop-shipping-beige/SKILL.md",
+      "upstream_candidates": [
+        {
+          "repository": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "reason": "UI critique, accessibility, visual hierarchy and craft",
+          "status": "candidate_not_bundled_or_tested"
+        },
+        {
+          "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+          "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+          "reason": "Design references, palettes and interface patterns",
+          "status": "candidate_not_bundled_or_tested"
+        },
+        {
+          "repository": "google-labs-code/stitch-skills",
+          "url": "https://github.com/google-labs-code/stitch-skills",
+          "reason": "Design-system documentation and React component conversion",
+          "status": "candidate_not_bundled_or_tested"
+        },
+        {
+          "repository": "VoltAgent/awesome-design-md",
+          "url": "https://github.com/VoltAgent/awesome-design-md",
+          "reason": "Reference-driven design specifications",
+          "status": "candidate_not_bundled_or_tested"
+        }
+      ],
+      "deliverable": "One implemented, visually reviewed screen with an editable design specification, screenshots and known limitations.",
+      "failure_condition": "No invented visual review, inaccessible reference claims, unrelated stock photos or untested pixel-perfect promises.",
+      "evaluation_status": "not_tested"
+    },
+    {
+      "id": "no-permission-required",
+      "title": "NO PERMISSION REQUIRED",
+      "slug": "no-permission-required",
+      "audience": "Entrepreneur",
+      "tagline": "Find a need. Make something real.",
+      "hook": "Observed pain → alternatives → test → offer → first customer.",
+      "description": "Turn an idea into a bounded opportunity with a falsifiable first test and the smallest useful product.",
+      "orchestrator": "packs/no-permission-required/SKILL.md",
+      "upstream_candidates": [
+        {
+          "repository": "slavingia/skills",
+          "url": "https://github.com/slavingia/skills",
+          "reason": "Community discovery, validation, first customers and pricing",
+          "status": "candidate_not_bundled_or_tested"
+        },
+        {
+          "repository": "phuryn/pm-skills",
+          "url": "https://github.com/phuryn/pm-skills",
+          "reason": "Product discovery, prioritization and experiments",
+          "status": "candidate_not_bundled_or_tested"
+        },
+        {
+          "repository": "alirezarezvani/claude-skills",
+          "url": "https://github.com/alirezarezvani/claude-skills",
+          "reason": "Business and market research workflows",
+          "status": "candidate_not_bundled_or_tested"
+        },
+        {
+          "repository": "BradKhan/Khan-AIOS-Venture-Studio-MVP-Framework",
+          "url": "https://github.com/BradKhan/Khan-AIOS-Venture-Studio-MVP-Framework",
+          "reason": "Structured venture planning reference",
+          "status": "candidate_not_bundled_or_tested"
+        }
+      ],
+      "deliverable": "One-page evidence-linked opportunity memo, first offer, test plan and decision ledger.",
+      "failure_condition": "Do not invent interviews, customer willingness to pay, revenue, conversion or market sizing.",
+      "evaluation_status": "not_tested"
+    },
+    {
+      "id": "anti-guru",
+      "title": "ANTI-GURU",
+      "slug": "anti-guru",
+      "audience": "Marketer",
+      "tagline": "Marketing that can survive a fact-check.",
+      "hook": "Audience → promise → proof → channel → measurable experiment.",
+      "description": "Build truthful distribution and conversion experiments without fake social proof or generic content volume.",
+      "orchestrator": "packs/anti-guru/SKILL.md",
+      "upstream_candidates": [
+        {
+          "repository": "coreyhaines31/marketingskills",
+          "url": "https://github.com/coreyhaines31/marketingskills",
+          "reason": "Research, copy, conversion and channel strategy",
+          "status": "candidate_not_bundled_or_tested"
+        },
+        {
+          "repository": "JimLiu/baoyu-skills",
+          "url": "https://github.com/JimLiu/baoyu-skills",
+          "reason": "Content packaging and publication formats",
+          "status": "candidate_not_bundled_or_tested"
+        },
+        {
+          "repository": "alirezarezvani/claude-skills",
+          "url": "https://github.com/alirezarezvani/claude-skills",
+          "reason": "Cross-channel research and marketing operations",
+          "status": "candidate_not_bundled_or_tested"
+        },
+        {
+          "repository": "mvanhorn/last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "reason": "Recent public conversation research where access is permitted",
+          "status": "candidate_not_bundled_or_tested"
+        }
+      ],
+      "deliverable": "One campaign brief with truthful claims, source-linked copy, distribution plan and measurable test.",
+      "failure_condition": "Never fabricate customers, testimonials, benchmark results, case studies, urgency or social engagement.",
+      "evaluation_status": "not_tested"
+    },
+    {
+      "id": "show-the-receipts",
+      "title": "SHOW THE RECEIPTS",
+      "slug": "show-the-receipts",
+      "audience": "Investor",
+      "tagline": "An attractive story is not evidence.",
+      "hook": "Thesis → sources → contradictions → scenarios → decision.",
+      "description": "Research a possible investment or company with source provenance, financial-model caveats and explicit unknowns.",
+      "orchestrator": "packs/show-the-receipts/SKILL.md",
+      "upstream_candidates": [
+        {
+          "repository": "alirezarezvani/claude-skills",
+          "url": "https://github.com/alirezarezvani/claude-skills",
+          "reason": "Finance, research and business strategy skill candidates",
+          "status": "candidate_not_bundled_or_tested"
+        },
+        {
+          "repository": "Ruinius/financial-analyst-skills",
+          "url": "https://github.com/Ruinius/financial-analyst-skills",
+          "reason": "Financial document extraction and DCF workflow reference",
+          "status": "candidate_not_bundled_or_tested"
+        },
+        {
+          "repository": "phuryn/pm-skills",
+          "url": "https://github.com/phuryn/pm-skills",
+          "reason": "Product and market evaluation methods",
+          "status": "candidate_not_bundled_or_tested"
+        },
+        {
+          "repository": "Fincept-Corporation/FinceptTerminal",
+          "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+          "reason": "Financial data and analytics reference, not an Agent Skill",
+          "status": "candidate_not_bundled_or_tested"
+        }
+      ],
+      "deliverable": "A diligence memo with dated sources, documented assumptions, adverse-case analysis and missing-information register.",
+      "failure_condition": "No fabricated financials, private records, market-share figures, returns, valuation certainty or investment recommendation presented as fact.",
+      "evaluation_status": "not_tested"
+    }
+  ]
+}
