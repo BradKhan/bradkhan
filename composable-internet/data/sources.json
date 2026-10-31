@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
   "edition": "2026-11-01",
-  "source_count": 132,
-  "method": "public saved repository inventory, selected README excerpts, open-source directory research and Skill Issue upstream leads; not code or license audit",
+  "source_count": 206,
+  "method": "Curated public repository inventory plus exact inspected Agent Skill files, tools and collections. Source presence is verified at a point in time; integration, licensing and security are not comprehensively audited.",
   "sources": [
     {
       "name": "agency-swarm",
@@ -14,6 +14,21 @@
       "why": "multi-agent orchestration",
       "origin": "personal_account_reference_authorship_not_assumed",
       "review_level": "readme_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "domain": "AI and agents",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:developer",
+        "profile:design"
+      ],
+      "why": "Browser automation CLI for agents",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
       "license_status": "not_audited",
       "integration_status": "not_verified"
     },
@@ -75,7 +90,11 @@
       "url": "https://github.com/VoltAgent/awesome-agent-skills",
       "domain": "AI and agents",
       "contexts": [
-        "source_collection_or_engine"
+        "source_collection_or_engine",
+        "stack_mutiny_tool",
+        "profile:ai-agents",
+        "profile:creator",
+        "stack_mutiny_source_collection"
       ],
       "why": "Cross-agent skills collection",
       "origin": "external_repository",
@@ -175,6 +194,34 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "baoyu-post-to-wechat",
+      "url": "https://github.com/JimLiu/baoyu-skills/blob/main/skills/baoyu-post-to-wechat/SKILL.md",
+      "domain": "AI and agents",
+      "contexts": [
+        "installable_skill"
+      ],
+      "why": "Inspected Agent Skill · WeChat publishing with authorization. Original source: JimLiu/baoyu-skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Browser Use",
+      "url": "https://github.com/browser-use/browser-use",
+      "domain": "AI and agents",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:developer",
+        "profile:ai-agents"
+      ],
+      "why": "Browser agent orchestration",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "claude-code-skills",
       "url": "https://github.com/BradKhan/claude-code-skills",
       "domain": "AI and agents",
@@ -201,6 +248,65 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "Codex",
+      "url": "https://github.com/openai/codex",
+      "domain": "AI and agents",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:developer",
+        "profile:engineering"
+      ],
+      "why": "Coding agent runtime",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Context Engineering",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "domain": "AI and agents",
+      "contexts": [
+        "stack_mutiny_source_collection"
+      ],
+      "why": "Memory, context and harness systems",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Context7",
+      "url": "https://github.com/upstash/context7",
+      "domain": "AI and agents",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:developer",
+        "profile:engineering",
+        "profile:ai-agents",
+        "profile:ai-memory"
+      ],
+      "why": "Live library documentation for agents",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "copywriting",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/copywriting/SKILL.md",
+      "domain": "AI and agents",
+      "contexts": [
+        "installable_skill",
+        "profile:marketing"
+      ],
+      "why": "Inspected Agent Skill · Conversion-oriented copy. Original source: coreyhaines31/marketingskills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "everything-claude-code",
       "url": "https://github.com/BradKhan/everything-claude-code",
       "domain": "AI and agents",
@@ -210,6 +316,33 @@
       "why": "agent orchestration and skill patterns",
       "origin": "personal_account_reference_authorship_not_assumed",
       "review_level": "readme_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Family Office",
+      "url": "https://github.com/acantrell0523/family-office",
+      "domain": "AI and agents",
+      "contexts": [
+        "stack_mutiny_source_collection"
+      ],
+      "why": "Investment research and private financial workflows",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Free Inference Watch",
+      "url": "https://github.com/surendranb/free-inference",
+      "domain": "AI and agents",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:ai-compute"
+      ],
+      "why": "Public free inference provider tracker; verify live quotas",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
       "license_status": "not_audited",
       "integration_status": "not_verified"
     },
@@ -253,13 +386,49 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "grill-with-docs",
+      "url": "https://github.com/mattpocock/skills/blob/main/skills/engineering/grill-with-docs/SKILL.md",
+      "domain": "AI and agents",
+      "contexts": [
+        "installable_skill",
+        "profile:developer",
+        "profile:engineering",
+        "profile:product",
+        "profile:research"
+      ],
+      "why": "Inspected Agent Skill · Architecture discovery and documentation. Original source: mattpocock/skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "gstack",
       "url": "https://github.com/garrytan/gstack",
       "domain": "AI and agents",
       "contexts": [
-        "stack_mutiny_upstream_candidate"
+        "stack_mutiny_upstream_candidate",
+        "stack_mutiny_tool",
+        "profile:developer",
+        "profile:founder",
+        "stack_mutiny_source_collection"
       ],
       "why": "Agent coding and QA workflows",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Hermes Agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "domain": "AI and agents",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:ai-agents",
+        "profile:ai-compute"
+      ],
+      "why": "Agent runtime with skills and connectors",
       "origin": "external_repository",
       "review_level": "editorial_lead",
       "license_status": "not_audited",
@@ -279,11 +448,30 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "last30days",
+      "url": "https://github.com/mvanhorn/last30days-skill/blob/main/skills/last30days/SKILL.md",
+      "domain": "AI and agents",
+      "contexts": [
+        "installable_skill",
+        "profile:product",
+        "profile:marketing",
+        "profile:research"
+      ],
+      "why": "Inspected Agent Skill · Recent conversations and community research. Original source: mvanhorn/last30days-skill.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "litellm",
       "url": "https://github.com/BerriAI/litellm",
       "domain": "AI and agents",
       "contexts": [
-        "composition_ingredient"
+        "composition_ingredient",
+        "stack_mutiny_tool",
+        "profile:ai-compute",
+        "profile:ai-agents"
       ],
       "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
       "origin": "external_reference",
@@ -296,7 +484,10 @@
       "url": "https://github.com/ggml-org/llama.cpp",
       "domain": "AI and agents",
       "contexts": [
-        "composition_ingredient"
+        "composition_ingredient",
+        "stack_mutiny_tool",
+        "profile:ai-compute",
+        "profile:sovereignty"
       ],
       "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
       "origin": "external_reference",
@@ -331,6 +522,20 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "marketing-plan",
+      "url": "https://github.com/slavingia/skills/blob/main/skills/marketing-plan/SKILL.md",
+      "domain": "AI and agents",
+      "contexts": [
+        "installable_skill",
+        "profile:marketing"
+      ],
+      "why": "Inspected Agent Skill · Audience-led marketing. Original source: slavingia/skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "n8n",
       "url": "https://github.com/n8n-io/n8n",
       "domain": "AI and agents",
@@ -338,6 +543,21 @@
         "source_collection_or_engine"
       ],
       "why": "Workflow automation engine",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Open WebUI",
+      "url": "https://github.com/open-webui/open-webui",
+      "domain": "AI and agents",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:ai-memory",
+        "profile:sovereignty"
+      ],
+      "why": "Local/provider independent AI chat front-end",
       "origin": "external_repository",
       "review_level": "editorial_lead",
       "license_status": "not_audited",
@@ -396,6 +616,21 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "OpenCode",
+      "url": "https://github.com/anomalyco/opencode",
+      "domain": "AI and agents",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:developer",
+        "profile:engineering"
+      ],
+      "why": "Independent coding-agent runtime",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "opencode-antigravity-auth",
       "url": "https://github.com/BradKhan/opencode-antigravity-auth",
       "domain": "AI and agents",
@@ -418,6 +653,21 @@
       "why": "coding agent interface reference",
       "origin": "personal_account_reference_authorship_not_assumed",
       "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Playwright MCP",
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "domain": "AI and agents",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:developer",
+        "profile:design"
+      ],
+      "why": "Browser inspection and automation with permissions",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
       "license_status": "not_audited",
       "integration_status": "not_verified"
     },
@@ -448,6 +698,22 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "Research Skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "domain": "AI and agents",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:research",
+        "profile:investor",
+        "stack_mutiny_source_collection"
+      ],
+      "why": "Scientific methods, datasets and reproducible workflows",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "rrweb",
       "url": "https://github.com/rrweb-io/rrweb",
       "domain": "AI and agents",
@@ -461,11 +727,28 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "seo-audit",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/seo-audit/SKILL.md",
+      "domain": "AI and agents",
+      "contexts": [
+        "installable_skill",
+        "profile:marketing"
+      ],
+      "why": "Inspected Agent Skill · Technical and editorial SEO. Original source: coreyhaines31/marketingskills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "servers",
       "url": "https://github.com/modelcontextprotocol/servers",
       "domain": "AI and agents",
       "contexts": [
-        "composition_ingredient"
+        "composition_ingredient",
+        "stack_mutiny_tool",
+        "profile:ai-agents",
+        "profile:developer"
       ],
       "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
       "origin": "external_reference",
@@ -474,11 +757,30 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "skill-creator",
+      "url": "https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md",
+      "domain": "AI and agents",
+      "contexts": [
+        "installable_skill",
+        "profile:ai-agents",
+        "profile:operations"
+      ],
+      "why": "Inspected Agent Skill · Create and evaluate skills. Original source: anthropics/skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "skills",
       "url": "https://github.com/anthropics/skills",
       "domain": "AI and agents",
       "contexts": [
-        "source_collection_or_engine"
+        "source_collection_or_engine",
+        "stack_mutiny_tool",
+        "profile:ai-agents",
+        "profile:design",
+        "stack_mutiny_source_collection"
       ],
       "why": "Skill specification examples",
       "origin": "external_repository",
@@ -504,9 +806,24 @@
       "url": "https://github.com/mattpocock/skills",
       "domain": "AI and agents",
       "contexts": [
-        "stack_mutiny_upstream_candidate"
+        "stack_mutiny_upstream_candidate",
+        "stack_mutiny_source_collection"
       ],
       "why": "Engineering architecture, diagnosis, and review skills",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Skills.sh",
+      "url": "https://skills.sh/",
+      "domain": "AI and agents",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:ai-agents"
+      ],
+      "why": "Skill search and popularity index",
       "origin": "external_repository",
       "review_level": "editorial_lead",
       "license_status": "not_audited",
@@ -570,7 +887,11 @@
       "url": "https://github.com/obra/superpowers",
       "domain": "AI and agents",
       "contexts": [
-        "stack_mutiny_upstream_candidate"
+        "stack_mutiny_upstream_candidate",
+        "stack_mutiny_tool",
+        "profile:developer",
+        "profile:engineering",
+        "stack_mutiny_source_collection"
       ],
       "why": "Engineering skill methodology and planning",
       "origin": "external_repository",
@@ -618,6 +939,97 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "Vercel skills CLI",
+      "url": "https://github.com/vercel-labs/skills",
+      "domain": "AI and agents",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:developer",
+        "profile:ai-agents",
+        "stack_mutiny_source_collection"
+      ],
+      "why": "Shared multi-agent skill installation",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "vercel-optimize",
+      "url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/vercel-optimize/SKILL.md",
+      "domain": "AI and agents",
+      "contexts": [
+        "installable_skill"
+      ],
+      "why": "Inspected Agent Skill · Hosting, performance, cost. Original source: vercel-labs/agent-skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/react-best-practices/SKILL.md",
+      "domain": "AI and agents",
+      "contexts": [
+        "installable_skill",
+        "profile:developer",
+        "profile:engineering"
+      ],
+      "why": "Inspected Agent Skill · React and Next.js performance. Original source: vercel-labs/agent-skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "webapp-testing",
+      "url": "https://github.com/anthropics/skills/blob/main/skills/webapp-testing/SKILL.md",
+      "domain": "AI and agents",
+      "contexts": [
+        "installable_skill",
+        "profile:developer"
+      ],
+      "why": "Inspected Agent Skill · Browser-based web app tests. Original source: anthropics/skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "writing-guidelines",
+      "url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/writing-guidelines/SKILL.md",
+      "domain": "AI and agents",
+      "contexts": [
+        "installable_skill",
+        "profile:product",
+        "profile:marketing",
+        "profile:research",
+        "profile:operations"
+      ],
+      "why": "Inspected Agent Skill · Clear software writing and docs. Original source: vercel-labs/agent-skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Wshobson Agents",
+      "url": "https://github.com/wshobson/agents",
+      "domain": "AI and agents",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:developer",
+        "profile:engineering",
+        "stack_mutiny_source_collection"
+      ],
+      "why": "Multi-harness plugins, skills and specialized agents",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "bonfire-app",
       "url": "https://github.com/bonfire-networks/bonfire-app",
       "domain": "Collective infrastructure",
@@ -661,7 +1073,8 @@
       "url": "https://github.com/vercel-labs/agent-skills",
       "domain": "Creative technology",
       "contexts": [
-        "source_collection_or_engine"
+        "source_collection_or_engine",
+        "stack_mutiny_source_collection"
       ],
       "why": "Web development skills",
       "origin": "external_repository",
@@ -683,11 +1096,28 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "algorithmic-art",
+      "url": "https://github.com/anthropics/skills/blob/main/skills/algorithmic-art/SKILL.md",
+      "domain": "Creative technology",
+      "contexts": [
+        "installable_skill",
+        "profile:design"
+      ],
+      "why": "Inspected Agent Skill · Generative creative coding. Original source: anthropics/skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "automerge",
       "url": "https://github.com/automerge/automerge",
       "domain": "Creative technology",
       "contexts": [
-        "composition_ingredient"
+        "composition_ingredient",
+        "stack_mutiny_tool",
+        "profile:sovereignty",
+        "profile:ai-memory"
       ],
       "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
       "origin": "external_reference",
@@ -748,15 +1178,87 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "baoyu-article-illustrator",
+      "url": "https://github.com/JimLiu/baoyu-skills/blob/main/skills/baoyu-article-illustrator/SKILL.md",
+      "domain": "Creative technology",
+      "contexts": [
+        "installable_skill",
+        "profile:creator"
+      ],
+      "why": "Inspected Agent Skill · Visuals for long-form articles. Original source: JimLiu/baoyu-skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "baoyu-cover-image",
+      "url": "https://github.com/JimLiu/baoyu-skills/blob/main/skills/baoyu-cover-image/SKILL.md",
+      "domain": "Creative technology",
+      "contexts": [
+        "installable_skill",
+        "profile:design",
+        "profile:creator"
+      ],
+      "why": "Inspected Agent Skill · Cover art for publications. Original source: JimLiu/baoyu-skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "baoyu-format-markdown",
+      "url": "https://github.com/JimLiu/baoyu-skills/blob/main/skills/baoyu-format-markdown/SKILL.md",
+      "domain": "Creative technology",
+      "contexts": [
+        "installable_skill",
+        "profile:creator"
+      ],
+      "why": "Inspected Agent Skill · Editorial Markdown formatting. Original source: JimLiu/baoyu-skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "baoyu-image-gen",
+      "url": "https://github.com/JimLiu/baoyu-skills/blob/main/skills/baoyu-image-gen/SKILL.md",
+      "domain": "Creative technology",
+      "contexts": [
+        "installable_skill",
+        "profile:creator"
+      ],
+      "why": "Inspected Agent Skill · Image generation workflows. Original source: JimLiu/baoyu-skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "baoyu-skills",
       "url": "https://github.com/JimLiu/baoyu-skills",
       "domain": "Creative technology",
       "contexts": [
-        "stack_mutiny_upstream_candidate"
+        "stack_mutiny_upstream_candidate",
+        "stack_mutiny_source_collection"
       ],
       "why": "Creative content production and publishing skills",
       "origin": "external_repository",
       "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "baoyu-slide-deck",
+      "url": "https://github.com/JimLiu/baoyu-skills/blob/main/skills/baoyu-slide-deck/SKILL.md",
+      "domain": "Creative technology",
+      "contexts": [
+        "installable_skill",
+        "profile:creator"
+      ],
+      "why": "Inspected Agent Skill · Visual slide-deck creation. Original source: JimLiu/baoyu-skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
       "license_status": "not_audited",
       "integration_status": "not_verified"
     },
@@ -770,6 +1272,36 @@
       "why": "first-party public profile, atlas and guides",
       "origin": "first_party_project",
       "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "canvas-design",
+      "url": "https://github.com/anthropics/skills/blob/main/skills/canvas-design/SKILL.md",
+      "domain": "Creative technology",
+      "contexts": [
+        "installable_skill",
+        "profile:design",
+        "profile:creator"
+      ],
+      "why": "Inspected Agent Skill · Editorial graphic design. Original source: anthropics/skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "content-strategy",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/content-strategy/SKILL.md",
+      "domain": "Creative technology",
+      "contexts": [
+        "installable_skill",
+        "profile:marketing",
+        "profile:creator"
+      ],
+      "why": "Inspected Agent Skill · Content strategy and positioning. Original source: coreyhaines31/marketingskills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
       "license_status": "not_audited",
       "integration_status": "not_verified"
     },
@@ -813,11 +1345,29 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "frontend-design",
+      "url": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+      "domain": "Creative technology",
+      "contexts": [
+        "installable_skill",
+        "profile:design"
+      ],
+      "why": "Inspected Agent Skill · Distinctive frontend design. Original source: anthropics/skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "impeccable",
       "url": "https://github.com/pbakaus/impeccable",
       "domain": "Creative technology",
       "contexts": [
-        "stack_mutiny_upstream_candidate"
+        "stack_mutiny_upstream_candidate",
+        "stack_mutiny_tool",
+        "profile:design",
+        "profile:developer",
+        "stack_mutiny_source_collection"
       ],
       "why": "Frontend design, critique, accessibility, and polish",
       "origin": "external_repository",
@@ -856,7 +1406,10 @@
       "url": "https://github.com/yamadashy/repomix",
       "domain": "Creative technology",
       "contexts": [
-        "composition_ingredient"
+        "composition_ingredient",
+        "stack_mutiny_tool",
+        "profile:developer",
+        "profile:ai-memory"
       ],
       "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
       "origin": "external_reference",
@@ -882,7 +1435,10 @@
       "url": "https://github.com/google-labs-code/stitch-skills",
       "domain": "Creative technology",
       "contexts": [
-        "stack_mutiny_upstream_candidate"
+        "stack_mutiny_upstream_candidate",
+        "stack_mutiny_tool",
+        "profile:design",
+        "stack_mutiny_source_collection"
       ],
       "why": "Design-to-code skills and DESIGN.md workflows",
       "origin": "external_repository",
@@ -895,7 +1451,9 @@
       "url": "https://github.com/syncthing/syncthing",
       "domain": "Creative technology",
       "contexts": [
-        "composition_ingredient"
+        "composition_ingredient",
+        "stack_mutiny_tool",
+        "profile:sovereignty"
       ],
       "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
       "origin": "external_reference",
@@ -908,9 +1466,56 @@
       "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
       "domain": "Creative technology",
       "contexts": [
-        "stack_mutiny_upstream_candidate"
+        "stack_mutiny_upstream_candidate",
+        "stack_mutiny_tool",
+        "profile:design"
       ],
       "why": "Design references and structured visual guidance",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "vercel-react-view-transitions",
+      "url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/react-view-transitions/SKILL.md",
+      "domain": "Creative technology",
+      "contexts": [
+        "installable_skill",
+        "profile:developer",
+        "profile:design"
+      ],
+      "why": "Inspected Agent Skill · Polished UI transitions. Original source: vercel-labs/agent-skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "web-design-guidelines",
+      "url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/web-design-guidelines/SKILL.md",
+      "domain": "Creative technology",
+      "contexts": [
+        "installable_skill",
+        "profile:developer",
+        "profile:design"
+      ],
+      "why": "Inspected Agent Skill · UX and accessibility audit. Original source: vercel-labs/agent-skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "9Router",
+      "url": "https://github.com/decolua/9router",
+      "domain": "Independent infrastructure",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:ai-compute",
+        "profile:developer"
+      ],
+      "why": "Multi-provider routing and quota management; review credential and proxy risks",
       "origin": "external_repository",
       "review_level": "editorial_lead",
       "license_status": "not_audited",
@@ -969,15 +1574,181 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "cloudflare",
+      "url": "https://github.com/cloudflare/skills/blob/main/skills/cloudflare/SKILL.md",
+      "domain": "Independent infrastructure",
+      "contexts": [
+        "installable_skill",
+        "profile:developer",
+        "profile:engineering",
+        "profile:ai-compute",
+        "profile:sovereignty"
+      ],
+      "why": "Inspected Agent Skill · Cloudflare Workers and distributed infrastructure. Original source: cloudflare/skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Cloudflare Workers AI",
+      "url": "https://developers.cloudflare.com/workers-ai/",
+      "domain": "Independent infrastructure",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:ai-compute",
+        "profile:engineering"
+      ],
+      "why": "Edge inference with usage caps",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "exo",
       "url": "https://github.com/exo-explore/exo",
       "domain": "Independent infrastructure",
       "contexts": [
-        "composition_ingredient"
+        "composition_ingredient",
+        "stack_mutiny_tool",
+        "profile:ai-compute"
       ],
       "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
       "origin": "external_reference",
       "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "GroqCloud",
+      "url": "https://console.groq.com/",
+      "domain": "Independent infrastructure",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:ai-compute"
+      ],
+      "why": "Rate-limited hosted inference; verify current free terms",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://github.com/huggingface/huggingface_hub",
+      "domain": "Independent infrastructure",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:ai-compute",
+        "profile:research"
+      ],
+      "why": "Model and dataset discovery",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "MLX",
+      "url": "https://github.com/ml-explore/mlx",
+      "domain": "Independent infrastructure",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:ai-compute"
+      ],
+      "why": "Apple silicon machine learning",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "NVIDIA Build",
+      "url": "https://build.nvidia.com/",
+      "domain": "Independent infrastructure",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:ai-compute"
+      ],
+      "why": "Developer model endpoints, possible trial-only access",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Ollama",
+      "url": "https://github.com/ollama/ollama",
+      "domain": "Independent infrastructure",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:ai-compute",
+        "profile:sovereignty"
+      ],
+      "why": "Local model management",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "OmniRoute",
+      "url": "https://github.com/cheaper-inference/OmniRoute",
+      "domain": "Independent infrastructure",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:ai-compute",
+        "profile:ai-agents",
+        "profile:developer"
+      ],
+      "why": "Unified model gateway, quotas and fallback",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai/",
+      "domain": "Independent infrastructure",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:ai-compute"
+      ],
+      "why": "Optional hosted model access and routing",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "vLLM",
+      "url": "https://github.com/vllm-project/vllm",
+      "domain": "Independent infrastructure",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:ai-compute",
+        "profile:engineering"
+      ],
+      "why": "GPU model serving",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "WebLLM",
+      "url": "https://github.com/mlc-ai/web-llm",
+      "domain": "Independent infrastructure",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:ai-compute",
+        "profile:creator"
+      ],
+      "why": "In-browser model inference",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
       "license_status": "not_audited",
       "integration_status": "not_verified"
     },
@@ -1061,6 +1832,21 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "agent-memory",
+      "url": "https://github.com/terminalskills/skills/blob/main/skills/agent-memory/SKILL.md",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "installable_skill",
+        "profile:ai-memory",
+        "profile:sovereignty"
+      ],
+      "why": "Inspected Agent Skill · Practical persistent agent memory. Original source: terminalskills/skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "ArchiveBox",
       "url": "https://github.com/ArchiveBox/ArchiveBox",
       "domain": "Personal autonomy",
@@ -1127,6 +1913,54 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "context-optimization",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-optimization/SKILL.md",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "installable_skill",
+        "profile:research",
+        "profile:ai-agents",
+        "profile:ai-memory",
+        "profile:ai-compute"
+      ],
+      "why": "Inspected Agent Skill · Context-window efficiency. Original source: muratcankoylan/Agent-Skills-for-Context-Engineering.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Graphiti",
+      "url": "https://github.com/getzep/graphiti",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:ai-memory"
+      ],
+      "why": "Temporal knowledge graph for memory",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "harness-engineering",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/harness-engineering/SKILL.md",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "installable_skill",
+        "profile:engineering",
+        "profile:ai-agents",
+        "profile:ai-memory",
+        "profile:ai-compute"
+      ],
+      "why": "Inspected Agent Skill · Agent harness architecture. Original source: muratcankoylan/Agent-Skills-for-Context-Engineering.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "hister",
       "url": "https://github.com/asciimoo/hister",
       "domain": "Personal autonomy",
@@ -1166,6 +2000,20 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "Letta",
+      "url": "https://github.com/letta-ai/letta",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:ai-memory"
+      ],
+      "why": "Stateful agent memory framework",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "linkosh",
       "url": "https://github.com/sabyasachi/linkosh",
       "domain": "Personal autonomy",
@@ -1192,11 +2040,33 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "mcp-builder",
+      "url": "https://github.com/anthropics/skills/blob/main/skills/mcp-builder/SKILL.md",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "installable_skill",
+        "profile:developer",
+        "profile:engineering",
+        "profile:ai-agents",
+        "profile:ai-memory",
+        "profile:ai-compute",
+        "profile:sovereignty"
+      ],
+      "why": "Inspected Agent Skill · Build interoperable MCP servers. Original source: anthropics/skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "mem0",
       "url": "https://github.com/mem0ai/mem0",
       "domain": "Personal autonomy",
       "contexts": [
-        "composition_ingredient"
+        "composition_ingredient",
+        "stack_mutiny_tool",
+        "profile:ai-memory",
+        "profile:sovereignty"
       ],
       "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
       "origin": "external_reference",
@@ -1214,6 +2084,22 @@
       "why": "personal memory research lead",
       "origin": "personal_account_reference_authorship_not_assumed",
       "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "memory-systems",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/memory-systems/SKILL.md",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "installable_skill",
+        "profile:ai-agents",
+        "profile:ai-memory",
+        "profile:sovereignty"
+      ],
+      "why": "Inspected Agent Skill · Durable agent memory architecture. Original source: muratcankoylan/Agent-Skills-for-Context-Engineering.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
       "license_status": "not_audited",
       "integration_status": "not_verified"
     },
@@ -1274,7 +2160,10 @@
       "url": "https://github.com/ItzCrazyKns/Perplexica",
       "domain": "Personal autonomy",
       "contexts": [
-        "composition_ingredient"
+        "composition_ingredient",
+        "stack_mutiny_tool",
+        "profile:research",
+        "profile:sovereignty"
       ],
       "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
       "origin": "external_reference",
@@ -1353,7 +2242,9 @@
       "domain": "Personal autonomy",
       "contexts": [
         "composition_ingredient",
-        "source_collection_or_engine"
+        "source_collection_or_engine",
+        "stack_mutiny_tool",
+        "profile:sovereignty"
       ],
       "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
       "origin": "external_reference",
@@ -1379,11 +2270,32 @@
       "url": "https://github.com/searxng/searxng",
       "domain": "Personal autonomy",
       "contexts": [
-        "composition_ingredient"
+        "composition_ingredient",
+        "stack_mutiny_tool",
+        "profile:sovereignty",
+        "profile:research"
       ],
       "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
       "origin": "external_reference",
       "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "tool-design",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/tool-design/SKILL.md",
+      "domain": "Personal autonomy",
+      "contexts": [
+        "installable_skill",
+        "profile:engineering",
+        "profile:ai-agents",
+        "profile:ai-memory",
+        "profile:ai-compute",
+        "profile:sovereignty"
+      ],
+      "why": "Inspected Agent Skill · Reliable agent tool interfaces. Original source: muratcankoylan/Agent-Skills-for-Context-Engineering.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
       "license_status": "not_audited",
       "integration_status": "not_verified"
     },
@@ -1532,6 +2444,36 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "buffett-investment-framework",
+      "url": "https://github.com/finterm-ai/investment-skills/blob/main/skills/buffett-investment-framework/SKILL.md",
+      "domain": "Venture and markets",
+      "contexts": [
+        "installable_skill",
+        "profile:investor",
+        "profile:family-office"
+      ],
+      "why": "Inspected Agent Skill · Structured investment thesis review. Original source: finterm-ai/investment-skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "cio",
+      "url": "https://github.com/acantrell0523/family-office/blob/main/.claude/skills/cio/SKILL.md",
+      "domain": "Venture and markets",
+      "contexts": [
+        "installable_skill",
+        "profile:investor",
+        "profile:family-office"
+      ],
+      "why": "Inspected Agent Skill · Investment committee workflows. Original source: acantrell0523/family-office.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "claude-skills",
       "url": "https://github.com/alirezarezvani/claude-skills",
       "domain": "Venture and markets",
@@ -1554,6 +2496,80 @@
       "why": "financial research agent reference",
       "origin": "personal_account_reference_authorship_not_assumed",
       "review_level": "inventory_only",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "equity-research",
+      "url": "https://github.com/acantrell0523/family-office/blob/main/.claude/skills/equity-research/SKILL.md",
+      "domain": "Venture and markets",
+      "contexts": [
+        "installable_skill",
+        "profile:investor",
+        "profile:family-office"
+      ],
+      "why": "Inspected Agent Skill · Public equity research. Original source: acantrell0523/family-office.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "equity-research-skill-v1-2",
+      "url": "https://github.com/evilhill/equity-research-skill/blob/main/SKILL.md",
+      "domain": "Venture and markets",
+      "contexts": [
+        "installable_skill",
+        "profile:investor"
+      ],
+      "why": "Inspected Agent Skill · Evidence-backed valuation research. Original source: evilhill/equity-research-skill.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Finance Guru",
+      "url": "https://github.com/AojdevStudio/Finance-Guru",
+      "domain": "Venture and markets",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:investor",
+        "profile:family-office"
+      ],
+      "why": "Self-hosted finance modeling and risk controls",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Financial Agent Skills",
+      "url": "https://github.com/agentii-ai/agentii-investment-intelligence",
+      "domain": "Venture and markets",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:investor",
+        "profile:family-office"
+      ],
+      "why": "Financial modeling and filings skill collection; many depend on services",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "Financial Services Agents",
+      "url": "https://github.com/commit-ai/anthropics-financial-services",
+      "domain": "Venture and markets",
+      "contexts": [
+        "stack_mutiny_tool",
+        "profile:investor",
+        "profile:family-office"
+      ],
+      "why": "Financial vertical plugins and data connectors",
+      "origin": "external_repository",
+      "review_level": "editorial_lead",
       "license_status": "not_audited",
       "integration_status": "not_verified"
     },
@@ -1588,11 +2604,58 @@
       "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
       "domain": "Venture and markets",
       "contexts": [
-        "stack_mutiny_upstream_candidate"
+        "stack_mutiny_upstream_candidate",
+        "stack_mutiny_tool",
+        "profile:investor",
+        "profile:family-office"
       ],
       "why": "Finance analytics engine, not an agent skill",
       "origin": "external_repository",
       "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "find-community",
+      "url": "https://github.com/slavingia/skills/blob/main/skills/find-community/SKILL.md",
+      "domain": "Venture and markets",
+      "contexts": [
+        "installable_skill",
+        "profile:founder"
+      ],
+      "why": "Inspected Agent Skill · Find the communities around a problem. Original source: slavingia/skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "first-customers",
+      "url": "https://github.com/slavingia/skills/blob/main/skills/first-customers/SKILL.md",
+      "domain": "Venture and markets",
+      "contexts": [
+        "installable_skill",
+        "profile:founder",
+        "profile:product"
+      ],
+      "why": "Inspected Agent Skill · First customer development. Original source: slavingia/skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "grill-me",
+      "url": "https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md",
+      "domain": "Venture and markets",
+      "contexts": [
+        "installable_skill",
+        "profile:founder",
+        "profile:operations"
+      ],
+      "why": "Inspected Agent Skill · Product and problem clarification. Original source: mattpocock/skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
       "license_status": "not_audited",
       "integration_status": "not_verified"
     },
@@ -1610,11 +2673,47 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "macro",
+      "url": "https://github.com/acantrell0523/family-office/blob/main/.claude/skills/macro/SKILL.md",
+      "domain": "Venture and markets",
+      "contexts": [
+        "installable_skill",
+        "profile:investor",
+        "profile:family-office",
+        "profile:research"
+      ],
+      "why": "Inspected Agent Skill · Macroeconomic research. Original source: acantrell0523/family-office.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "marketing-ideas",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/marketing-ideas/SKILL.md",
+      "domain": "Venture and markets",
+      "contexts": [
+        "installable_skill",
+        "profile:founder",
+        "profile:marketing",
+        "profile:operations"
+      ],
+      "why": "Inspected Agent Skill · Marketing experiments. Original source: coreyhaines31/marketingskills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "marketingskills",
       "url": "https://github.com/coreyhaines31/marketingskills",
       "domain": "Venture and markets",
       "contexts": [
-        "stack_mutiny_upstream_candidate"
+        "stack_mutiny_upstream_candidate",
+        "stack_mutiny_tool",
+        "profile:marketing",
+        "profile:founder",
+        "stack_mutiny_source_collection"
       ],
       "why": "Marketing research, CRO, SEO, and growth workflows",
       "origin": "external_repository",
@@ -1632,6 +2731,22 @@
       "why": "Referenced as a candidate ingredient; technical integration not independently verified.",
       "origin": "external_reference",
       "review_level": "linked_in_composition",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "mvp",
+      "url": "https://github.com/slavingia/skills/blob/main/skills/mvp/SKILL.md",
+      "domain": "Venture and markets",
+      "contexts": [
+        "installable_skill",
+        "profile:founder",
+        "profile:product",
+        "profile:operations"
+      ],
+      "why": "Inspected Agent Skill · Smallest useful product. Original source: slavingia/skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
       "license_status": "not_audited",
       "integration_status": "not_verified"
     },
@@ -1666,11 +2781,29 @@
       "url": "https://github.com/phuryn/pm-skills",
       "domain": "Venture and markets",
       "contexts": [
-        "stack_mutiny_upstream_candidate"
+        "stack_mutiny_upstream_candidate",
+        "stack_mutiny_tool",
+        "profile:product",
+        "profile:founder",
+        "stack_mutiny_source_collection"
       ],
       "why": "Product management and experimentation skills",
       "origin": "external_repository",
       "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "pricing",
+      "url": "https://github.com/slavingia/skills/blob/main/skills/pricing/SKILL.md",
+      "domain": "Venture and markets",
+      "contexts": [
+        "installable_skill",
+        "profile:founder"
+      ],
+      "why": "Inspected Agent Skill · Pricing and willingness to pay. Original source: slavingia/skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
       "license_status": "not_audited",
       "integration_status": "not_verified"
     },
@@ -1701,6 +2834,21 @@
       "integration_status": "not_verified"
     },
     {
+      "name": "risk",
+      "url": "https://github.com/acantrell0523/family-office/blob/main/.claude/skills/risk/SKILL.md",
+      "domain": "Venture and markets",
+      "contexts": [
+        "installable_skill",
+        "profile:investor",
+        "profile:family-office"
+      ],
+      "why": "Inspected Agent Skill · Portfolio risk questions. Original source: acantrell0523/family-office.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
       "name": "roadmap",
       "url": "https://github.com/github/roadmap",
       "domain": "Venture and markets",
@@ -1718,11 +2866,41 @@
       "url": "https://github.com/slavingia/skills",
       "domain": "Venture and markets",
       "contexts": [
-        "source_collection_or_engine"
+        "source_collection_or_engine",
+        "stack_mutiny_source_collection"
       ],
       "why": "Founder and small-business skills",
       "origin": "external_repository",
       "review_level": "editorial_lead",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "validate-idea",
+      "url": "https://github.com/slavingia/skills/blob/main/skills/validate-idea/SKILL.md",
+      "domain": "Venture and markets",
+      "contexts": [
+        "installable_skill",
+        "profile:founder",
+        "profile:product"
+      ],
+      "why": "Inspected Agent Skill · Evidence-driven idea validation. Original source: slavingia/skills.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
+      "license_status": "not_audited",
+      "integration_status": "not_verified"
+    },
+    {
+      "name": "ventures",
+      "url": "https://github.com/acantrell0523/family-office/blob/main/.claude/skills/ventures/SKILL.md",
+      "domain": "Venture and markets",
+      "contexts": [
+        "installable_skill",
+        "profile:family-office"
+      ],
+      "why": "Inspected Agent Skill · Venture and business scenario review. Original source: acantrell0523/family-office.",
+      "origin": "external_skill_file",
+      "review_level": "skill_file_inspected",
       "license_status": "not_audited",
       "integration_status": "not_verified"
     }
