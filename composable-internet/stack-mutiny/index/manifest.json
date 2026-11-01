@@ -1,0 +1,55 @@
+{
+  "schema_version": "3.0",
+  "generated": "2026-11-01",
+  "description": "Indexed SKILL.md paths discovered from GitHub repository trees; not full-content audits.",
+  "total_paths": 3682,
+  "unique_blob_shas": 3661,
+  "duplicate_content_occurrences": 21,
+  "shards": [
+    {
+      "id": "primary",
+      "path": "index/primary.json",
+      "repos": 13,
+      "skills": 329,
+      "unique_within": 329,
+      "trust": "high"
+    },
+    {
+      "id": "specialist",
+      "path": "index/specialist.json",
+      "repos": 5,
+      "skills": 1965,
+      "unique_within": 1946,
+      "trust": "medium"
+    },
+    {
+      "id": "community",
+      "path": "index/community.json",
+      "repos": 3,
+      "skills": 1388,
+      "unique_within": 1388,
+      "trust": "discovery_only"
+    }
+  ],
+  "quality_policy": "Default search ranks official/specialist sources before aggregators, deduplicates identical blob SHA, retrieves only short metadata per task and requires user approval for install.",
+  "meta_skills": [
+    {
+      "repo": "vercel-labs/skills",
+      "name": "find-skills",
+      "source": "skills/find-skills/SKILL.md",
+      "purpose": "Existing on-demand skill discovery and Vercel skills CLI"
+    },
+    {
+      "repo": "sowhan/skill-search",
+      "name": "skill-search",
+      "source": "skills/skill-search/SKILL.md",
+      "purpose": "Semantic retrieval via separate MCP server; requires setup"
+    },
+    {
+      "repo": "oakoss/agent-skills",
+      "name": "find-skills",
+      "source": "skills/find-skills/SKILL.md",
+      "purpose": "Directory enrichment and discovery"
+    }
+  ]
+}
