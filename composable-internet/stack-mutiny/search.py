@@ -2,12 +2,11 @@
 """Stack Mutiny: compact skill search over thousands of indexed upstream paths.
 
 The index contains paths and git blob hashes, NOT fully reviewed skill bodies.
-Reads three JSON shards, locally or from the public repository. No installer is
+Reads four JSON shards, locally or from the public repository. No installer is
 executed. A query returns a few ranked candidates and exact source provenance.
 """
 import argparse
 import json
-import math
 from pathlib import Path
 import re
 import sys
