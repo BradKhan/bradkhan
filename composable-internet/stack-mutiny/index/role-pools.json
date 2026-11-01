@@ -1,0 +1,183 @@
+{
+  "version": "1.0",
+  "date": "2026-11-01",
+  "status": "role_source_pools_not_preinstalled",
+  "roles": {
+    "developer": {
+      "source_repositories": [
+        "openai/skills",
+        "anthropics/skills",
+        "vercel-labs/agent-skills",
+        "wshobson/agents",
+        "mattpocock/skills",
+        "alirezarezvani/claude-skills"
+      ],
+      "source_pool_paths": 771,
+      "note": "Source pool, not a claim every indexed skill applies to this role; query-based selection narrows it."
+    },
+    "engineering": {
+      "source_repositories": [
+        "openai/skills",
+        "cloudflare/skills",
+        "wshobson/agents",
+        "mattpocock/skills",
+        "alirezarezvani/claude-skills"
+      ],
+      "source_pool_paths": 761,
+      "note": "Source pool, not a claim every indexed skill applies to this role; query-based selection narrows it."
+    },
+    "design": {
+      "source_repositories": [
+        "anthropics/skills",
+        "vercel-labs/agent-skills",
+        "google-labs-code/stitch-skills",
+        "JimLiu/baoyu-skills",
+        "wshobson/agents",
+        "alirezarezvani/claude-skills"
+      ],
+      "source_pool_paths": 726,
+      "note": "Source pool, not a claim every indexed skill applies to this role; query-based selection narrows it."
+    },
+    "founder": {
+      "source_repositories": [
+        "slavingia/skills",
+        "phuryn/pm-skills",
+        "alirezarezvani/claude-skills",
+        "coreyhaines31/marketingskills",
+        "ericosiu/ai-marketing-skills"
+      ],
+      "source_pool_paths": 642,
+      "note": "Source pool, not a claim every indexed skill applies to this role; query-based selection narrows it."
+    },
+    "product": {
+      "source_repositories": [
+        "phuryn/pm-skills",
+        "slavingia/skills",
+        "mattpocock/skills",
+        "alirezarezvani/claude-skills",
+        "vercel-labs/agent-skills"
+      ],
+      "source_pool_paths": 601,
+      "note": "Source pool, not a claim every indexed skill applies to this role; query-based selection narrows it."
+    },
+    "marketing": {
+      "source_repositories": [
+        "coreyhaines31/marketingskills",
+        "kostja94/marketing-skills",
+        "ericosiu/ai-marketing-skills",
+        "indranilbanerjee/digital-marketing-pro",
+        "aaron-he-zhu/aaron-marketing-skills",
+        "scayver/marketing-skills",
+        "wearehyperai/digital-marketing-claude",
+        "minhnv0807/ai-business-skills"
+      ],
+      "source_pool_paths": 925,
+      "note": "Source pool, not a claim every indexed skill applies to this role; query-based selection narrows it."
+    },
+    "creator": {
+      "source_repositories": [
+        "creator-futures/social-media-skills",
+        "JimLiu/baoyu-skills",
+        "indranilbanerjee/digital-marketing-pro",
+        "kostja94/marketing-skills",
+        "anthropics/skills",
+        "minhnv0807/ai-business-skills"
+      ],
+      "source_pool_paths": 630,
+      "note": "Source pool, not a claim every indexed skill applies to this role; query-based selection narrows it."
+    },
+    "investor": {
+      "source_repositories": [
+        "agentii-ai/agentii-investment-intelligence",
+        "JoelLewis/finance_skills",
+        "tradermonty/claude-trading-skills",
+        "himself65/finance-skills",
+        "acantrell0523/family-office",
+        "finterm-ai/investment-skills"
+      ],
+      "source_pool_paths": 330,
+      "note": "Source pool, not a claim every indexed skill applies to this role; query-based selection narrows it."
+    },
+    "family-office": {
+      "source_repositories": [
+        "acantrell0523/family-office",
+        "agentii-ai/agentii-investment-intelligence",
+        "JoelLewis/finance_skills",
+        "tradermonty/claude-trading-skills",
+        "himself65/finance-skills",
+        "finterm-ai/investment-skills"
+      ],
+      "source_pool_paths": 330,
+      "note": "Source pool, not a claim every indexed skill applies to this role; query-based selection narrows it."
+    },
+    "research": {
+      "source_repositories": [
+        "K-Dense-AI/scientific-agent-skills",
+        "openai/skills",
+        "anthropics/skills",
+        "muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "alirezarezvani/claude-skills"
+      ],
+      "source_pool_paths": 735,
+      "note": "Source pool, not a claim every indexed skill applies to this role; query-based selection narrows it."
+    },
+    "ai-agents": {
+      "source_repositories": [
+        "openai/skills",
+        "anthropics/skills",
+        "wshobson/agents",
+        "alirezarezvani/claude-skills",
+        "muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "cloudflare/skills",
+        "vercel-labs/skills"
+      ],
+      "source_pool_paths": 765,
+      "note": "Source pool, not a claim every indexed skill applies to this role; query-based selection narrows it."
+    },
+    "ai-memory": {
+      "source_repositories": [
+        "muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "alirezarezvani/claude-skills",
+        "openai/skills",
+        "wshobson/agents",
+        "cloudflare/skills"
+      ],
+      "source_pool_paths": 742,
+      "note": "Source pool, not a claim every indexed skill applies to this role; query-based selection narrows it."
+    },
+    "ai-compute": {
+      "source_repositories": [
+        "cloudflare/skills",
+        "K-Dense-AI/scientific-agent-skills",
+        "alirezarezvani/claude-skills",
+        "wshobson/agents",
+        "openai/skills"
+      ],
+      "source_pool_paths": 899,
+      "note": "Source pool, not a claim every indexed skill applies to this role; query-based selection narrows it."
+    },
+    "sovereignty": {
+      "source_repositories": [
+        "cloudflare/skills",
+        "muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "openai/skills",
+        "wshobson/agents",
+        "alirezarezvani/claude-skills"
+      ],
+      "source_pool_paths": 742,
+      "note": "Source pool, not a claim every indexed skill applies to this role; query-based selection narrows it."
+    },
+    "operations": {
+      "source_repositories": [
+        "alirezarezvani/claude-skills",
+        "phuryn/pm-skills",
+        "coreyhaines31/marketingskills",
+        "wshobson/agents",
+        "slavingia/skills"
+      ],
+      "source_pool_paths": 791,
+      "note": "Source pool, not a claim every indexed skill applies to this role; query-based selection narrows it."
+    }
+  },
+  "source": "GitHub recursive trees, indexed paths, no evaluation of individual relevance beyond source themes."
+}
