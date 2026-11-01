@@ -48,7 +48,11 @@
       "pack_count": 5,
       "profile_count": 15,
       "verified_skill_entrypoints": 43,
-      "tool_references": 50
+      "tool_references": 50,
+      "discovery_index_paths": 4965,
+      "discovery_repository_count": 33,
+      "selection_mode": "just-in-time single skill by default",
+      "selector_path": "https://github.com/BradKhan/bradkhan/blob/main/skills/stack-mutiny-selector/SKILL.md"
     }
   ],
   "organizations": [
@@ -68,7 +72,11 @@
     "source_records": 211,
     "composition_ideas": 24,
     "distinct_domains": 8,
-    "evidence": "research, not 24 functioning applications"
+    "evidence": "research, not 24 functioning applications",
+    "indexed_agent_skill_paths": 4965,
+    "unique_indexed_skill_blob_shas": 4920,
+    "indexed_source_repositories": 33,
+    "index_disclaimer": "GitHub tree-verified file paths; not individual code, licensing or runtime audits"
   },
   "primary_identity": "Systems Entrepreneur",
   "positioning": "Systems Entrepreneur · Technologist · Philosopher"
