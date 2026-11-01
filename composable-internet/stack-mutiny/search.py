@@ -78,6 +78,9 @@ def read_json(relative, offline=False):
 def load_index(offline=False):
     manifest = read_json("index/manifest.json", offline=offline)
     records = []
+    curated = read_json("catalog.json", offline=offline)
+    reviewed = {(x["repo"].lower(), x.get("source_path")): x
+                for x in curated.get("skills", []) if x.get("source_path")}
     for shard in manifest["shards"]:
         data = read_json(shard["path"], offline=offline)
         repositories = data["repositories"]
@@ -85,9 +88,12 @@ def load_index(offline=False):
             if rid < 0 or rid >= len(repositories):
                 raise ValueError("invalid source index")
             source = repositories[rid]
+            known = reviewed.get((source["repo"].lower(), path))
             records.append({
-                "name": slug, "path": path, "sha": sha, "repo": source["repo"],
-                "tier": source["tier"], "index_status": "path_indexed_unreviewed",
+                "name": known["skill"] if known else slug, "path": path, "sha": sha,
+                "repo": source["repo"], "tier": source["tier"],
+                "purpose": known.get("purpose", "") if known else "",
+                "index_status": "skill_file_inspected" if known else "path_indexed_unreviewed",
             })
     if len(records) != manifest["total_paths"]:
         raise ValueError(f"index length mismatch: {len(records)} vs {manifest['total_paths']}")
@@ -116,7 +122,8 @@ def score_entry(entry, query, tokens, essential, role=None):
     name_tokens = set(words(name))
     path_tokens = set(words(path))
     repo_tokens = set(words(repo))
-    matched_original = essential & (name_tokens | path_tokens | repo_tokens)
+    purpose_tokens = set(words(entry.get("purpose", "")))
+    matched_original = essential & (name_tokens | path_tokens | repo_tokens | purpose_tokens)
     if essential and not matched_original:
         # Allow role-suitable candidates only when a meaningful expansion matches.
         if not role or not set(tokens).intersection(name_tokens | path_tokens):
@@ -130,6 +137,9 @@ def score_entry(entry, query, tokens, essential, role=None):
         elif token in path_tokens:
             value += 1.9 if token in essential else 0.65
             match.append(token)
+        elif token in purpose_tokens:
+            value += 1.35 if token in essential else 0.45
+            match.append(token)
         elif token in repo_tokens:
             value += 0.55
     for word in essential:
@@ -138,6 +148,8 @@ def score_entry(entry, query, tokens, essential, role=None):
     if role:
         role_words = set(words(ROLES.get(role, "")))
         value += min(3, len(role_words.intersection(name_tokens)) * 1.25)
+    if entry.get("index_status") == "skill_file_inspected":
+        value += 2.0
     # Favor specific skill names over catch-all lists and descriptive directory paths.
     value -= max(0, len(path_tokens) - 8) * 0.04
     return value if match else 0.0, list(dict.fromkeys(match))
@@ -198,10 +210,13 @@ def main(argv=None):
         return 0
     print(f"Top {len(found)} candidates for {query!r}, chosen from an index of {len(records)} skill paths:")
     for n, x in enumerate(found, 1):
-        print(f"{n}. {x['name']} [{x['tier']}, {x['score']:.1f}]\n"
+        print(f"{n}. {x['name']} [{x['tier']}, {x['score']:.1f}, {x['index_status']}]\n"
               f"   {x['source_url']}\n"
-              f"   matched: {', '.join(x['matches'])}\n"
-              f"   candidate install: npx skills add {x['repo']} --skill {x['name']}")
+              f"   matched: {', '.join(x['matches'])}")
+        if x["index_status"] == "skill_file_inspected":
+            print(f"   after approval: npx skills add {x['repo']} --skill {x['name']}")
+        else:
+            print("   Inspect SKILL.md frontmatter and scripts first; folder name may not be install name.")
     print("These are index-level recommendations, NOT a license, security or compatibility audit.")
     print("Review the actual SKILL.md and its scripts; install only what the task requires.")
     return 0
