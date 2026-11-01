@@ -18,7 +18,7 @@ Brad Khan builds companies, products, software systems, and methods of organizin
 - [composable-internet/README.md](composable-internet/README.md): research compositions.
 - [composable-internet/SOURCES.md](composable-internet/SOURCES.md): existing software references, with provenance.
 - [composable-internet/data/compositions.json](composable-internet/data/compositions.json): proposals, not functioning integrations.
-- [composable-internet/stack-mutiny/README.md](composable-internet/stack-mutiny/README.md): 15 curated role profiles with 43 inspected upstream skill entrypoints, 5 original role skills, a consent-based installer, and a tools atlas. Harness compatibility not yet fully validated.
+- [composable-internet/stack-mutiny/README.md](composable-internet/stack-mutiny/README.md): on-demand skill library with 4,965 indexed SKILL.md paths from 33 repositories, 15 role-specific source pools, and a smaller 48-skill reviewed subset. Read [skills/stack-mutiny-selector/SKILL.md](skills/stack-mutiny-selector/SKILL.md) first. Install only the selected skill(s) with user approval; agent compatibility and security remain independently reviewable.
 - [composable-internet/data/sources.json](composable-internet/data/sources.json): inventory, not verified licensing or performance.
 - [composable-internet/QUALITY-GATES.md](composable-internet/QUALITY-GATES.md): review and implementation evidence requirements.
 
