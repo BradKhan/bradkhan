@@ -39,6 +39,15 @@ class SearchTests(unittest.TestCase):
         self.assertEqual(len(matches), 1)
         self.assertEqual(matches[0]["repo"], "anthropics/skills")
 
+    def test_different_sources_same_skill_name_are_not_repeated(self):
+        entries = [
+            item("risk", repo="firm/finance-a", tier="finance", sha="one"),
+            item("risk", repo="firm/finance-b", tier="finance", sha="two"),
+            item("portfolio-risk", repo="firm/finance-c", tier="finance", sha="three"),
+        ]
+        matches = search_module.search(entries, "portfolio risk", top=3, role="family-office")
+        self.assertEqual(len([x for x in matches if x["name"] == "risk"]), 1)
+
     def test_aggregators_opt_in(self):
         entries = [item("special-idea", repo="mirror/library", tier="aggregator")]
         self.assertEqual(search_module.search(entries, "special idea"), [])
