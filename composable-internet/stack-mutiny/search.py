@@ -58,7 +58,7 @@ ROLES = {
  "research": "scientific sources methodology literature evidence",
  "agent": "agent skills orchestration tools mcp harness",
 }
-TRUST = {"official": 2.7, "specialist": 1.7, "selector": 1.5, "aggregator": 0.0}
+TRUST = {"official": 2.7, "finance": 2.25, "marketing": 2.15, "creator": 2.15, "specialist": 1.7, "selector": 1.5, "aggregator": 0.0}
 SHARD_NAMES = ("primary", "specialist", "community")
 
 
@@ -92,6 +92,7 @@ def load_index(offline=False):
             records.append({
                 "name": known["skill"] if known else slug, "path": path, "sha": sha,
                 "repo": source["repo"], "tier": source["tier"],
+                "branch": source.get("branch", "main"),
                 "purpose": known.get("purpose", "") if known else "",
                 "index_status": "skill_file_inspected" if known else "path_indexed_unreviewed",
             })
@@ -165,7 +166,7 @@ def search(records, query, top=5, role=None, include_aggregators=False):
         if score <= 0:
             continue
         results.append({**entry, "score": round(score, 2), "matches": match,
-                        "source_url": "https://github.com/" + entry["repo"] + "/blob/main/" + entry["path"]})
+                        "source_url": "https://github.com/" + entry["repo"] + "/blob/" + entry.get("branch", "main") + "/" + entry["path"]})
     results.sort(key=lambda x: (-x["score"], -TRUST.get(x["tier"], 0), len(x["path"]), x["repo"]))
     unique_sha = set()
     deduped = []
