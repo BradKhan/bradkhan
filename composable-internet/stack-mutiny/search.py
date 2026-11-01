@@ -115,8 +115,8 @@ def query_words(query, role=None):
     expanded = list(original)
     for token in original:
         expanded.extend(words(ALIAS.get(token, "")))
-    if role:
-        expanded.extend(words(ROLES.get(role, "")))
+    # Role context must improve prioritization, not create false query matches.
+    # The role's source pool and small ranking bonus are applied separately.
     return list(dict.fromkeys(expanded)), set(original)
 
 
