@@ -22,7 +22,7 @@
 
 ## Operational rules
 
-[STACK MUTINY](stack-mutiny/README.md) now includes 15 role profiles, 48 skill entrypoints (43 inspected upstream and 5 original), a permissioned installer, 50 tool references, and 15 practical field guides. The selected upstream skill names and paths were checked, but multi-runtime installation, licenses, security, and improvements in task outcomes remain unvalidated. A weekly read-only drift workflow detects changed upstream files; it is not a security audit.
+[STACK MUTINY](stack-mutiny/README.md) now indexes 4,965 upstream SKILL.md file paths across 33 repositories, with 4,920 distinct blob hashes. Its 15 role source pools support small, task-specific selection; the previously inspected 48-skill installation subset remains available. It also includes a permissioned installer, 50 tool references, and 15 practical field guides. The selected upstream skill names and paths were checked, but multi-runtime installation, licenses, security, and improvements in task outcomes remain unvalidated. A weekly read-only drift workflow detects changed upstream files; it is not a security audit.
 
 The tests in `.github/workflows/profile-catalog.yml` check the registry's *structure* only. They are not a substitute for G3, G7, G8, G9 or G10.
 
