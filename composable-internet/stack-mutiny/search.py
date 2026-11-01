@@ -47,8 +47,10 @@ ALIAS = {
 }
 ROLES = {
  "developer": "coding programming debugging testing architecture security release",
+ "engineering": "architecture reliability infrastructure scaling testing devops",
  "design": "ui ux typography art visual accessibility",
  "founder": "venture startup validation customers pricing product",
+ "product": "roadmap discovery user research prd strategy experimentation",
  "marketing": "seo copywriting growth campaigns content",
  "creator": "article writing illustration video image publishing",
  "investor": "equity investment finance due-diligence portfolio",
@@ -56,7 +58,9 @@ ROLES = {
  "ai-memory": "context memory retrieval knowledge persistence",
  "ai-compute": "inference routing models cloud gpu serving",
  "research": "scientific sources methodology literature evidence",
- "agent": "agent skills orchestration tools mcp harness",
+ "ai-agents": "agent skills orchestration tools mcp harness",
+ "sovereignty": "local-first portability security privacy identity federation",
+ "operations": "process crm automation accounting sales delivery management",
 }
 TRUST = {"official": 2.7, "finance": 2.25, "marketing": 2.15, "creator": 2.15, "specialist": 1.7, "selector": 1.5, "aggregator": 0.0}
 SHARD_NAMES = ("primary", "specialist", "community")
@@ -156,10 +160,12 @@ def score_entry(entry, query, tokens, essential, role=None):
     return value if match else 0.0, list(dict.fromkeys(match))
 
 
-def search(records, query, top=5, role=None, include_aggregators=False):
+def search(records, query, top=5, role=None, include_aggregators=False, allowed_repos=None):
     tokens, essential = query_words(query, role)
     results = []
     for entry in records:
+        if allowed_repos is not None and entry["repo"] not in allowed_repos:
+            continue
         if not include_aggregators and entry["tier"] == "aggregator":
             continue
         score, match = score_entry(entry, query, tokens, essential, role)
@@ -205,7 +211,17 @@ def main(argv=None):
     query = " ".join(args.query).strip()
     if not query:
         parser.error("provide a specific task or use --stats")
-    found = search(records, query, top=args.top, role=args.role, include_aggregators=args.include_aggregators)
+    role_pool = None
+    if args.role:
+        pools = read_json("index/role-pools.json", offline=args.offline)
+        role_pool = set(pools["roles"][args.role]["source_repositories"])
+    found = search(records, query, top=args.top, role=args.role,
+                   include_aggregators=args.include_aggregators, allowed_repos=role_pool)
+    if not found and role_pool:
+        # A specialized source pool can be too narrow. Fall back to the full index,
+        # but do not silently start downloading or executing discovered skills.
+        found = search(records, query, top=args.top, role=args.role,
+                       include_aggregators=args.include_aggregators)
     if args.json:
         print(json.dumps({"query": query, "count": len(found), "note": "inspect before install", "results": found}, indent=2))
         return 0
