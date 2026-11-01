@@ -4,7 +4,7 @@
 
 **4,965 indexed upstream skill files, 15 professional source pools, and context-light task selection.** The earlier 48 individually inspected Agent Skills (43 upstream and 5 original) remain as the smaller reviewed installation set. The tool atlas lists 50 complementary tools and infrastructure resources. Skills come from their original GitHub maintainers. This project supplies the selection, composition, installation plan, and a common interface.
 
-**[Install](#one-line-install) · [Choose a profile](#profiles) · [15 field guides](FIELD-GUIDES.md) · [Discover current skills](#discover-more-from-source-collections) · [Tool atlas](#tools-and-infrastructure) · [Use with any agent](AGENTS.md) · [Machine-readable catalog](catalog.json) · [Source collections](#where-the-skills-come-from)**
+**[Start with selector](#start-here-install-the-selector-not-thousands-of-skills) · [Choose a profile](#profiles) · [15 field guides](FIELD-GUIDES.md) · [Discover current skills](#discover-more-from-source-collections) · [Tool atlas](#tools-and-infrastructure) · [Use with any agent](AGENTS.md) · [Machine-readable catalog](catalog.json) · [Source collections](#where-the-skills-come-from)**
 
 > **Status: public beta.** The 43 upstream skill entrypoints and 5 original role skills were inspected on November 1, 2026. The Python installer and selection logic have offline tests. End-to-end compatibility across every agent runtime has **not** been demonstrated. No third-party skill scripts, credentials, model endpoints, or tools are automatically executed by the catalog.
 
@@ -69,6 +69,28 @@ python3 stack-mutiny.py install founder,marketing --agent codex --depth extended
 The installer downloads the catalog, resolves the selected profiles, and runs the existing open-source [Vercel skills CLI](https://github.com/vercel-labs/skills) with explicit `--skill` selectors. It does not copy upstream code into this repository, silently configure accounts, or execute installed skills. After installation, inspect the installed folders and use the agent's skill listing.
 
 **Security:** Piping a remote script to Python executes code from the repository. Review the script or use the download-and-inspect option for a higher-trust workflow. External skills may include executable scripts and network permissions. Check each author's license and instructions before granting your agent access to files, accounts, or terminals.
+
+### Indexed source pools by role
+
+Counts are source paths available for search, **not skills that get installed**. Pools overlap, and each task normally uses one to three matching skills.
+
+| Role | Searchable file paths | Upstream repositories |
+| --- | ---: | ---: |
+| `developer` | 771 | 6 |
+| `engineering` | 761 | 5 |
+| `design` | 726 | 6 |
+| `founder` | 642 | 5 |
+| `product` | 601 | 5 |
+| `marketing` | 925 | 8 |
+| `creator` | 630 | 6 |
+| `investor` | 330 | 6 |
+| `family-office` | 330 | 6 |
+| `research` | 735 | 5 |
+| `ai-agents` | 765 | 7 |
+| `ai-memory` | 742 | 5 |
+| `ai-compute` | 899 | 5 |
+| `sovereignty` | 742 | 5 |
+| `operations` | 791 | 5 |
 
 ## Profiles
 
