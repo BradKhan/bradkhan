@@ -20,15 +20,15 @@ I am especially interested in portable AI and personal data, independent infrast
 
 ## [STACK MUTINY](composable-internet/stack-mutiny/README.md) · Skills worth using
 
-A curated installation system for open-source agent skills, tooling, and infrastructure. **15 role profiles. 48 individually inspected skills (43 upstream and 5 original). 50 tools and resources.** Install a focused selection across supported coding agents rather than hunting through disconnected directories.
+An indexed, on-demand library of **4,965 upstream skill files**, covering 15 professional source pools. A small selector helps your agent discover and inspect the right capabilities for a task, without loading thousands of instructions. The reviewed subset contains 48 skills, with 50 complementary tools and infrastructure references.
 
 **[Development](composable-internet/stack-mutiny/README.md#profiles)** · **[Design](composable-internet/stack-mutiny/README.md#profiles)** · **[Venture building](composable-internet/stack-mutiny/README.md#profiles)** · **[Marketing](composable-internet/stack-mutiny/README.md#profiles)** · **[Content creation](composable-internet/stack-mutiny/README.md#profiles)** · **[Investment and family offices](composable-internet/stack-mutiny/README.md#profiles)** · **[Memory and context](composable-internet/stack-mutiny/README.md#profiles)** · **[AI inference and compute](composable-internet/stack-mutiny/README.md#profiles)**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/BradKhan/bradkhan/main/composable-internet/stack-mutiny/install.py | python3 - install developer --agent codex --yes
+npx skills@1.7.4 add BradKhan/bradkhan --skill stack-mutiny-selector -a codex
 ```
 
-[**Installation and documentation**](composable-internet/stack-mutiny/README.md) · [**Browse the catalog**](composable-internet/stack-mutiny/catalog.json) · [**Agent instructions**](composable-internet/stack-mutiny/AGENTS.md) · [**Original source projects**](composable-internet/SOURCES.md)
+[**Task-based skill search**](composable-internet/stack-mutiny/search.py) · [**Browse the indexed library**](composable-internet/stack-mutiny/index/README.md) · [**Installation and documentation**](composable-internet/stack-mutiny/README.md) · [**Browse the catalog**](composable-internet/stack-mutiny/catalog.json) · [**Agent instructions**](composable-internet/stack-mutiny/AGENTS.md) · [**Original source projects**](composable-internet/SOURCES.md)
 
 <sub>The installer delegates to the external open-source skills CLI. Preview commands before running unfamiliar software; tools and paid providers are not installed automatically. Real runtime compatibility still requires testing.</sub>
 
