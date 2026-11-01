@@ -2,13 +2,43 @@
 
 **A working toolkit for people who would rather build than browse directories.**
 
-One collection, 15 selectable professional profiles, 48 individually inspected Agent Skills (43 upstream and 5 original), 50 complementary tools and infrastructure resources, and 17 upstream collections. Skills come from their original GitHub maintainers. This project supplies the selection, composition, installation plan, and a common interface.
+**4,965 indexed upstream skill files, 15 professional source pools, and context-light task selection.** The earlier 48 individually inspected Agent Skills (43 upstream and 5 original) remain as the smaller reviewed installation set. The tool atlas lists 50 complementary tools and infrastructure resources. Skills come from their original GitHub maintainers. This project supplies the selection, composition, installation plan, and a common interface.
 
 **[Install](#one-line-install) · [Choose a profile](#profiles) · [15 field guides](FIELD-GUIDES.md) · [Discover current skills](#discover-more-from-source-collections) · [Tool atlas](#tools-and-infrastructure) · [Use with any agent](AGENTS.md) · [Machine-readable catalog](catalog.json) · [Source collections](#where-the-skills-come-from)**
 
 > **Status: public beta.** The 43 upstream skill entrypoints and 5 original role skills were inspected on November 1, 2026. The Python installer and selection logic have offline tests. End-to-end compatibility across every agent runtime has **not** been demonstrated. No third-party skill scripts, credentials, model endpoints, or tools are automatically executed by the catalog.
 
-## One-line install
+## Start here: install the selector, not thousands of skills
+
+**One skill in your agent. Thousands searchable when needed.**
+
+```bash
+npx skills@1.7.4 add BradKhan/bradkhan --skill stack-mutiny-selector -a codex
+```
+
+Replace `codex` with your supported agent, or let the installer select a suitable environment. The selector has its own standard [SKILL.md](../../skills/stack-mutiny-selector/SKILL.md) and uses the [GitHub-indexed library](index/README.md) to find relevant skills for each task.
+
+**Give any agent this link:** [Stack Mutiny Selector instructions](https://github.com/BradKhan/bradkhan/blob/main/skills/stack-mutiny-selector/SKILL.md). It can read the instructions and propose a task-specific selection. The link itself is not authorization to download, install, or run outside code.
+
+### Search before installing
+
+```bash
+python3 composable-internet/stack-mutiny/search.py "marketing for a new SaaS product" --role marketing --top 3
+python3 composable-internet/stack-mutiny/search.py "portfolio company due diligence" --role family-office --top 3
+python3 composable-internet/stack-mutiny/search.py "local AI inference optimization" --role ai-compute --top 3
+```
+
+The selector searches a compact index without loading thousands of skill bodies. Only the most relevant candidates are inspected. Default discovery prioritizes original and specialist sources over copied aggregations, deduplicates repeated content by git blob hash, and returns **at most five candidates** unless you explicitly change the limit.
+
+The index currently has **4,965 source paths from 33 repositories (4,920 distinct blob hashes)**. These are verified *file paths*, **not 4,965 code-audited or harness-tested skills**. For semantic retrieval where the user has an MCP server, [skill-search](https://github.com/sowhan/skill-search) is another option. The official [find-skills](https://github.com/vercel-labs/skills/blob/main/skills/find-skills/SKILL.md) can search beyond this indexed snapshot.
+
+[**Index & verification policy**](index/README.md) · [**15 role source pools**](index/role-pools.json) · [**Compact search CLI**](search.py)
+
+## Optional: install a preselected role pack
+
+This is the previous eager installer for the **smaller inspected subset**. It is optional and **not** the recommended starting point if you want minimal context use.
+
+## Preselected pack installation
 
 For a current Node.js installation (the selected `skills@1.7.4` CLI requires Node.js 22.20+) and Python 3:
 
