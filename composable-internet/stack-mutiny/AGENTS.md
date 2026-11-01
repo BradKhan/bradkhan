@@ -1,6 +1,6 @@
 # AGENTS.md · STACK MUTINY
 
-This directory is a curated, permissioned installation system for open Agent Skills and a reference atlas for compatible tools and infrastructure. Read this document before acting on a user request to install a profile.
+This directory provides a large source index and just-in-time selector for open Agent Skills, alongside an optional curated installer and a reference atlas for related tools. **Do not install a full role profile by default.** Read this document before proposing installation.
 
 ## Canonical references
 
@@ -11,7 +11,15 @@ This directory is a curated, permissioned installation system for open Agent Ski
 - [discover.py](discover.py) scans selected public upstream repositories for candidate skills, but **only with explicit --online** and never auto-installs them.
 - [audit.py](audit.py) checks known skill names for upstream drift, without executing source code.
 
-## Agent workflow for an installation request
+## Default discovery workflow
+
+1. Use [stack-mutiny-selector](../../skills/stack-mutiny-selector/SKILL.md) to understand the immediate task. Search [4,965 indexed paths](index/README.md), not full skill bodies.
+2. Narrow to one to three candidates; prefer original maintainers and the relevant [role source pool](index/role-pools.json).
+3. Inspect the actual selected SKILL.md content and any scripts, dependencies, credentials, licenses and platform requirements before proposing installation. Discovery status does not imply verified compatibility.
+4. If a task falls outside the current index, consult the official [find-skills](https://github.com/vercel-labs/skills/blob/main/skills/find-skills/SKILL.md) rather than indiscriminately importing a directory.
+5. Make a task-specific plan and seek approval. Do not load thousands of skill descriptions or assume the entire library belongs in the active context.
+
+## Optional eager profile installation
 
 1. Ask or infer the professional role from the user's explicit request. Available profiles include developer, engineering, design, founder, product, marketing, creator, investor, family-office, research, ai-agents, ai-memory, ai-compute, sovereignty and operations.
 2. Identify the agent/runtime accurately. Examples: codex, claude-code, cursor, opencode, gemini-cli, github-copilot, antigravity, universal. Never assume that every runtime supports the same frontmatter fields, scripts, plugins, or tools.
