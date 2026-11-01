@@ -30,14 +30,14 @@ npx skills@1.7.4 add BradKhan/bradkhan --skill stack-mutiny-selector -a codex
 
 [**Task-based skill search**](composable-internet/stack-mutiny/search.py) · [**Browse the indexed library**](composable-internet/stack-mutiny/index/README.md) · [**Installation and documentation**](composable-internet/stack-mutiny/README.md) · [**Browse the catalog**](composable-internet/stack-mutiny/catalog.json) · [**Agent instructions**](composable-internet/stack-mutiny/AGENTS.md) · [**Original source projects**](composable-internet/SOURCES.md)
 
-<sub>The installer delegates to the external open-source skills CLI. Preview commands before running unfamiliar software; tools and paid providers are not installed automatically. Real runtime compatibility still requires testing.</sub>
+<sub>Stack Mutiny searches a short, source-linked index first, then helps inspect a small selection. Installation requires your approval and uses established third-party tooling. Indexed source paths are not a security or quality certification.</sub>
 
 ## Selected public projects
 
 | Project | What it does | What is public |
 | :--- | :--- | :--- |
 | **[Open ASS](https://github.com/BradKhan/open-ASS)** | A GitHub-native system for developing software with AI agents: reusable skills, context, workflow coordination, and verification. | Open-source software and documentation |
-| **[STACK MUTINY](composable-internet/stack-mutiny/README.md)** | Curated agent-skill installation profiles, backed by verified skill entrypoints and a companion atlas of tools, memory systems, and inference options. | Public beta: installer, catalog, and tests; multi-runtime integration not yet fully validated |
+| **[STACK MUTINY](composable-internet/stack-mutiny/README.md)** | Source-linked search across 4,965 upstream Agent Skill paths, 15 professional source pools, and a selector that loads capabilities on demand. | Public beta: indexed source paths, reviewed subset, selector, and tests; full runtime evaluation ongoing |
 | **[The Composable Internet](composable-internet/README.md)** | An atlas of existing tools and ways to combine them into useful products, from AI and creative technology to privacy and independent infrastructure. | Source library and **24 proposed** compositions; not 24 finished products |
 | **[Khan AI-OS Venture Studio Framework](https://github.com/BradKhan/Khan-AIOS-Venture-Studio-MVP-Framework)** | A Git-based framework for taking a venture from research through product definition and delivery. | Public, reusable venture template |
 
