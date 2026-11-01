@@ -1,0 +1,48 @@
+name: Stack Mutiny selector installation
+
+on:
+  push:
+    paths:
+      - 'skills/stack-mutiny-selector/**'
+      - 'composable-internet/stack-mutiny/index/**'
+      - 'composable-internet/stack-mutiny/search.py'
+      - '.github/workflows/stack-mutiny-install-test.yml'
+  pull_request:
+    paths:
+      - 'skills/stack-mutiny-selector/**'
+      - 'composable-internet/stack-mutiny/index/**'
+      - 'composable-internet/stack-mutiny/search.py'
+      - '.github/workflows/stack-mutiny-install-test.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  install-selector:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Discover selector through the real skills CLI
+        env:
+          DO_NOT_TRACK: '1'
+        run: |
+          npx --yes skills@1.7.4 add "$GITHUB_WORKSPACE" --list > /tmp/stack-mutiny-skills-list.txt
+          cat /tmp/stack-mutiny-skills-list.txt
+          grep -q 'stack-mutiny-selector' /tmp/stack-mutiny-skills-list.txt
+      - name: Install selector into isolated Codex test project
+        env:
+          DO_NOT_TRACK: '1'
+        run: |
+          mkdir -p /tmp/stack-mutiny-install-check
+          cd /tmp/stack-mutiny-install-check
+          npx --yes skills@1.7.4 add "$GITHUB_WORKSPACE" --skill stack-mutiny-selector -a codex -y
+          test -f .agents/skills/stack-mutiny-selector/SKILL.md
+      - name: Verify no unrelated role packs were installed
+        run: |
+          test ! -e /tmp/stack-mutiny-install-check/.agents/skills/show-the-receipts
+          test ! -e /tmp/stack-mutiny-install-check/.agents/skills/stop-shipping-beige
