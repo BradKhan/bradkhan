@@ -1,0 +1,59 @@
+name: Stack Mutiny rolling upstream index
+
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: stack-mutiny-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh tracked upstream skill trees
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 composable-internet/stack-mutiny/refresh_index.py --online
+      - name: Verify index invariants
+        run: |
+          python3 -m unittest discover -s composable-internet/stack-mutiny/tests -p 'test_*.py'
+      - name: Prepare reviewable update
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: automation/stack-mutiny-index-refresh
+          delete-branch: true
+          commit-message: 'chore(skills): refresh unverified upstream skill index'
+          title: 'chore(skills): refresh tracked upstream skill index'
+          body: |
+            Automated update to the **unverified discovery index** from tracked upstream GitHub repositories.
+
+            - Adds new SKILL.md paths and captures changed Git blob SHA values.
+            - Removes paths only when full upstream repository trees were fetched successfully.
+            - Updates index totals and per-role source pool counts.
+            - Does not modify the reviewed, installable catalog or run any third-party skill.
+            - Review provenance, unexpected deletions, and quality before merging.
+
+            Run workflow artifacts and checks before approval.
+          add-paths: |
+            composable-internet/stack-mutiny/index/*.json
+      - name: Upload refresh audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: stack-mutiny-refresh-audit
+          path: stack-mutiny-refresh-report.json
+          if-no-files-found: warn
