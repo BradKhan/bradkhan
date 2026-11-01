@@ -41,5 +41,12 @@ jobs:
         run: python composable-internet/stack-mutiny/install.py validate --manifest composable-internet/stack-mutiny/catalog.json
       - name: Test profile plans are read-only
         run: python composable-internet/stack-mutiny/install.py plan ai-memory,ai-compute --agent codex --manifest composable-internet/stack-mutiny/catalog.json
+      - name: Smoke-test indexed skill search on four professional tasks
+        run: |
+          python composable-internet/stack-mutiny/search.py "React performance" --role developer --top 3 --json > /tmp/developer.json
+          python composable-internet/stack-mutiny/search.py "portfolio risk" --role family-office --top 3 --json > /tmp/family-office.json
+          python composable-internet/stack-mutiny/search.py "SEO copywriting" --role marketing --top 3 --json > /tmp/marketing.json
+          python composable-internet/stack-mutiny/search.py "memory retrieval" --role ai-memory --top 3 --json > /tmp/ai-memory.json
+          python -c "import json; from pathlib import Path; names=['developer','family-office','marketing','ai-memory']; data=[json.loads(Path('/tmp/'+x+'.json').read_text()) for x in names]; assert all(0 < o['count'] <= 3 for o in data), data; [print(n, [i['name'] for i in o['results']]) for n,o in zip(names,data)]"
       - name: Test role installer and legacy pack compiler
         run: python -m unittest discover -s composable-internet/stack-mutiny/tests -p 'test_*.py'
