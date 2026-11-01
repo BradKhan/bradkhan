@@ -31,5 +31,7 @@ jobs:
         if: always()
         with:
           name: stack-mutiny-source-audit
-          path: |\n            stack-mutiny-source-audit.json\n            stack-mutiny-discovery.json
+          path: |
+            stack-mutiny-source-audit.json
+            stack-mutiny-discovery.json
           if-no-files-found: warn
