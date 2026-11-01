@@ -174,11 +174,14 @@ def search(records, query, top=5, role=None, include_aggregators=False, allowed_
                         "source_url": "https://github.com/" + entry["repo"] + "/blob/" + entry.get("branch", "main") + "/" + entry["path"]})
     results.sort(key=lambda x: (-x["score"], -TRUST.get(x["tier"], 0), len(x["path"]), x["repo"]))
     unique_sha = set()
+    unique_name = set()
     deduped = []
     for item in results:
-        if item["sha"] in unique_sha:
+        canonical_name = re.sub(r"[^a-z0-9]+", "-", item["name"].lower()).strip("-")
+        if item["sha"] in unique_sha or canonical_name in unique_name:
             continue
         unique_sha.add(item["sha"])
+        unique_name.add(canonical_name)
         deduped.append(item)
         if len(deduped) >= top:
             break
@@ -189,7 +192,7 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description="Find relevant upstream skills without loading their bodies")
     parser.add_argument("query", nargs="*", help="task description or skill keywords")
     parser.add_argument("--role", choices=sorted(ROLES), help="optional domain context to improve ranking")
-    parser.add_argument("--top", type=int, default=5, help="how many candidates to return, default five")
+    parser.add_argument("--top", type=int, default=3, help="how many candidates to return, default three")
     parser.add_argument("--include-aggregators", action="store_true", help="also search large mirrored community libraries")
     parser.add_argument("--offline", action="store_true", help="do not fetch missing index shards")
     parser.add_argument("--json", action="store_true", help="machine-readable compact output")
