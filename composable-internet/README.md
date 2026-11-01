@@ -10,7 +10,7 @@ An open field guide to **recomposing existing software into capabilities people 
 
 ## A practical new branch: STACK MUTINY
 
-**[STACK MUTINY](stack-mutiny/README.md)** is five experimental, original skill-orchestration workflows for developers, designers, founders, marketers, and investors. The skills are published as actual `SKILL.md` source files, with attribution to complementary upstream collections. They are not yet tested in multiple agent harnesses, and the upstream sources are not bundled or installed automatically.
+**[STACK MUTINY](stack-mutiny/README.md)** now provides an indexed, task-selectable skills ecosystem: 4,965 GitHub-tree-confirmed SKILL.md paths from 33 source repositories, searchable through 15 role-specific pools. [A single selector skill](../skills/stack-mutiny-selector/SKILL.md) helps an agent choose and inspect a small number of relevant capabilities, rather than loading an entire directory. The earlier 48-skill inspected set and five original orchestration workflows remain available. The larger index has *not* been individually license, security, or runtime audited.
 
 ## How to use this atlas
 
